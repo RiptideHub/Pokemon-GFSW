@@ -1,1 +1,46 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[005] # Route29
+Land,21,55,60
+    1,LEDYBA,3,4
+    1,MAREEP,3,4
+    1,NATU,2,4
+    1,SENTRET,2,3
+    1,TAILLOW,2,3
+#-------------------------------
+[009] # Route30_1
+Land,21,55,60
+    1,BUNEARY,2,5
+    1,LEDYBA,3,4
+    1,PATRAT,3,4
+    1,SENTRET,2,3
+    1,SHINX,3,4
+FloweryGrass,21,60
+    1,FLABEBE,2,3
+    1,PETILIL,2,3
+FloweryGrass2,21,60
+    1,COMBEE,3,4
+    1,FLABEBE,2,3
+#-------------------------------
+[012] # Route30_2
+Land,21,55,60
+    1,BUNEARY,2,5
+    1,LEDYBA,3,4
+    1,PATRAT,3,4
+    1,SENTRET,2,3
+    1,SHINX,2,4
+FloweryGrass,21,60
+    1,FLABEBE,2,5
+    1,PETILIL,2,3
+FloweryGrass2,21,60
+    1,APPLIN,3,4
+    1,COMBEE,3,4
+    1,FLABEBE,2,5
+#-------------------------------
+[013] # Route30_3
+Land,21,55,60
+    1,BOUNSWEET,3,4
+    1,GRUBBIN,3,4
+    1,PHANTUMP,2,5
+    1,SCATTERBUG,2,3
+    1,SEWADDLE,3,4

@@ -1,2 +1,44 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+# Route29 (5) - NewBark (4)
+5,E,0,4,W,0
+# Route30_1 (9) - NewBark (4)
+9,S,100,4,N,0
+# trees (10) - NewBark (4)
+10,S,50,4,N,0
+# trees (11) - NewBark (4)
+11,S,120,4,N,0
+# Cherrygrove (7) - Route29 (5)
+7,E,0,5,W,0
+# Route30_1 (9) - Route29 (5)
+9,E,50,5,W,0
+# trees (10) - Route29 (5)
+10,S,0,5,N,0
+# trees (11) - Route29 (5)
+11,S,70,5,N,0
+# Route30_2 (12) - Route29 (5)
+12,E,100,5,W,0
+# Route30_3 (13) - Route29 (5)
+13,E,150,5,W,0
+# Route30_1 (9) - Cherrygrove (7)
+9,S,0,7,N,0
+# trees (10) - Cherrygrove (7)
+10,W,50,7,E,0
+# trees (11) - Cherrygrove (7)
+11,E,50,7,W,0
+# trees (10) - Route30_1 (9)
+10,W,0,9,E,0
+# trees (11) - Route30_1 (9)
+11,E,0,9,W,0
+# Route30_2 (12) - Route30_1 (9)
+12,S,0,9,N,0
+# Route30_2 (12) - trees (10)
+12,E,50,10,W,0
+# Route30_3 (13) - trees (10)
+13,E,100,10,W,0
+# Route30_2 (12) - trees (11)
+12,W,50,11,E,0
+# Route30_3 (13) - trees (11)
+13,W,100,11,E,0
+# Route30_3 (13) - Route30_2 (12)
+13,S,0,12,N,0
