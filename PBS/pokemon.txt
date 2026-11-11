@@ -1115,6 +1115,29 @@ Kind = Balloon
 Pokedex = The surfaces of its saucerlike eyes are always covered with a thin layer of tears. If any dust gets in this Pokémon's eyes, it is quickly washed away.
 Generation = 1
 #-------------------------------
+[SCREAMTAIL]
+Name = Scream Tail
+Type1 = DRAGON
+Type2 = FAIRY
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 115,65,95,65,95,105
+# Total = 540
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 50
+Happiness = 0
+Abilities = VENGEANCE
+Moves = 1,DISABLE,1,LULLABY,1,POUND,7,HOWL,14,NOBLEROAR,21,BITE,28,BODYSLAM,35,REST,42,PLAYROUGH,49,HYPERVOICE,56,PSYCHICFANGS,63,CRUNCH,70,GYROBALL,70,PERISHSONG,70,WISH
+LineMoves = AMNESIA,BLIZZARD,BODYSLAM,BULKUP,CALMMIND,CRUNCH,DAZZLINGGLEAM,DIG,DOUBLEEDGE,DRAINPUNCH,EERIESPELL,ENCORE,FACADE,FAKETEARS,FIREBLAST,FIREFANG,FIREPUNCH,FLAMETHROWER,FLING,FOCUSBLAST,GIGAIMPACT,GRASSKNOT,GYROBALL,HAIL,HELPINGHAND,HYPERBEAM,HYPERVOICE,ICEBEAM,ICEFANG,ICEPUNCH,LIGHTSCREEN,METRONOME,NEURALPULSE,NUMB,PLAYROUGH,PSYBEAM,PSYCHICFANGS,PSYCHUP,PSYPIERCE,RAINSTORM,REFLECT,RETREAT,RISINGPOWER,ROAR,ROCKTOMB,SANDSTORM,SCARYFACE,SELFDESTRUCT,STEALTHROCK,STOMPINGTANTRUM,SUNSHINE,SWITCHEROO,TAKEDOWN,THUNDER,THUNDERBOLT,THUNDERFANG,THUNDERPUNCH,TOTALCONTROL,TUTELAGE,UPROAR,WHELM,ZENHEADBUTT
+Tribes = ESOTERIC,HARMONIC
+StepsToHatch = 12800
+Height = 1.2
+Weight = 8.0
+Kind = Paradox
+Pokedex = There has been only one reported sighting of this Pokémon. It resembles a mysterious creature depicted in an old expedition journal.
+Generation = 9
+Flags = Paradox
+#-------------------------------
 [ZUBAT]
 Name = Zubat
 Type1 = POISON
@@ -2451,6 +2474,29 @@ Pokedex = It evolved from exposure to a special magnetic field. Three units gene
 Generation = 4
 Flags = Floating
 WildItemUncommon = MAGNET
+#-------------------------------
+[SANDYSHOCKS]
+Name = Sandy Shocks
+Type1 = ELECTRIC
+Type2 = GROUND
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 80,75,105,120,40,125
+# Total = 545
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 30
+Happiness = 0
+Abilities = EARTHSHAKER
+Moves = 1,NUMB,1,SUPERSONIC,1,THUNDERSHOCK,7,SPARK,14,BULLDOZE,21,CHARGEBEAM,28,TRIATTACK,35,BARETEETH,42,HEAVYSLAM,49,METALSOUND,56,ARCLAMP,63,EARTHPOWER,70,GRAVITY,70,MIRRORCOAT,70,ZAPCANNON
+LineMoves = BODYPRESS,BODYSLAM,BULLDOZE,CHARGE,CHARGEBEAM,EARTHPOWER,EARTHQUAKE,EERIEIMPULSE,ELECTROBALL,ELECTROWEB,FACADE,FLASHCANNON,GIGAIMPACT,GRAVITY,HEAVYSLAM,HYPERBEAM,IRONDEFENSE,LIGHTSCREEN,METALSOUND,MUDSHOT,NUMB,PITFALL,POWERGEM,REFLECT,SANDSTORM,SCORCHINGSANDS,SPIKES,STEALTHROCK,STOMPINGTANTRUM,SUNSHINE,SWIFT,TAKEDOWN,THUNDER,THUNDERBOLT,TRAMPLE,VOLTSWITCH,WILDCHARGE
+Tribes = ESOTERIC,RADIANT
+StepsToHatch = 12800
+Height = 2.3
+Weight = 60.0
+Kind = Paradox
+Pokedex = No records exist of this Pokémon being caught. Data is lacking, but the Pokémon's traits match up with a creature shown in an expedition journal.
+Generation = 9
+Flags = Paradox
 #-------------------------------
 [FARFETCHD]
 Name = Farfetch'd
@@ -4176,6 +4222,27 @@ Kind = Wild Bull
 Pokedex = When Tauros begins whipping itself with its tails, it's a warning that the Pokémon is about to charge with astounding speed.
 Generation = 1
 WildItemUncommon = STRENGTHHERB
+#-------------------------------
+[PTAUROS]
+Name = P. Tauros
+Type1 = NORMAL
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 75,110,105,100,30,70
+# Total = 490
+GenderRate = AlwaysMale
+BaseEXP = 172
+Rareness = 95
+Abilities = INTIMIDATE,CUDCHEW
+Moves = 1,SMIRK,1,TACKLE,5,WORKUP,10,DOUBLEKICK,15,ASSURANCE,20,HEADBUTT,25,SCARYFACE,30,ZENHEADBUTT,40,REST,45,BACKHAND,50,THRASH,55,DOUBLEEDGE,60,SUPERPOWER
+TutorMoves = BODYPRESS,BODYSLAM,BULKUP,BULLDOZE,BULLETCHARGE,DIG,DOUBLEEDGE,DRILLRUN,EARTHQUAKE,ENDEAVOR,ENDURE,FACADE,GIGAIMPACT,HYPERBEAM,IRONHEAD,LASHOUT,OUTRAGE,PROTECT,RAINSTORM,REST,ROCKALANCHE,ROCKTOMB,SANDSTORM,SCARYFACE,STOMPINGTANTRUM,STONEEDGE,SUBSTITUTE,SUNSHINE,SUPERPOWER,SURF,TAKEDOWN,THIEF,THROATCHOP,TRAMPLE,WILDCHARGE,ZENHEADBUTT
+Tribes = STAMPEDE,SCRAPPER,LOYAL
+StepsToHatch = 5355
+Height = 1.4
+Weight = 88.4
+Kind = Wild Bull
+Pokedex = This kind of Tauros, known as the Combat Breed, is distinguished by its thick, powerful muscles and its fierce disposition.
+FormName = Combat Breed
+Generation = 9
 #-------------------------------
 [MILTANK]
 Name = Miltank
@@ -6008,6 +6075,46 @@ Kind = Water Fish
 Pokedex = This carefree Pokémon has an easygoing nature. While swimming, it always bumps into boat hulls.
 Generation = 2
 #-------------------------------
+[PWOOPER]
+Name = P. Wooper
+Type1 = POISON
+Type2 = GROUND
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 65,60,50,45,50,60
+# Total = 330
+BaseEXP = 42
+Rareness = 195
+Happiness = 50
+Abilities = WATERABSORB,UNAWARE
+Moves = 1,MUDSHOT,1,SMIRK,4,TACKLE,8,POISONTAIL,12,POISONSPIKES,21,YAWN,24,POISONJAB,28,SLUDGEWAVE,32,AMNESIA,36,ENVENOM,40,EARTHQUAKE
+LineMoves = ACIDBALL,ACIDSPRAY,AMNESIA,AQUASHOCK,BODYPRESS,BODYSLAM,BULLDOZE,DIG,DOUBLEEDGE,EARTHPOWER,EARTHQUAKE,ENVENOM,FACADE,GIGAIMPACT,GREYMIST,GUNKSHOT,HEAVYSLAM,HELPINGHAND,HYDROPUMP,HYPERBEAM,IRONHEAD,LIQUIDATION,MISTLETOE,MUDSHOT,POISONJAB,POISONSPIKES,POISONTAIL,PRESSURESTREAM,RAINSTORM,ROCKALANCHE,ROCKTOMB,SANDSTORM,SANDTOSS,SLUDGEWAVE,SPIKES,STEALTHROCK,STOMPINGTANTRUM,STONEEDGE,SURF,TAKEDOWN,TRAMPLE,VENOSHOCK,WATERFALL,WHELM,ZENHEADBUTT
+Tribes = CARETAKER
+StepsToHatch = 5355
+Height = 0.4
+Weight = 8.5
+Kind = Poison Fish
+Pokedex = After losing a territorial struggle, Wooper began living on land. The Pokémon changed over time, developing a poisonous film to protect its body.
+Generation = 9
+Evolutions = CLODSIRE,Level,32
+#-------------------------------
+[CLODSIRE]
+Name = Clodsire
+Type1 = POISON
+Type2 = GROUND
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 150,95,80,20,65,120
+# Total = 530
+BaseEXP = 100
+Rareness = 90
+Happiness = 50
+Abilities = WATERABSORB,UNAWARE
+StepsToHatch = 5120
+Height = 1.8
+Weight = 223.0
+Kind = Spiny Fish
+Pokedex = When attacked, this Pokémon will retaliate by sticking thick spines out from its body. It's a risky move that puts everything on the line.
+Generation = 9
+#-------------------------------
 [MURKROW]
 Name = Murkrow
 Type1 = DARK
@@ -7166,6 +7273,29 @@ Pokedex = If it rampages, it knocks down mountains and buries rivers. Maps must 
 Generation = 2
 WildItemUncommon = SMOOTHROCK
 #-------------------------------
+[MEKATERRAX]
+Name = Mekaterrax
+Type1 = ROCK
+Type2 = ELECTRIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 95,125,70,125,80,80
+# Total = 575
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 30
+Happiness = 0
+Abilities = POISONABSORB
+Moves = 1,FIREFANG,1,ICEFANG,1,IRONDEFENSE,1,ROCKTHROW,1,THUNDERFANG,7,BARETEETH,21,ROCKTOMB,28,BITE,35,CHARGE,42,ROCKALANCHE,49,SANDSTORM,56,WILDCHARGE,63,PINMISSILE,70,EARTHQUAKE,70,GIGAIMPACT,70,STEALTHROCK,70,STONEEDGE
+LineMoves = BLIZZARD,BODYPRESS,BODYSLAM,BREAKINGSWIPE,BRICKBREAK,BULLDOZE,CHARGE,CHARGEBEAM,CRUNCH,DIG,DOUBLEEDGE,DRAGONCLAW,DRAGONDANCE,DRAGONTAIL,EARTHPOWER,EARTHQUAKE,EERIEIMPULSE,ELECTROBALL,ELECTROWEB,FACADE,FIREBLAST,FIREFANG,FIREPUNCH,FLAMETHROWER,FLING,FOCUSBLAST,GIGAIMPACT,HEAVYSLAM,HYPERBEAM,ICEBEAM,ICEFANG,ICEPUNCH,IRONDEFENSE,IRONHEAD,METALCLAW,METEORBEAM,NUMB,PITFALL,POWERGEM,RAINSTORM,ROCKALANCHE,ROCKBLAST,ROCKTHROW,ROCKTOMB,SANDSTORM,SCARYFACE,SNARL,SPIKES,STEALTHROCK,STOMPINGTANTRUM,STONEEDGE,SUNSHINE,SWORDSDANCE,TAKEDOWN,TAUNT,THUNDER,THUNDERBOLT,THUNDERFANG,THUNDERPUNCH,TRAMPLE,VOLTSWITCH,WILDCHARGE
+Tribes = ANIMATED,SCOURGE
+StepsToHatch = 12800
+Height = 1.6
+Weight = 303.0
+Kind = Paradox
+Pokedex = It has some similarities to a Pokémon introduced in a dubious magazine as a Tyranitar from one billion years into the future.
+Generation = 9
+Flags = Paradox
+#-------------------------------
 [RAIKOU]
 Name = Raikou
 Type1 = ELECTRIC
@@ -7368,8 +7498,8 @@ BaseStats = 45,75,35,70,40,55
 BaseEXP = 62
 Rareness = 115
 Abilities = TOUGH,HITANDRUN
-Moves = 1,LEER,1,PILFER,4,SHOTPUT,8,BLINDSIDE,12,SCHEME,16,METALCLAW,20,PSYCHOCUT,24,KNOCKOFF,28,STEELWING,32,MIRRORSHIELD,36,ZENHEADBUTT,40,SLAY,44,THROATCHOP,48,QUASARCRUSH,52,SEVER,56,PARTINGSHOT,60,LURK,64,FEATHERLOCKVOLLEY
-LineMoves = AGILITY,ASSURANCE,BACKHAND,BEATUP,BLIGHT,BLOCK,BODYSLAM,BRAINFREEZE,BROIL,BRUTALSWING,BULLETCHARGE,BULLETPUNCH,CENSOR,COVET,CURLUP,DISARMINGSHOT,DOUBLEEDGE,DRAGBENEATH,FEINTATTACK,FIGHTINGCHANCE,FIREWORKS,FLAMECHARGE,FLAREBLITZ,FLECHETTES,FLING,FLOWSTATE,FROSTFIST,GIGAIMPACT,GLITTERBOMB,GREYMIST,HEATCRASH,HEATWAVE,HEAVYSLAM,HONECLAWS,HORIZONSLICE,HOTSHOT,HUMBLE,ICEPICK,ICEPUNCH,ICYWIND,INFERNOIMPACT,IRONHEAD,JAVELIN,LASERFOCUS,LASHOUT,MEFIRST,METALBURST,METEORMASH,MIRRORCOAT,NASTYNIP,NIGHTFELLING,NIGHTSLASH,OMINOUSWIND,OMNISCIENTBLOW,PIERCINGDOUBT,POISONJAB,POISONSPIKES,POISONTAIL,POUND,POWDERBOMB,PSYCHESWITCH,PSYCHUP,PURSUIT,QUICKATTACK,RAILCANNON,RETALIATE,SHADOWBOXING,SHADOWPUNCH,SHADOWSNEAK,SHINESHOT,SLUDGYSLUG,SNARL,SNATCH,SNIPESHOT,SNORE,SPATTERINGRAM,SPIRITBREAK,STERTOR,SUCKERPUNCH,SUNDERFATE,SUPERCOOL,SWORDSDANCE,TAKESHELTER,TAUNT,VOLLEY,WATERFALL,WETWORK,WRAITHWRATH
+Moves = 1,LEER,1,PILFER,4,SHOTPUT,8,BLINDSIDE,12,SCHEME,16,METALCLAW,20,PSYCHOCUT,24,KNOCKOFF,28,STEELWING,32,MIRRORSHIELD,36,PSYCHOSCISSION,40,SLAY,44,THROATCHOP,48,QUASARCRUSH,52,SEVER,56,PARTINGSHOT,60,LURK,64,FEATHERLOCKVOLLEY
+LineMoves = AGILITY,ASSURANCE,BACKHAND,BEATUP,BELCH,BLIGHT,BLIZZARD,BLOCK,BODYSLAM,BRAINFREEZE,BROIL,BRUTALSWING,BULLETCHARGE,BULLETPUNCH,CENSOR,COLDEMBRACE,COVET,CURLUP,DARKALLURE,DISARMINGSHOT,DOUBLEEDGE,ECHOEDVOICE,EMBER,EXPLOIT,FACADE,FEINTATTACK,FIGHTINGCHANCE,FIREWORKS,FLAMECHARGE,FLAREBLITZ,FLECHETTES,FLING,FLOWSTATE,FRIGIDFLURRY,FROSTBARB,GIGAIMPACT,GREYMIST,HEADBUTT,HEATCRASH,HEATWAVE,HEAVYSLAM,HOLDBACK,HONECLAWS,HORIZONSLICE,HOTSHOT,ICECALIBUR,ICEPICK,ICICLESPEAR,ICYWIND,INFERNOIMPACT,IRONARROW,JAVELIN,LASERFOCUS,LASHOUT,LUSTER,MEFIRST,METALBURST,METEORMASH,MIASMA,MIRRORCOAT,NASTYNIP,NIGHTFELLING,NIGHTSLASH,OMINOUSWIND,OMNISCIENTBLOW,PHANTOMGATE,PIERCINGDOUBT,POISONDART,POISONJAB,POISONSPIKES,POISONTAIL,POUND,POWDERBOMB,POWDERSNOW,PROFANE,PSYCHUP,PSYPIERCE,PURSUIT,QUICKATTACK,RAILCANNON,RETALIATE,ROUND,SCRUTINIZE,SHADOWBOXING,SHADOWCLAW,SHADOWSNEAK,SHINESHOT,SLUDGYSLUG,SMOG,SNARL,SNATCH,SNORE,STERTOR,SUCKERPUNCH,SUFFOCATE,SUNDERFATE,SUPERCOOL,SWIFT,SWORDSDANCE,TAKEDOWN,TAKESHELTER,TAUNT,TEASE,THIEF,THINAIR,TOTALCONTROL,VIMRIPPER,VOLLEY,WRAITHWRATH
 Tribes = TACTICIAN,SCRAPPER,WARRIOR
 StepsToHatch = 5355
 Height = 0.6
@@ -8273,6 +8403,29 @@ Kind = Blade
 Pokedex = A master of courtesy and swordsmanship, it fights using extending swords on its elbows.
 Generation = 4
 #-------------------------------
+[SYNTINEL]
+Name = Syntinel
+Type1 = FIGHTING
+Type2 = PSYCHIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 90,115,90,116,50,110
+# Total = 571
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 10
+Happiness = 0
+Abilities = SWORDPLAY,BEAMING
+Moves = 1,DISABLE,1,SHADOWSNEAK,7,LULLABY,21,FUTURESIGHT,28,DAZZLINGGLEAM,35,PSYCHOCUT,42,NIGHTSLASH,49,LEAFBLADE,56,MOONBLAST,63,SUPERPOWER,70,DESTINYBOND,70,KNOCKOFF,70,QUICKGUARD,70,SPIRITBREAK,70,WIDEGUARD
+LineMoves = AGILITY,AURASPHERE,BRICKBREAK,CALMMIND,CHARGEBEAM,COACHING,CONFUSERAY,DAZZLINGGLEAM,DRAINPUNCH,ENCORE,ENERGYBALL,FIREPUNCH,FLING,FOCUSBLAST,FUTURESIGHT,GIGAIMPACT,GRASSKNOT,HELPINGHAND,HEX,HOLDBACK,HYPERBEAM,HYPERVOICE,ICEPUNCH,ICYWIND,KNOCKOFF,LIGHTSCREEN,LIQUIDATION,MAGICALLEAF,NEURALPULSE,NUMB,POISONJAB,PSYBEAM,PSYCHUP,PSYPIERCE,REFLECT,RISINGPOWER,SHADOWBALL,SHADOWCLAW,SKILLSWAP,SUPERPOWER,SWIFT,SWITCHEROO,SWORDSDANCE,TAUNT,THROATCHOP,THUNDERBOLT,THUNDERPUNCH,TOTALCONTROL,TUTELAGE,VACUUMWAVE,XSCISSOR,ZENHEADBUTT
+Tribes = ANIMATED,WARRIOR,LOYAL
+StepsToHatch = 12800
+Height = 1.4
+Weight = 35.0
+Kind = Paradox
+Pokedex = It has some similarities to a mad scientist's invention covered in a paranormal magazine.
+Generation = 9
+Flags = Paradox
+#-------------------------------
 [SURSKIT]
 Name = Surskit
 Type1 = BUG
@@ -8574,6 +8727,29 @@ Kind = Arm Thrust
 Pokedex = It loves to match power with big-bodied Pokémon. It can knock a truck flying with its arm thrusts.
 Generation = 3
 WildItemUncommon = BLACKBELT
+#-------------------------------
+[HANDROID]
+Name = Handroid
+Type1 = FIGHTING
+Type2 = ELECTRIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 150,140,110,50,65,50
+# Total = 565
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 50
+Happiness = 0
+Abilities = SCHADENFREUDE
+Moves = 1,ARMTHRUST,1,FOCUSENERGY,1,TACKLE,7,FAKEOUT,14,WHIRLWIND,21,THUNDERPUNCH,35,FORCEPALM,42,FOCUSPUNCH,49,CHARGE,56,WILDCHARGE,63,SUPERPOWER,70,BELLYDRUM,70,HEAVYSLAM,70,PROTECT
+LineMoves = BODYPRESS,BODYSLAM,BRICKBREAK,BULLDOZE,CHARGE,DOUBLEEDGE,DRAINPUNCH,EARTHQUAKE,FACADE,FIREPUNCH,FLING,FOCUSBLAST,GIGAIMPACT,HEAVYSLAM,HYPERBEAM,ICEPUNCH,IRONDEFENSE,IRONHEAD,LOWSWEEP,METRONOME,PLAYROUGH,ROCKALANCHE,ROCKTOMB,SCARYFACE,STOMPINGTANTRUM,SUPERPOWER,SWORDSDANCE,TAKEDOWN,THUNDER,THUNDERBOLT,THUNDERPUNCH,VOLTSWITCH,WILDCHARGE
+Tribes = ANIMATED,WARRIOR
+StepsToHatch = 12800
+Height = 1.8
+Weight = 380.7
+Kind = Paradox
+Pokedex = It is very similar to a cyborg covered exclusively by a paranormal magazine. The cyborg was said to be the modified form of a certain athlete.
+Generation = 9
+Flags = Paradox
 #-------------------------------
 [NOSEPASS]
 Name = Nosepass
@@ -9407,8 +9583,8 @@ Name = Cacnea
 Type1 = GRASS
 Type2 = DARK
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 50,90,50,40,90,40
-# Total = 360
+BaseStats = 60,85,55,45,85,40
+# Total = 370
 BaseEXP = 67
 Rareness = 145
 Happiness = 35
@@ -10526,6 +10702,29 @@ Kind = Dragon
 Pokedex = While basking in the joy of flight generally keeps this Pokémon in high spirits, it turns into an uncontrollable menace if something angers it.
 Generation = 3
 WildItemUncommon = DRAGONFANG
+#-------------------------------
+[ROARINGMOON]
+Name = Roaring Moon
+Type1 = DRAGON
+Type2 = DARK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 135,85,70,70,105,100
+# Total = 565
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 10
+Happiness = 0
+Abilities = BERSERK
+Moves = 0,BREAKINGSWIPE,0,SUNSHINE,1,BITE,1,DRAGONBREATH,1,FOCUSENERGY,1,LEER,7,INCINERATE,14,HEADBUTT,21,SCARYFACE,28,DRAGONCLAW,35,ZENHEADBUTT,42,FLAMETHROWER,49,NIGHTSLASH,56,DRAGONDANCE,63,CARNAGE,70,DOUBLEEDGE,70,FLY,70,ROOST,70,THROATCHOP
+LineMoves = ACROBATICS,AERIALACE,AIRSLASH,BODYPRESS,BODYSLAM,BREAKINGSWIPE,BRICKBREAK,CRUNCH,CYCLONE,DARKPULSE,DIG,DOUBLEEDGE,DRACOMETEOR,DRAGONCLAW,DRAGONDANCE,DRAGONPULSE,DRAGONTAIL,EARTHQUAKE,FACADE,FIREBLAST,FIREFANG,FIRESPIN,FLAMETHROWER,FLY,GIGAIMPACT,HEATWAVE,HYDROPUMP,HYPERBEAM,HYPERVOICE,IRONHEAD,KNOCKOFF,LASHOUT,METALCLAW,OUTRAGE,ROAR,ROCKALANCHE,SCARYFACE,SHADOWCLAW,SNARL,STOMPINGTANTRUM,STONEEDGE,SUNSHINE,TAILWIND,TAKEDOWN,TAUNT,THROATCHOP,THUNDERFANG,UTURN,XSCISSOR,ZENHEADBUTT
+Tribes = ESOTERIC,TYRANNICAL
+StepsToHatch = 12800
+Height = 2.0
+Weight = 380.0
+Kind = Paradox
+Pokedex = It is possible that this is the creature listed as Roaring Moon in an expedition journal that still holds many mysteries.
+Generation = 9
+Flags = Paradox
 #-------------------------------
 [BELDUM]
 Name = Beldum
@@ -14971,6 +15170,29 @@ Generation = 5
 WildItemCommon = TINYMUSHROOM
 WildItemUncommon = BIGMUSHROOM
 #-------------------------------
+[BRUTEBONNET]
+Name = Brute Bonnet
+Type1 = GRASS
+Type2 = DARK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 110,90,80,60,80,65
+# Total = 485
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 50
+Happiness = 0
+Abilities = LOUD,DETERRENT
+Moves = 1,ABSORB,1,ASTONISH,1,GROWTH,7,ANESTHETIZE,14,MEGADRAIN,21,SYNTHESIS,28,CLEARSMOG,35,PAYBACK,42,THRASH,49,GIGADRAIN,56,SUCKERPUNCH,63,SPORE,70,FOLLOWME,70,SOLARBEAM
+LineMoves = BODYPRESS,BODYSLAM,BULLETSEED,CONFUSERAY,CRUNCH,DARKPULSE,DOUBLEEDGE,EARTHPOWER,ENERGYBALL,FACADE,FLASHSEED,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GREYMIST,HEX,HYPERBEAM,LASHOUT,LEAFSTORM,MAGICALLEAF,MISTLETOE,OUTRAGE,POLLENPUFF,SCARYFACE,SOLARBEAM,STOMPINGTANTRUM,SUNSHINE,SUPERPOWER,TAUNT,THIEF,VENOSHOCK,ZENHEADBUTT
+Tribes = DECEIVER,ESOTERIC,SCRAPPER
+StepsToHatch = 12800
+Height = 1.2
+Weight = 21.0
+Kind = Paradox
+Pokedex = It is possible that the creature listed as Brute Bonnet in a certain book could actually be this Pokémon.
+Generation = 9
+Flags = Paradox
+#-------------------------------
 [FRILLISH]
 Name = Frillish
 Type1 = WATER
@@ -15659,8 +15881,8 @@ Name = Golett
 Type1 = GROUND
 Type2 = GHOST
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
-BaseStats = 60,75,40,55,75,40
-# Total = 345
+BaseStats = 55,85,45,55,85,45
+# Total = 370
 GenderRate = Genderless
 BaseEXP = 61
 Rareness = 145
@@ -21873,3 +22095,1605 @@ Kind = King
 Pokedex = Calyrex is a merciful Pokémon, capable of providing healing and blessings. It has the power to cause hearts to mend and plants to spring forth.
 Generation = 8
 Flags = Legendary,Floating
+#-------------------------------
+[SPRIGATITO]
+Name = Sprigatito
+Type1 = GRASS
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 45,65,40,70,50,40
+# Total = 310
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = PROTEAN
+Moves = 1,DAZZLE,1,LEAFAGE,1,SCRATCH,7,BITE,10,HONECLAWS,13,MAGICALLEAF,15,QUICKATTACK,17,FLASHSEED,21,UTURN,25,COTTONSPORE,28,SLASH,32,ENERGYBALL,36,PLAYROUGH,46,LEAFSTORM,52,KNOCKOFF
+LineMoves = ACROBATICS,AERIALACE,AGILITY,AQUASHOCK,AURASPHERE,BRICKBREAK,BULLETSEED,CHARM,DARKPULSE,DISARMINGVOICE,DREAMDANCE,ENERGYBALL,FACADE,FAKETEARS,FLASHSEED,FLING,FOULPLAY,FRENZYPLANT,GIGADRAIN,GIGAIMPACT,GRASSKNOT,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LEECHSEED,LOWSWEEP,MAGICALLEAF,MISTLETOE,PETALTEMPEST,PLAYROUGH,POISONSPIKES,POLLENPUFF,POWERGEM,PSYCHUP,SANDTOSS,SHADOWBALL,SHADOWCLAW,SKILLSWAP,SOLARBEAM,SOLARGLIDE,SPIKES,SUCKERPUNCH,SWIFT,SWITCHEROO,TAKEDOWN,TAUNT,THIEF,THROATCHOP,THUNDERPUNCH,UTURN
+Tribes = CHARMER,DECEIVER
+StepsToHatch = 5120
+Height = 0.4
+Weight = 4.1
+Kind = Grass Cat
+Pokedex = The sweet scent its body gives off mesmerizes those around it. The scent grows stronger when this Pokémon is in the sun.
+Generation = 9
+Evolutions = FLORAGATO,Level,20
+#-------------------------------
+[FLORAGATO]
+Name = Floragato
+Type1 = GRASS
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 60,85,55,93,65,55
+# Total = 413
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = PROTEAN
+StepsToHatch = 5120
+Height = 0.9
+Weight = 12.2
+Kind = Grass Cat
+Pokedex = Floragato deftly wields the vine hidden beneath its long fur, slamming the hard flower bud against its opponents.
+Generation = 9
+Evolutions = MEOWSCARADA,Level,40
+#-------------------------------
+[MEOWSCARADA]
+Name = Meowscarada
+Type1 = GRASS
+Type2 = DARK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 75,110,70,123,80,70
+# Total = 528
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = PROTEAN
+Moves = 0,SWITCHEROO
+StepsToHatch = 5120
+Height = 1.5
+Weight = 31.2
+Kind = Magician
+Pokedex = This Pokémon uses the reflective fur lining in its cape to camouflage the stem of its flower, creating the illusion that the flower is floating.
+Generation = 9
+#-------------------------------
+[FUECOCO]
+Name = Fuecoco
+Type1 = FIRE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 65,45,60,36,65,40
+# Total = 311
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = UNAWARE
+Moves = 1,EMBER,1,LEER,1,TACKLE,7,ROUND,12,BITE,12,SCARYFACE,15,INCINERATE,17,YAWN,21,SNARL,25,ROAR,28,FLAMETHROWER,32,HYPERVOICE,36,FIREBLAST,38,SHADOWBALL,42,WILLOWISP,47,HEX,64,OVERHEAT
+LineMoves = BELCH,BLASTBURN,BODYSLAM,CRUNCH,CURSEDOATH,DAZZLINGGLEAM,DIG,DISARMINGVOICE,EARTHPOWER,EARTHQUAKE,ENCORE,FACADE,FIREBLAST,FIREFANG,FIRESPIN,FLAMECHARGE,FLAMETHROWER,FLAREBLITZ,FLASHSEED,GIGAIMPACT,HEATCRASH,HEATWAVE,HELPINGHAND,HEX,HYPERBEAM,HYPERVOICE,OUTRAGE,OVERHEAT,ROAR,SANDTOSS,SCARYFACE,SCORCHINGSANDS,SHADOWBALL,SHADOWCLAW,SLACKOFF,SNARL,SOLARBEAM,STOMPINGTANTRUM,SUNSHINE,TAKEDOWN,THUNDERFANG,WILLOWISP,ZENHEADBUTT
+Tribes = CARETAKER,RADIANT
+StepsToHatch = 5120
+Height = 0.4
+Weight = 9.8
+Kind = Fire Croc
+Pokedex = It lies on warm rocks and uses the heat absorbed by its square-shaped scales to create fire energy.
+Generation = 9
+Evolutions = CROCALOR,Level,20
+#-------------------------------
+[CROCALOR]
+Name = Crocalor
+Type1 = FIRE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 80,55,80,49,90,60
+# Total = 414
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = UNAWARE
+StepsToHatch = 5120
+Height = 1.0
+Weight = 30.7
+Kind = Fire Croc
+Pokedex = The combination of Crocalor's fire energy and overflowing vitality has caused an egg-shaped fireball to appear on the Pokémon's head.
+Generation = 9
+Evolutions = SKELEDIRGE,Level,40
+#-------------------------------
+[SKELEDIRGE]
+Name = Skeledirge
+Type1 = FIRE
+Type2 = GHOST
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 105,75,100,66,110,75
+# Total = 531
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = UNAWARE
+StepsToHatch = 5120
+Height = 1.6
+Weight = 326.5
+Kind = Singer
+Pokedex = The fiery bird changes shape when Skeledirge sings. Rumor has it that the bird was born when the fireball on Skeledirge's head gained a soul.
+Generation = 9
+#-------------------------------
+[QUAXLY]
+Name = Quaxly
+Type1 = WATER
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 55,65,45,50,50,45
+# Total = 310
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = MOXIE
+Moves = 1,GROWL,1,POUND,1,WATERGUN,7,WORKUP,10,AERIALACE,13,AQUAJET,17,WHELM,19,LOWSWEEP,21,DRAGBENEATH,24,AIRSLASH,28,FOCUSENERGY,31,ACROBATICS,35,LIQUIDATION,48,FEATHERDANCE,58,SUPERPOWER,64,HARBORBREAKER
+LineMoves = ACROBATICS,AGILITY,AIRSLASH,AQUASHOCK,BRAVEBIRD,BRICKBREAK,BULKUP,CLAMP,COACHING,CYCLONE,DISARMINGVOICE,ENCORE,ENDEAVOR,FACADE,FEATHERDANCE,FLIPTURN,GIGAIMPACT,GLACIALRAM,HELPINGHAND,HYDROCANNON,HYDROPUMP,HYPERBEAM,ICYWIND,KNOCKOFF,LASTRESORT,LIQUIDATION,LOWSWEEP,MEGAPUNCH,PSYCHUP,RAINSTORM,RAPIDSPIN,RETREAT,ROOST,SCUFFLE,SQUALLDART,SUPERPOWER,SURF,SWIFT,SWORDSDANCE,TAKEDOWN,TAUNT,UTURN,WHELM
+Tribes = CHARMER,HARMONIC
+StepsToHatch = 5120
+Height = 0.5
+Weight = 6.1
+Kind = Duckling
+Pokedex = Its strong legs let it easily swim around in even fast-flowing rivers. It likes to keep things tidy and is prone to overthinking things.
+Generation = 9
+Evolutions = QUAXWELL,Level,20
+#-------------------------------
+[QUAXWELL]
+Name = Quaxwell
+Type1 = WATER
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 70,85,65,65,65,60
+# Total = 410
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = MOXIE
+StepsToHatch = 5120
+Height = 1.2
+Weight = 21.5
+Kind = Practicing
+Pokedex = These Pokémon constantly run through shallow waters to train their legs, then compete with each other to see which of them kicks most gracefully.
+Generation = 9
+Evolutions = QUAQUAVAL,Level,40
+#-------------------------------
+[QUAQUAVAL]
+Name = Quaquaval
+Type1 = WATER
+Type2 = FIGHTING
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 85,120,80,85,85,75
+# Total = 530
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = MOXIE
+Moves = 0,COUNTER
+StepsToHatch = 5120
+Height = 1.8
+Weight = 61.9
+Kind = Dancer
+Pokedex = A single kick from a Quaquaval can send a truck rolling. This Pokémon uses its powerful legs to perform striking dances from far-off lands.
+Generation = 9
+#-------------------------------
+[LECHONK]
+Name = Lechonk
+Type1 = NORMAL
+Type2 = GROUND
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 95,80,45,80,65,50
+# Total = 415
+BaseEXP = 100
+Rareness = 255
+Happiness = 50
+Abilities = GLUTTONY,THICKFAT
+Moves = 1,DAZZLE,1,TACKLE,5,DISARMINGVOICE,8,ECHOEDVOICE,12,MUDSHOT,15,COVET,17,DIG,21,HEADBUTT,24,YAWN,27,TAKEDOWN,30,WORKUP,32,UPROAR,35,DOUBLEEDGE,48,EARTHPOWER,54,BELCH
+LineMoves = AQUASHOCK,BODYPRESS,BODYSLAM,BULLDOZE,BULLETSEED,CURSEDOATH,DIG,DISARMINGVOICE,DOUBLEEDGE,EARTHPOWER,ENDEAVOR,ENERGYBALL,FACADE,FLASHSEED,GIGAIMPACT,HELPINGHAND,HYPERBEAM,HYPERVOICE,IRONHEAD,LASHOUT,MISTLETOE,MUDSHOT,PLAYROUGH,RAINSTORM,SANDTOSS,SPITUP,STOCKPILE,STOMPINGTANTRUM,SUNSHINE,SUPERFANG,SWALLOW,TAKEDOWN,THIEF,TRAMPLE,UPROAR,ZENHEADBUTT
+Tribes = CHARMER,STAMPEDE
+StepsToHatch = 3840
+Height = 0.5
+Weight = 10.2
+Kind = Hog
+Pokedex = It searches for food all day. It possesses a keen sense of smell but doesn't use it for anything other than foraging.
+Generation = 9
+Evolutions = OINKOLOGNE,Level,35
+#-------------------------------
+[OINKOLOGNE]
+Name = Oinkologne
+Type1 = NORMAL
+Type2 = GROUND
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 130,110,60,110,90,65
+# Total = 565
+BaseEXP = 100
+Rareness = 100
+Happiness = 50
+Abilities = GLUTTONY,THICKFAT
+StepsToHatch = 3840
+Height = 1.0
+Weight = 120.0
+Kind = Hog
+Pokedex = It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body.
+FormName = Male
+Generation = 9
+#-------------------------------
+[TAROUNTULA]
+Name = Tarountula
+Type1 = BUG
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 55,75,85,35,50,80
+# Total = 380
+BaseEXP = 100
+Rareness = 255
+Happiness = 50
+Abilities = PITFIGHTER
+Moves = 1,STRINGSHOT,1,TACKLE,5,STRUGGLEBUG,8,ASSURANCE,14,BUGBITE,18,BLOCK,22,COUNTER,25,HEADBUTT,29,STICKYWEB,36,CAPOEIRA,40,THROATCHOP
+LineMoves = AERIALACE,BODYSLAM,BRICKBREAK,BUGBITE,BUGBUZZ,BULLETSEED,ELECTROWEB,FACADE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,HOLDBACK,KNOCKOFF,LEECHLIFE,LUNGE,MEMENTO,MISTLETOE,PAINSPLIT,POISONJAB,POISONSPIKES,POUNCE,RAINSTORM,ROCKTOMB,SCARYFACE,SHADOWCLAW,SPIKES,STRUGGLEBUG,SUCKERPUNCH,SUNSHINE,TAKEDOWN,TAUNT,THIEF,THROATCHOP,UTURN,XSCISSOR
+Tribes = ASSASSIN,SCAVENGER
+StepsToHatch = 3840
+Height = 0.3
+Weight = 4.0
+Kind = String Ball
+Pokedex = The ball of threads wrapped around its body is elastic enough to deflect the scythes of Scyther, this Pokémon's natural enemy.
+Generation = 9
+Evolutions = SPIDOPS,Level,30
+#-------------------------------
+[SPIDOPS]
+Name = Spidops
+Type1 = BUG
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 75,100,115,45,65,110
+# Total = 510
+BaseEXP = 100
+Rareness = 120
+Happiness = 50
+Abilities = PITFIGHTER
+StepsToHatch = 3840
+Height = 1.0
+Weight = 16.5
+Kind = Trap
+Pokedex = It clings to branches and ceilings using its threads and moves without a sound. It takes out its prey before the prey even notices it.
+Generation = 9
+#-------------------------------
+[NYMBLE]
+Name = Nymble
+Type1 = BUG
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 35,45,40,45,20,25
+# Total = 210
+BaseEXP = 100
+Rareness = 190
+Happiness = 20
+Abilities = TINTEDLENS
+Moves = 1,LEER,1,PROTECT,1,TACKLE,4,STRUGGLEBUG,6,ASTONISH,9,ASSURANCE,11,DOUBLEKICK,14,BARETEETH,18,ENDURE,22,BUGBITE,30,AGILITY,36,THROATCHOP,38,SUCKERPUNCH,53,HIGHJUMPKICK
+LineMoves = AGILITY,BRICKBREAK,BUGBITE,BUGBUZZ,COUNTER,DARKPULSE,DOUBLEEDGE,FACADE,FLING,GIGAIMPACT,KNOCKOFF,LASHOUT,LEECHLIFE,LOWSWEEP,LUNGE,MISTLETOE,POUNCE,RAINSTORM,RAKE,SCUFFLE,STRUGGLEBUG,SUNSHINE,SWORDSDANCE,TAKEDOWN,TAUNT,THIEF,THROATCHOP,UTURN,XSCISSOR
+Tribes = SCRAPPER,WARRIOR
+StepsToHatch = 5120
+Height = 0.2
+Weight = 1.0
+Kind = Grasshopper
+Pokedex = It has its third set of legs folded up. When it's in a tough spot, this Pokémon jumps over 30 feet using the strength of its legs.
+Generation = 9
+Evolutions = LOKIX,Level,33
+#-------------------------------
+[LOKIX]
+Name = Lokix
+Type1 = BUG
+Type2 = DARK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 60,80,65,75,45,50
+# Total = 375
+BaseEXP = 100
+Rareness = 30
+Happiness = 0
+Abilities = TINTEDLENS
+Moves = 0,LUNGE
+StepsToHatch = 5120
+Height = 1.0
+Weight = 17.5
+Kind = Grasshopper
+Pokedex = When it decides to fight all out, it stands on its previously folded legs to enter Showdown Mode. It neutralizes its enemies in short order.
+Generation = 9
+#-------------------------------
+[PAWMI]
+Name = Pawmi
+Type1 = ELECTRIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 50,75,50,70,40,40
+# Total = 325
+BaseEXP = 100
+Rareness = 190
+Happiness = 50
+Abilities = NATURALCURE,IRONFIST
+Moves = 1,GROWL,1,SCRATCH,3,THUNDERSHOCK,6,QUICKATTACK,8,CHARGE,12,NUZZLE,15,DIG,19,BITE,23,SPARK,25,ARMTHRUST,27,NUMB,31,ENTRAINMENT,38,ARCLAMP,40,AGILITY,44,SUPERPOWER,46,WILDCHARGE
+LineMoves = AGILITY,BODYPRESS,BRICKBREAK,BULKUP,CHARGE,CHARGEBEAM,CHARM,COACHING,CRUNCH,DIG,DOUBLEEDGE,EERIEIMPULSE,ELECTROBALL,ELECTROWEB,ENCORE,FACADE,FAKEOUT,FIREPUNCH,FLASHSEED,FLING,FOCUSBLAST,FOCUSPUNCH,GIGAIMPACT,GRASSKNOT,HELPINGHAND,HYPERBEAM,ICEPUNCH,KNOCKOFF,LOWSWEEP,MACHPUNCH,METALCLAW,NUMB,PLAYROUGH,RAINSTORM,RETREAT,ROCKTOMB,SUNSHINE,SUPERFANG,SUPERPOWER,SWEETKISS,SWIFT,TAKEDOWN,THIEF,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERFANG,THUNDERPUNCH,VOLTSWITCH,WILDCHARGE,WISH
+Tribes = CARETAKER,RADIANT
+StepsToHatch = 3840
+Height = 0.3
+Weight = 2.5
+Kind = Mouse
+Pokedex = It has underdeveloped electric sacs on its cheeks. These sacs can produce electricity only if Pawmi rubs them furiously with the pads on its forepaws.
+Generation = 9
+Evolutions = PAWMO,Level,25
+#-------------------------------
+[PAWMO]
+Name = Pawmo
+Type1 = ELECTRIC
+Type2 = FIGHTING
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 65,100,65,90,55,50
+# Total = 425
+BaseEXP = 100
+Rareness = 80
+Happiness = 50
+Abilities = NATURALCURE,BREAKTHROUGH
+StepsToHatch = 3840
+Height = 0.4
+Weight = 6.5
+Kind = Mouse
+Pokedex = When its group is attacked, Pawmo is the first to leap into battle, defeating enemies with a fighting technique that utilizes electric shocks.
+Generation = 9
+Evolutions = PAWMOT,Level,45
+#-------------------------------
+[PAWMOT]
+Name = Pawmot
+Type1 = ELECTRIC
+Type2 = FIGHTING
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 80,125,80,115,70,60
+# Total = 530
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = NATURALCURE,BREAKTHROUGH
+StepsToHatch = 3840
+Height = 0.9
+Weight = 41.0
+Kind = Hands-On
+Pokedex = This Pokémon normally is slow to react, but once it enters battle, it will strike down its enemies with lightning-fast movements.
+Generation = 9
+#-------------------------------
+[FIDOUGH]
+Name = Fidough
+Type1 = FAIRY
+Type2 = FIRE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 35,55,70,65,30,55
+# Total = 310
+BaseEXP = 100
+Rareness = 190
+Happiness = 50
+Abilities = SHEDSKIN,UNBURDEN
+Moves = 1,GROWL,1,TACKLE,3,LICK,6,DAZZLE,8,COVET,11,BITE,15,BABYDOLLEYES,18,PLAYROUGH,22,WORKUP,26,RETREAT,30,ROAR,33,DOUBLEEDGE,36,CHARM,40,CRUNCH,45,LASTRESORT
+LineMoves = AGILITY,BODYPRESS,BODYSLAM,CHARM,CRUNCH,DAZZLINGGLEAM,DIG,DOUBLEEDGE,DRAININGKISS,ENDEAVOR,FACADE,FIREFANG,GIGAIMPACT,HELPINGHAND,HOWL,HYPERBEAM,ICEFANG,MISTLETOE,MUDSHOT,PLAYROUGH,PSYCHICFANGS,PSYCHUP,RAINSTORM,RETREAT,ROAR,SANDTOSS,SCARYFACE,SNARL,STOMPINGTANTRUM,SUNSHINE,TAKEDOWN,THUNDERFANG,WISH,YAWN
+Tribes = ANIMATED,LOYAL
+StepsToHatch = 5120
+Height = 0.3
+Weight = 10.9
+Kind = Puppy
+Pokedex = This Pokémon is smooth and moist to the touch. Yeast in Fidough's breath induces fermentation in the Pokémon's vicinity.
+Generation = 9
+Evolutions = DACHSBUN,Level,35
+#-------------------------------
+[DACHSBUN]
+Name = Dachsbun
+Type1 = FAIRY
+Type2 = FIRE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 55,80,115,95,50,80
+# Total = 475
+BaseEXP = 100
+Rareness = 90
+Happiness = 50
+Abilities = SHEDSKIN,UNBURDEN
+StepsToHatch = 5120
+Height = 0.5
+Weight = 14.9
+Kind = Dog
+Pokedex = The pleasant aroma that emanates from this Pokémon's body helps wheat grow, so Dachsbun has been treasured by farming villages.
+Generation = 9
+#-------------------------------
+[SMOLIV]
+Name = Smoliv
+Type1 = GRASS
+Type2 = NORMAL
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 40,35,45,30,60,50
+# Total = 260
+BaseEXP = 100
+Rareness = 255
+Happiness = 50
+Abilities = UNAFRAID
+Moves = 1,TACKLE,5,ABSORB,7,GROWTH,10,RAZORLEAF,13,HELPINGHAND,16,FLAIL,20,MEGADRAIN,23,NATURALPROTECTION,27,FLASHSEED,30,ENERGYBALL,34,LEECHSEED,38,WEATHERBURST,52,PETALTEMPEST
+LineMoves = BULLETSEED,CHARM,DAZZLINGGLEAM,EARTHPOWER,ENCORE,ENERGYBALL,FACADE,FLASHSEED,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,HELPINGHAND,HYPERBEAM,HYPERVOICE,LEAFSTORM,LIGHTSCREEN,MAGICALLEAF,MEMENTO,MIRRORCOAT,MISTLETOE,NATURALPROTECTION,PETALTEMPEST,POLLENPUFF,PSYCHUP,REFLECT,SOLARBEAM,STRENGTHSAP,SUNSHINE,SWIFT,SYNTHESIS,WEATHERBURST
+Tribes = CARETAKER,INDUSTRIOUS
+StepsToHatch = 5120
+Height = 0.3
+Weight = 6.5
+Kind = Olive
+Pokedex = It protects itself from enemies by emitting oil from the fruit on its head. This oil is bitter and astringent enough to make someone flinch.
+Generation = 9
+Evolutions = DOLLIV,Level,21
+#-------------------------------
+[DOLLIV]
+Name = Dolliv
+Type1 = GRASS
+Type2 = NORMAL
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 50,55,60,33,80,80
+# Total = 358
+BaseEXP = 100
+Rareness = 120
+Happiness = 50
+Abilities = UNAFRAID
+StepsToHatch = 5120
+Height = 0.6
+Weight = 11.9
+Kind = Olive
+Pokedex = Dolliv shares its tasty, fresh-scented oil with others. This species has coexisted with humans since times long gone.
+Generation = 9
+Evolutions = ARBOLIVA,Level,40
+#-------------------------------
+[ARBOLIVA]
+Name = Arboliva
+Type1 = GRASS
+Type2 = NORMAL
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 80,70,90,39,125,110
+# Total = 514
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = UNAFRAID
+StepsToHatch = 5120
+Height = 1.4
+Weight = 48.2
+Kind = Olive
+Pokedex = This calm Pokémon is very compassionate. It will share its delicious, nutrient-rich oil with weakened Pokémon.
+Generation = 9
+#-------------------------------
+[SQUAWKABILLY]
+Name = Squawkabilly
+Type1 = NORMAL
+Type2 = FLYING
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 80,95,70,92,70,100
+# Total = 507
+BaseEXP = 100
+Rareness = 190
+Happiness = 50
+Abilities = INTIMIDATE,HUSTLE
+Moves = 1,GROWL,1,PECK,6,QUICKATTACK,10,TORMENT,13,AERIALACE,17,FURYSWIPES,20,TAUNT,24,UPROAR,27,COACHING,30,FLY,34,FACADE,38,BACKHAND,42,BRAVEBIRD,47,ROOST
+LineMoves = AERIALACE,AIRSLASH,BACKHAND,BRAVEBIRD,CYCLONE,DOUBLEEDGE,DUALWINGBEAT,ENDEAVOR,FACADE,FAKETEARS,FEATHERDANCE,FINALGAMBIT,FLY,FOULPLAY,GIGAIMPACT,HEATWAVE,HELPINGHAND,HYPERBEAM,HYPERVOICE,LASHOUT,PARTINGSHOT,POUNCE,SCARYFACE,SQUALLDART,SUNSHINE,TAILWIND,TAKEDOWN,TAUNT,THIEF,UPROAR,UTURN
+Tribes = SCRAPPER,STAMPEDE
+StepsToHatch = 3840
+Height = 0.6
+Weight = 2.4
+Kind = Parrot
+Pokedex = These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.
+FormName = Green Plumage
+Generation = 9
+#-------------------------------
+[NACLI]
+Name = Nacli
+Type1 = ROCK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 60,60,80,20,40,55
+# Total = 315
+BaseEXP = 100
+Rareness = 255
+Happiness = 50
+Abilities = STABILITY,EXORCIST
+Moves = 1,HARDEN,1,TACKLE,5,ROCKTHROW,7,TREADON,13,HEADBUTT,16,ROCKPOLISH,20,IRONDEFENSE,25,RECOVER,30,ROCKALANCHE,33,STEALTHROCK,35,HEAVYSLAM,40,EARTHQUAKE,45,STONEEDGE,51,SUPERPOWER,60,EXPLOSION
+LineMoves = ANCIENTPOWER,BODYPRESS,BODYSLAM,BRICKBREAK,BULLDOZE,DIG,DOUBLEEDGE,EARTHPOWER,EARTHQUAKE,FACADE,FIREPUNCH,FLASHCANNON,FLING,FOCUSPUNCH,GIGAIMPACT,GRAVITY,HEAVYSLAM,HELPINGHAND,HYPERBEAM,ICEBERGBASH,ICEPUNCH,IRONDEFENSE,IRONHEAD,METEORBEAM,MUDSHOT,POWERGEM,RAINSTORM,ROCKALANCHE,ROCKBLAST,ROCKTHROW,SANDSTORM,STEALTHROCK,STOMPINGTANTRUM,STONEEDGE,SUNSHINE,TAKEDOWN,THUNDERPUNCH,ZENHEADBUTT
+Tribes = ANIMATED,INDUSTRIOUS
+StepsToHatch = 5120
+Height = 0.4
+Weight = 16.0
+Kind = Rock Salt
+Pokedex = The ground scrapes its body as it travels, causing it to leave salt behind. Salt is constantly being created and replenished inside Nacli's body.
+Generation = 9
+Evolutions = NACLSTACK,Level,26
+#-------------------------------
+[NACLSTACK]
+Name = Naclstack
+Type1 = ROCK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 75,75,100,25,50,70
+# Total = 395
+BaseEXP = 100
+Rareness = 120
+Happiness = 50
+Abilities = STABILITY,EXORCIST
+StepsToHatch = 5120
+Height = 0.6
+Weight = 105.0
+Kind = Rock Salt
+Pokedex = This Pokémon dry cures its prey by spraying salt over them. The curing process steals away the water in the prey's body.
+Generation = 9
+Evolutions = GARGANACL,Level,41
+#-------------------------------
+[GARGANACL]
+Name = Garganacl
+Type1 = ROCK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 100,100,130,35,65,90
+# Total = 520
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = STABILITY,EXORCIST
+StepsToHatch = 5120
+Height = 2.3
+Weight = 240.0
+Kind = Rock Salt
+Pokedex = Garganacl will rub its fingertips together and sprinkle injured Pokémon with salt. Even severe wounds will promptly heal afterward.
+Generation = 9
+#-------------------------------
+[CHARCADET]
+Name = Charcadet
+Type1 = FIRE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 60,70,65,35,70,65
+# Total = 365
+BaseEXP = 100
+Rareness = 90
+Happiness = 50
+Abilities = FLAMEBODY,EXPERTISE
+Moves = 1,ASTONISH,1,EMBER,1,LEER,8,CLEARSMOG,12,FIRESPIN,16,WILLOWISP,24,FLAMECHARGE,28,INCINERATE,32,WHITEFLAME
+LineMoves = CONFUSERAY,DESTINYBOND,DISABLE,FACADE,FIREBLAST,FIRESPIN,FLAMECHARGE,FLAMETHROWER,FLAREBLITZ,FLING,HEATWAVE,HELPINGHAND,IRONDEFENSE,LIGHTSCREEN,OVERHEAT,PSYCHUP,REFLECT,RISINGPOWER,SHADOWBALL,SUNSHINE,TAKEDOWN,TAUNT,WILLOWISP
+Tribes = RADIANT
+StepsToHatch = 8960
+Height = 0.6
+Weight = 10.5
+Kind = Fire Child
+Pokedex = Burnt charcoal came to life and became a Pokémon. Possessing a fiery fighting spirit, Charcadet will battle even tough opponents.
+Generation = 9
+Evolutions = ARMAROUGE,Item,AUSPICIOUSARMOR,CERULEDGE,Item,MALICIOUSARMOR
+#-------------------------------
+[ARMAROUGE]
+Name = Armarouge
+Type1 = FIRE
+Type2 = PSYCHIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 85,60,100,75,125,80
+# Total = 525
+BaseEXP = 100
+Rareness = 25
+Happiness = 20
+Abilities = WEAKARMOR,EXPERTISE
+Moves = 0,PSYPIERCE,1,MYSTICALFIRE,1,WIDEGUARD,37,CALMMIND,48,FLAMETHROWER,56,TOTALCONTROL
+LineMoves = ACIDSPRAY,AURASPHERE,CALMMIND,DARKPULSE,DRAGONPULSE,ENERGYBALL,FLASHCANNON,FOCUSBLAST,METEORBEAM,NEURALPULSE,PSYBEAM,PSYPIERCE,SCORCHINGSANDS,SOLARBEAM,SWITCHEROO,TOTALCONTROL,WEATHERBURST
+Tribes = ARTILLERY,RADIANT
+StepsToHatch = 8960
+Height = 1.5
+Weight = 85.0
+Kind = Fire Warrior
+Pokedex = Armarouge evolved through the use of a set of armor that belonged to a distinguished warrior. This Pokémon is incredibly loyal.
+Generation = 9
+#-------------------------------
+[CERULEDGE]
+Name = Ceruledge
+Type1 = FIRE
+Type2 = GHOST
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 75,125,80,85,60,100
+# Total = 525
+BaseEXP = 100
+Rareness = 25
+Happiness = 20
+Abilities = WEAKARMOR,EXPERTISE
+Moves = 0,NIGHTSLASH,0,QUICKGUARD,0,SHADOWCLAW,0,SHADOWSNEAK,37,SWORDSDANCE,56,PSYCHOCUT,62,FLAREBLITZ
+LineMoves = BRICKBREAK,BULKUP,CURSEDOATH,DRAGONCLAW,HEX,HOLDBACK,IRONHEAD,POISONJAB,SHADOWCLAW,SIXFEETUNDER,SUPERPOWER,SWORDSDANCE,THROATCHOP,VACUUMWAVE,VIMRIPPER,XSCISSOR
+Tribes = RADIANT,WARRIOR
+StepsToHatch = 8960
+Height = 1.6
+Weight = 62.0
+Kind = Fire Blades
+Pokedex = An old set of armor steeped in grudges caused this Pokémon's evolution. Ceruledge cuts its enemies to pieces without mercy.
+Generation = 9
+#-------------------------------
+[TADBULB]
+Name = Tadbulb
+Type1 = ELECTRIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 85,45,70,85,65,35
+# Total = 385
+BaseEXP = 100
+Rareness = 190
+Happiness = 50
+Abilities = THUNDERSTRUCK,THICKFAT
+Moves = 1,SANDTOSS,1,TACKLE,7,THUNDERSHOCK,11,WATERGUN,17,CHARGE,19,SLACKOFF,21,SPARK,24,MUDSHOT,25,FLAIL,32,ARCLAMP,36,WEATHERBURST,45,SUCKERPUNCH,50,ZAPCANNON
+LineMoves = ACIDSPRAY,AQUASHOCK,CHARGE,CHARGEBEAM,CONFUSERAY,EERIEIMPULSE,ELECTROBALL,ELECTROWEB,GIGAIMPACT,HYPERBEAM,HYPERVOICE,LIGHTSCREEN,MUDSHOT,NUMB,PARABOLICCHARGE,PRESSURESTREAM,RAINSTORM,REFLECT,SANDTOSS,SWIFT,THUNDER,THUNDERBOLT,VOLTSWITCH,WEATHERBURST,WHELM,WILDCHARGE
+Tribes = RADIANT
+StepsToHatch = 5120
+Height = 0.3
+Weight = 0.4
+Kind = EleTadpole
+Pokedex = It floats using the electricity stored in its body. When thunderclouds are around, Tadbulb will float higher off the ground.
+Generation = 9
+Evolutions = BELLIBOLT,Item,THUNDERSTONE
+#-------------------------------
+[BELLIBOLT]
+Name = Bellibolt
+Type1 = ELECTRIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 120,65,100,120,90,45
+# Total = 540
+BaseEXP = 100
+Rareness = 50
+Happiness = 50
+Abilities = THUNDERSTRUCK,THICKFAT
+StepsToHatch = 5120
+Height = 1.2
+Weight = 113.0
+Kind = EleFrog
+Pokedex = When this Pokémon expands and contracts its wobbly body, the belly-button dynamo in its stomach produces a huge amount of electricity.
+Generation = 9
+#-------------------------------
+[WATTREL]
+Name = Wattrel
+Type1 = ELECTRIC
+Type2 = FLYING
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 55,50,70,85,70,60
+# Total = 390
+BaseEXP = 100
+Rareness = 180
+Happiness = 50
+Abilities = VOLTABSORB,COMPETITIVE
+Moves = 1,GROWL,1,PECK,4,THUNDERSHOCK,7,QUICKATTACK,11,PLUCK,15,SPARK,19,ELECTROBALL,23,ROOST,27,DUALWINGBEAT,32,AGILITY,37,VOLTSWITCH,43,ARCLAMP,55,CYCLONE
+LineMoves = ACROBATICS,AERIALACE,AGILITY,AIRSLASH,BRAVEBIRD,CHARGE,CHARGEBEAM,CYCLONE,DUALWINGBEAT,EERIEIMPULSE,ELECTROBALL,ELECTROWEB,ENDEAVOR,FACADE,FEATHERDANCE,FLY,GIGAIMPACT,HYPERBEAM,NUMB,SCARYFACE,SPITUP,SQUALLDART,STOCKPILE,SWALLOW,SWIFT,TAILWIND,TAKEDOWN,THUNDER,THUNDERBOLT,UPROAR,UTURN,VOLTSWITCH,WEATHERBURST,WILDCHARGE
+Tribes = CARETAKER
+StepsToHatch = 5120
+Height = 0.4
+Weight = 3.6
+Kind = Storm Petrel
+Pokedex = When its wings catch the wind, the bones within produce electricity. This Pokémon dives into the ocean, catching prey by electrocuting them.
+Generation = 9
+Evolutions = KILOWATTREL,Level,25
+#-------------------------------
+[KILOWATTREL]
+Name = Kilowattrel
+Type1 = ELECTRIC
+Type2 = FLYING
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 75,70,100,115,100,80
+# Total = 540
+BaseEXP = 100
+Rareness = 90
+Happiness = 50
+Abilities = VOLTABSORB,COMPETITIVE
+StepsToHatch = 5120
+Height = 1.4
+Weight = 38.6
+Kind = Frigatebird
+Pokedex = Kilowattrel inflates its throat sac to amplify its electricity. By riding the wind, this Pokémon can fly over 430 miles in a day.
+Generation = 9
+#-------------------------------
+[MASCHIFF]
+Name = Maschiff
+Type1 = DARK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 65,85,80,50,60,40
+# Total = 380
+BaseEXP = 100
+Rareness = 150
+Happiness = 50
+Abilities = INTIMIDATE,UNAFRAID
+Moves = 1,LEER,1,SCARYFACE,1,TACKLE,4,LICK,7,SNARL,10,HONECLAWS,14,BITE,18,ROAR,22,HEADBUTT,26,PAYBACK,31,CRUNCH,35,BACKHAND,43,LURK,49,DOUBLEEDGE
+LineMoves = BODYSLAM,CHARM,CRUNCH,DARKPULSE,DESTINYBOND,DIG,DOUBLEEDGE,ENDEAVOR,FACADE,FAKETEARS,FIREFANG,GIGAIMPACT,HELPINGHAND,HYPERBEAM,HYPERVOICE,ICEFANG,LASHOUT,MISTLETOE,OUTRAGE,PAINSPLIT,PLAYROUGH,PSYCHICFANGS,RAINSTORM,RETALIATE,ROAR,SCARYFACE,SNARL,SUNSHINE,TAKEDOWN,TAUNT,THIEF,THUNDERFANG,WILDCHARGE
+Tribes = LOYAL,TYRANNICAL
+StepsToHatch = 5120
+Height = 0.5
+Weight = 16.0
+Kind = Rascal
+Pokedex = Its well-developed jaw and fangs are strong enough to crunch through boulders, and its thick fat makes for an excellent defense.
+Generation = 9
+Evolutions = MABOSSTIFF,Level,30
+#-------------------------------
+[MABOSSTIFF]
+Name = Mabosstiff
+Type1 = DARK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 90,120,110,70,80,55
+# Total = 525
+BaseEXP = 100
+Rareness = 75
+Happiness = 50
+Abilities = INTIMIDATE,UNAFRAID
+StepsToHatch = 5120
+Height = 1.1
+Weight = 61.0
+Kind = Boss
+Pokedex = This Pokémon can store energy in its large dewlap. Mabosstiff unleashes this energy all at once to blow away enemies.
+Generation = 9
+#-------------------------------
+[BRAMBLIN]
+Name = Bramblin
+Type1 = GRASS
+Type2 = GHOST
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 55,80,50,65,80,50
+# Total = 380
+BaseEXP = 100
+Rareness = 190
+Happiness = 50
+Abilities = BRISK
+Moves = 1,ACCELEROCK,1,ASTONISH,1,CURLUP,5,ABSORB,9,RAPIDSPIN,13,BULLETSEED,17,INFESTATION,21,HEX,25,MEGADRAIN,29,DISABLE,35,VIMRIPPER,40,GIGADRAIN,45,CURSEDOATH,50,PAINSPLIT,55,POWERWHIP
+LineMoves = BEATUP,BLOCK,BULLETSEED,CONFUSERAY,CURSEDOATH,ENERGYBALL,FACADE,FLASHSEED,GIGADRAIN,GIGAIMPACT,GRASSKNOT,HEX,HYPERBEAM,LEAFSTORM,LEECHSEED,MISTLETOE,NATURALPROTECTION,PAINSPLIT,POUNCE,RAKE,SCARYFACE,SHADOWBALL,SHADOWSNEAK,SIXFEETUNDER,SOLARBEAM,SOLARGLIDE,SPIKES,STRENGTHSAP,THIEF,VIMRIPPER
+Tribes = BUSHWHACKER,SCAVENGER,STAMPEDE
+StepsToHatch = 5120
+Height = 0.6
+Weight = 0.6
+Kind = Tumbleweed
+Pokedex = A soul unable to move on to the afterlife was blown around by the wind until it got tangled up with dried grass and became a Pokémon.
+Generation = 9
+Evolutions = BRAMBLEGHAST,Level,29
+#-------------------------------
+[BRAMBLEGHAST]
+Name = Brambleghast
+Type1 = GRASS
+Type2 = GHOST
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 75,115,70,90,115,60
+# Total = 525
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = BRISK
+StepsToHatch = 5120
+Height = 1.2
+Weight = 6.0
+Kind = Tumbleweed
+Pokedex = It will open the branches of its head to envelop its prey. Once it absorbs all the life energy it needs, it expels the prey and discards it.
+Generation = 9
+#-------------------------------
+[TOEDSCOOL]
+Name = Toedscool
+Type1 = GROUND
+Type2 = GRASS
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 60,50,50,75,60,80
+# Total = 375
+BaseEXP = 100
+Rareness = 190
+Happiness = 50
+Abilities = JUGGERNAUT
+Moves = 1,SANDTOSS,4,ABSORB,8,ANESTHETIZE,8,POISONIVY,12,SUPERSONIC,15,TACKLE,16,MEGADRAIN,20,BARETEETH,24,MUDSHOT,28,HEX,32,FLASHSEED,36,PUFFBALL,40,GROWTH,44,GIGADRAIN,48,EARTHPOWER,52,POWERWHIP
+LineMoves = ACIDBALL,ACIDSPRAY,BULLETSEED,CONFUSERAY,DAZZLINGGLEAM,EARTHPOWER,ENERGYBALL,ENVENOM,FLASHCANNON,FLASHSEED,FOULPLAY,GIGADRAIN,GIGAIMPACT,GRASSKNOT,HEX,HYPERBEAM,KNOCKOFF,LEAFSTORM,LEECHSEED,LIGHTSCREEN,LUNGE,MAGICALLEAF,MIRRORCOAT,MISTLETOE,MUDSHOT,NATURALPROTECTION,PAINSPLIT,POISONSPIKES,RAINSTORM,RAKE,RAPIDSPIN,REFLECT,SANDTOSS,SCARYFACE,SOLARBEAM,SOLARGLIDE,SPIKES,SWIFT,TAUNT,TICKLE,VENOSHOCK
+Tribes = DECEIVER
+StepsToHatch = 5120
+Height = 0.9
+Weight = 33.0
+Kind = Woodear
+Pokedex = Toedscool lives in muggy forests. The flaps that fall from its body are chewy and very delicious.
+Generation = 9
+WildItemUncommon = TINYMUSHROOM
+Evolutions = TOEDSCRUEL,Level,34
+#-------------------------------
+[TOEDSCRUEL]
+Name = Toedscruel
+Type1 = GROUND
+Type2 = GRASS
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 80,70,65,100,80,120
+# Total = 515
+BaseEXP = 100
+Rareness = 90
+Happiness = 50
+Abilities = JUGGERNAUT
+StepsToHatch = 5120
+Height = 1.9
+Weight = 58.0
+Kind = Woodear
+Pokedex = These Pokémon gather into groups and form colonies deep within forests. They absolutely hate it when strangers approach.
+Generation = 9
+WildItemCommon = TINYMUSHROOM
+#-------------------------------
+[KLAWF]
+Name = Klawf
+Type1 = ROCK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 100,105,120,35,80,75
+# Total = 515
+BaseEXP = 100
+Rareness = 120
+Happiness = 50
+Abilities = REGENERATOR
+Moves = 1,ROCKTHROW,1,SCRATCH,6,HARDEN,9,SMASH,13,ROCKTOMB,17,METALCLAW,21,PROTECT,24,ROCKBLAST,29,XSCISSOR,33,SWORDSDANCE,37,FLAIL,42,ROCKALANCHE,47,TRAMPLE,51,IRONDEFENSE
+LineMoves = ANCIENTPOWER,BODYSLAM,BRICKBREAK,BULLDOZE,DIG,EARTHPOWER,ENDEAVOR,FACADE,FLING,GIGAIMPACT,HELPINGHAND,HYPERBEAM,IRONDEFENSE,KNOCKOFF,METALCLAW,METEORBEAM,MISTLETOE,MUDSHOT,POWERGEM,RAINSTORM,RAKE,ROCKALANCHE,ROCKBLAST,ROCKTHROW,ROCKTOMB,SANDSTORM,SANDTOSS,SCARYFACE,SHADOWCLAW,STEALTHROCK,STOMPINGTANTRUM,STONEEDGE,SUNSHINE,SWORDSDANCE,TAKEDOWN,THIEF,THROATCHOP,TRAMPLE,XSCISSOR
+Tribes = BUSHWHACKER
+StepsToHatch = 8960
+Height = 1.3
+Weight = 79.0
+Kind = Ambush
+Pokedex = Klawf hangs upside-down from cliffs, waiting for prey. But Klawf can't remain in this position for long because its blood rushes to its head.
+Generation = 9
+#-------------------------------
+[CAPSAKID]
+Name = Capsakid
+Type1 = GRASS
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 50,60,40,50,60,40
+# Total = 300
+BaseEXP = 100
+Rareness = 190
+Happiness = 50
+Abilities = STUBBORN,CHLOROPHYLL
+Moves = 1,LEAFAGE,1,LEER,4,BITE,10,GROWTH,13,RAZORLEAF,17,SUNSHINE,19,FIREFANG,21,BULLETSEED,24,HEADBUTT,28,ZENHEADBUTT,33,COTTONSPORE,34,FLAMETHROWER,38,CRUNCH,44,FLASHSEED,48,SOLARBEAM,52,OVERHEAT
+LineMoves = ACCELEROCK,BULLETSEED,BURNINGJEALOUSY,COTTONSPORE,CRUNCH,ENDEAVOR,ENERGYBALL,FACADE,FIREBLAST,FIREFANG,FLAMETHROWER,FLASHSEED,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GREYMIST,HELPINGHAND,HYPERBEAM,LASHOUT,LEAFSTORM,LEECHSEED,MAGICALLEAF,MISTLETOE,OVERHEAT,SANDSTORM,SCARYFACE,SOLARBEAM,SOLARGLIDE,STOMPINGTANTRUM,SUNSHINE,SUPERFANG,TAKEDOWN,THIEF,WILLOWISP,ZENHEADBUTT
+Tribes = TYRANNICAL
+StepsToHatch = 5120
+Height = 0.3
+Weight = 3.0
+Kind = Spicy Pepper
+Pokedex = The more sunlight this Pokémon bathes in, the more spicy chemicals are produced by its body, and thus the spicier its moves become.
+Generation = 9
+Evolutions = SCOVILLAIN,Level,19
+#-------------------------------
+[SCOVILLAIN]
+Name = Scovillain
+Type1 = GRASS
+Type2 = FIRE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 65,110,55,75,110,55
+# Total = 470
+BaseEXP = 100
+Rareness = 75
+Happiness = 50
+Abilities = STUBBORN,CHLOROPHYLL
+StepsToHatch = 5120
+Height = 0.9
+Weight = 15.0
+Kind = Spicy Pepper
+Pokedex = The red head converts spicy chemicals into fire energy and blasts the surrounding area with a super spicy stream of flame.
+Generation = 9
+Evolutions = CHILLIONAIRE,Item,FIRESTONE
+#-------------------------------
+[CHILLIONAIRE]
+Name = Chillionaire
+Type1 = GRASS
+Type2 = FIRE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 65,135,85,75,135,85
+# Total = 580
+BaseEXP = 100
+Rareness = 75
+Happiness = 50
+Abilities = STUBBORN,CHLOROPHYLL
+StepsToHatch = 5120
+Height = 1.2
+Weight = 22.0
+Kind = Spicy Pepper
+Pokedex = The green head has turned vicious due to the spicy chemicals stimulating its brain. Once it goes on a rampage, there is no stopping it.
+Generation = 9
+#-------------------------------
+[RELLOR]
+Name = Rellor
+Type1 = BUG
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 55,35,70,100,90,30
+# Total = 380
+BaseEXP = 100
+Rareness = 190
+Happiness = 50
+Abilities = SHEDSKIN,FILTER
+Moves = 0,NATURALPROTECTION,0,PSYCHUP,1,CURLUP,1,TACKLE,4,SANDTOSS,7,STRUGGLEBUG,11,ACCELEROCK,15,MUDSHOT,15,PSYBEAM,20,BUGBITE,24,TAKEDOWN,29,DIG,29,PIERCINGDOUBT,35,LUNGE,45,BUGBUZZ,50,NEURALPULSE
+LineMoves = ACIDBALL,BUGBITE,BUGBUZZ,CALMMIND,CONFUSERAY,CURLUP,DAZZLINGGLEAM,DIG,EARTHPOWER,EERIESPELL,ELECTROBALL,ENERGYBALL,FACADE,FLING,FUTURESIGHT,GIGAIMPACT,GRAVITY,GUNKSHOT,HYPERBEAM,IRONDEFENSE,LEECHLIFE,LIGHTSCREEN,LUNGE,MEMENTO,MUDSHOT,NEURALPULSE,POUNCE,POWERGEM,PSYBEAM,PSYCHUP,PSYPIERCE,RAINSTORM,RAKE,RECOVER,REFLECT,RISINGPOWER,ROCKTOMB,SANDSTORM,SANDTOSS,SHADOWBALL,SKILLSWAP,STRUGGLEBUG,SUNSHINE,SWITCHEROO,TAKEDOWN,THIEF,TOTALCONTROL,TUTELAGE,WEATHERBURST,XSCISSOR
+Tribes = ESOTERIC
+StepsToHatch = 5120
+Height = 0.2
+Weight = 1.0
+Kind = Rolling
+Pokedex = This Pokémon creates a mud ball by mixing sand and dirt with psychic energy. It treasures its mud ball more than its own life.
+Generation = 9
+Evolutions = RABSCA,Level,32
+#-------------------------------
+[RABSCA]
+Name = Rabsca
+Type1 = BUG
+Type2 = PSYCHIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 75,50,100,145,125,45
+# Total = 540
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = SHEDSKIN,FILTER
+Tribes = ESOTERIC,RADIANT
+StepsToHatch = 5120
+Height = 0.3
+Weight = 3.5
+Kind = Rolling
+Pokedex = The body that supports the ball barely moves. Therefore, it is thought that the true body of this Pokémon is actually inside the ball.
+Generation = 9
+#-------------------------------
+[FLITTLE]
+Name = Flittle
+Type1 = PSYCHIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 65,60,45,80,90,45
+# Total = 385
+BaseEXP = 100
+Rareness = 120
+Happiness = 50
+Abilities = PETTY,SPEEDBOOST
+Moves = 1,DRILLPECK,1,FEATHERDANCE,1,GROWL,1,PECK,5,MINDWAVES,8,BABYDOLLEYES,11,DISARMINGVOICE,15,QUICKATTACK,19,PSYBEAM,24,PLUCK,29,AGILITY,34,UPROAR,43,DAZZLINGGLEAM,49,NEURALPULSE,54,LASTRESORT
+LineMoves = AGILITY,BODYSLAM,BRAVEBIRD,CALMMIND,CONFUSERAY,DAZZLINGGLEAM,DISARMINGVOICE,DOUBLEEDGE,ENERGYBALL,FACADE,FEATHERDANCE,FLASHCANNON,FLASHSEED,FOULPLAY,GIGAIMPACT,HELPINGHAND,HEX,HYPERBEAM,HYPERVOICE,LIGHTSCREEN,LULLABY,NEURALPULSE,POUNCE,PSYBEAM,PSYCHUP,PSYPIERCE,RAINSTORM,REFLECT,RETREAT,RISINGPOWER,ROOST,SANDSTORM,SANDTOSS,SHADOWBALL,SKILLSWAP,SUNSHINE,SWIFT,SWITCHEROO,TAKEDOWN,THIEF,UPROAR,UTURN,ZENHEADBUTT
+Tribes = NOBLE,SERENE
+StepsToHatch = 5120
+Height = 0.2
+Weight = 1.5
+Kind = Frill
+Pokedex = Flittle's toes levitate about half an inch above the ground because of the psychic power emitted from the frills on the Pokémon's belly.
+Generation = 9
+Evolutions = ESPATHRA,Level,35
+#-------------------------------
+[ESPATHRA]
+Name = Espathra
+Type1 = PSYCHIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 95,80,60,105,120,60
+# Total = 520
+BaseEXP = 100
+Rareness = 60
+Happiness = 50
+Abilities = PETTY,SPEEDBOOST
+StepsToHatch = 5120
+Height = 1.9
+Weight = 90.0
+Kind = Ostrich
+Pokedex = It immobilizes opponents by bathing them in psychic power from its large eyes. Despite its appearance, it has a vicious temperament.
+Generation = 9
+#-------------------------------
+[TINKATINK]
+Name = Tinkatink
+Type1 = FAIRY
+Type2 = STEEL
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 50,60,45,55,40,60
+# Total = 310
+GenderRate = AlwaysFemale
+BaseEXP = 100
+Rareness = 190
+Happiness = 50
+Abilities = JUGGERNAUT,NOGUARD
+Moves = 1,ASTONISH,1,FAIRYWIND,5,BABYDOLLEYES,8,METALCLAW,11,COVET,14,SMASH,17,DRAININGKISS,21,SWEETKISS,24,BRUTALSWING,31,FLASHCANNON,35,PLAYROUGH,39,FAKEOUT,43,BACKHAND,52,KNOCKOFF
+LineMoves = BRICKBREAK,BULLDOZE,DRAININGKISS,ENCORE,ENDEAVOR,FACADE,FAKETEARS,FLASHCANNON,FLING,FOULPLAY,HEAVYSLAM,HELPINGHAND,ICEBERGBASH,KNOCKOFF,LIGHTSCREEN,METALCLAW,METALSOUND,METRONOME,NUMB,PLAYROUGH,POUNCE,QUASH,REFLECT,ROCKALANCHE,ROCKTHROW,ROCKTOMB,SKILLSWAP,STEALTHROCK,STEELBEAM,STONEEDGE,SWORDSDANCE,THIEF
+Tribes = BUSHWHACKER,SCRAPPER
+StepsToHatch = 5120
+Height = 0.4
+Weight = 8.9
+Kind = Metalsmith
+Pokedex = It swings its handmade hammer around to protect itself, but the hammer is often stolen by Pokémon that eat metal.
+Generation = 9
+Evolutions = TINKATUFF,Level,21
+#-------------------------------
+[TINKATUFF]
+Name = Tinkatuff
+Type1 = FAIRY
+Type2 = STEEL
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 65,80,60,75,55,80
+# Total = 415
+GenderRate = AlwaysFemale
+BaseEXP = 100
+Rareness = 90
+Happiness = 50
+Abilities = JUGGERNAUT,NOGUARD
+StepsToHatch = 5120
+Height = 0.7
+Weight = 59.1
+Kind = Hammer
+Pokedex = This Pokémon will attack groups of Pawniard and Bisharp, gathering metal from them in order to create a large and sturdy hammer.
+Generation = 9
+Evolutions = TINKATON,Level,38
+#-------------------------------
+[TINKATON]
+Name = Tinkaton
+Type1 = FAIRY
+Type2 = STEEL
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 85,100,75,94,70,105
+# Total = 529
+GenderRate = AlwaysFemale
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = JUGGERNAUT,NOGUARD
+StepsToHatch = 5120
+Height = 0.7
+Weight = 112.8
+Kind = Hammer
+Pokedex = This intelligent Pokémon has a very daring disposition. It knocks rocks into the sky with its hammer, aiming for flying Corviknight.
+Generation = 9
+#-------------------------------
+[WIGLETT]
+Name = Wiglett
+Type1 = DRAGON
+Type2 = ROCK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 45,90,45,45,65,95
+# Total = 385
+BaseEXP = 100
+Rareness = 255
+Happiness = 50
+Abilities = INTROVERT,GOOEY
+Moves = 1,WATERGUN,4,SANDTOSS,12,AQUAJET,20,TAKEDOWN,20,WHELM,24,HEADBUTT,28,DIG,32,SUCKERPUNCH,36,THROATCHOP,40,LIQUIDATION
+LineMoves = AGILITY,AQUASHOCK,BLIZZARD,BULLDOZE,CLAMP,DIG,EARTHPOWER,FACADE,FINALGAMBIT,FOULPLAY,GIGAIMPACT,HELPINGHAND,HYDROPUMP,HYPERBEAM,ICEBEAM,LIQUIDATION,MEMENTO,MUDSHOT,PAINSPLIT,PRESSURESTREAM,RAINSTORM,SANDSTORM,SANDTOSS,STOMPINGTANTRUM,SURF,SWIFT,TAKEDOWN,THROATCHOP,WHELM
+Tribes = DECEIVER,SCAVENGER
+StepsToHatch = 5120
+Height = 1.2
+Weight = 1.8
+Kind = Garden Eel
+Pokedex = This Pokémon can pick up the scent of a Veluza just over 65 feet away and will hide itself in the sand.
+Generation = 9
+Evolutions = WUGTRIO,Level,26
+#-------------------------------
+[WUGTRIO]
+Name = Wugtrio
+Type1 = DRAGON
+Type2 = ROCK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 65,125,60,60,90,135
+# Total = 535
+BaseEXP = 100
+Rareness = 50
+Happiness = 50
+Abilities = INTROVERT,GOOEY
+StepsToHatch = 5120
+Height = 1.2
+Weight = 5.4
+Kind = Garden Eel
+Pokedex = It has a vicious temperament, contrary to what its appearance may suggest. It wraps its long bodies around prey, then drags the prey into its den.
+Generation = 9
+#-------------------------------
+[BOMBIRDIER]
+Name = Bombirdier
+Type1 = FLYING
+Type2 = DARK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 80,115,95,72,95,95
+# Total = 552
+BaseEXP = 100
+Rareness = 25
+Happiness = 50
+Abilities = FRUSTRATE
+Moves = 1,AERIALACE,1,HONECLAWS,1,LEER,1,MEMENTO,1,PECK,7,THIEF,11,ROCKTHROW,16,WHIRLWIND,20,PLUCK,24,TORMENT,29,ROCKTOMB,36,PAYBACK,42,DUALWINGBEAT,47,ROCKALANCHE,53,KNOCKOFF,60,PARTINGSHOT
+LineMoves = ACROBATICS,AIRSLASH,BRAVEBIRD,CYCLONE,DARKPULSE,DREAMDANCE,DRILLRUN,DUALWINGBEAT,ENDEAVOR,FACADE,FEATHERDANCE,FLY,FOULPLAY,GIGAIMPACT,HEATWAVE,HYPERBEAM,HYPERVOICE,ICYWIND,KNOCKOFF,LASHOUT,POWERGEM,PSYCHUP,RAINSTORM,ROCKALANCHE,ROCKBLAST,ROCKTOMB,ROOST,SANDSTORM,SCARYFACE,SNARL,SQUALLDART,STEALTHROCK,STONEEDGE,SUCKERPUNCH,SUNSHINE,TAILWIND,TAKEDOWN,TAUNT,THIEF,UTURN
+Tribes = ARTILLERY,CARETAKER
+StepsToHatch = 8960
+Height = 1.5
+Weight = 42.9
+Kind = Item Drop
+Pokedex = It gathers things up in an apron made from shed feathers added to the Pokémon's chest feathers, then drops those things from high places for fun.
+Generation = 9
+#-------------------------------
+[VAROOM]
+Name = Varoom
+Type1 = STEEL
+Type2 = POISON
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 55,95,65,70,40,55
+# Total = 380
+BaseEXP = 100
+Rareness = 190
+Happiness = 50
+Abilities = SPEEDBOOST,SLOWSTART
+Moves = 1,LICK,1,POISONGAS,4,SMOG,7,TAUNT,10,ASSURANCE,13,SLUDGE,17,GYROBALL,21,HEADBUTT,25,BARETEETH,28,IRONHEAD,32,BACKHAND,36,POISONJAB,41,UPROAR,50,GUNKSHOT
+LineMoves = ACIDBALL,ACIDSPRAY,BODYSLAM,BULLDOZE,DOUBLEEDGE,ENDEAVOR,ENVENOM,FACADE,FLASHCANNON,GIGAIMPACT,GREYMIST,GUNKSHOT,GYROBALL,HEAVYSLAM,HYPERBEAM,IRONDEFENSE,IRONHEAD,LASHOUT,METALSOUND,OVERHEAT,PARTINGSHOT,POISONJAB,POISONSPIKES,RAINSTORM,SANDSTORM,SCARYFACE,SELFDESTRUCT,SLUDGEWAVE,STEELBEAM,SUNSHINE,TAKEDOWN,TAUNT,THIEF,TORMENT,TRAMPLE,UPROAR,VENOSHOCK,ZENHEADBUTT
+Tribes = ANIMATED,STAMPEDE
+StepsToHatch = 5120
+Height = 1.0
+Weight = 35.0
+Kind = Single-Cyl
+Pokedex = It is said that this Pokémon was born when an unknown poison Pokémon entered and inspirited an engine left at a scrap-processing factory.
+Generation = 9
+Evolutions = REVAVROOM,Level,33
+#-------------------------------
+[REVAVROOM]
+Name = Revavroom
+Type1 = STEEL
+Type2 = POISON
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 80,130,90,100,55,75
+# Total = 530
+BaseEXP = 100
+Rareness = 75
+Happiness = 50
+Abilities = SPEEDBOOST,FILTER
+Moves = 0,SHIFTGEAR
+StepsToHatch = 5120
+Height = 1.8
+Weight = 120.0
+Kind = Multi-Cyl
+Pokedex = It creates a gas out of poison and minerals from rocks. It then detonates the gas in its cylinders— now numbering eight—to generate energy.
+Generation = 9
+#-------------------------------
+[ORTHWORM]
+Name = Orthworm
+Type1 = STEEL
+Type2 = GROUND
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 70,85,145,65,60,100
+# Total = 525
+BaseEXP = 100
+Rareness = 25
+Happiness = 50
+Abilities = LEVITATE,IRONFIST
+Moves = 1,HARDEN,1,TACKLE,7,SANDTOSS,12,ROCKTHROW,16,BULLDOZE,21,IRONHEAD,26,TAKEDOWN,30,DIG,34,SANDSTORM,38,IRONDEFENSE,43,POWERHAMMER,47,EARTHQUAKE
+LineMoves = BODYPRESS,BODYSLAM,BULLDOZE,COIL,DIG,DOUBLEEDGE,EARTHPOWER,EARTHQUAKE,FACADE,FLASHCANNON,GIGAIMPACT,HEAVYSLAM,HELPINGHAND,HYPERBEAM,IRONDEFENSE,IRONHEAD,METALSOUND,MUDSHOT,PITFALL,ROCKALANCHE,ROCKBLAST,ROCKTOMB,SANDSTORM,SANDTOSS,SPIKES,STEALTHROCK,STEELBEAM,STOMPINGTANTRUM,TAKEDOWN,TRAMPLE
+Tribes = SCAVENGER
+StepsToHatch = 8960
+Height = 2.5
+Weight = 310.0
+Kind = Earthworm
+Pokedex = When attacked, this Pokémon will wield the tendrils on its body like fists and pelt the opponent with a storm of punches.
+Generation = 9
+#-------------------------------
+[GLIMMET]
+Name = Glimmet
+Type1 = ROCK
+Type2 = POISON
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 50,35,55,55,80,50
+# Total = 325
+BaseEXP = 100
+Rareness = 70
+Happiness = 50
+Abilities = MERCILESS
+Moves = 1,HARDEN,1,POISONSPIKES,1,ROCKTHROW,1,SPIKYSHIELD,7,ACIDSPRAY,11,ANCIENTPOWER,15,ROCKPOLISH,18,STEALTHROCK,22,VENOSHOCK,26,SANDSTORM,29,SELFDESTRUCT,33,ROCKALANCHE,37,POWERGEM,41,IRONDEFENSE,46,SLUDGEWAVE
+LineMoves = ACIDBALL,ACIDSPRAY,CONFUSERAY,DAZZLINGGLEAM,EARTHPOWER,ENERGYBALL,ENVENOM,EXPLOSION,FACADE,FLASHCANNON,GIGAIMPACT,GUNKSHOT,HYPERBEAM,IRONDEFENSE,LIGHTSCREEN,MEMENTO,METEORBEAM,MUDSHOT,PITFALL,POISONSPIKES,POWERGEM,RAINSTORM,REFLECT,ROCKALANCHE,ROCKBLAST,ROCKTHROW,ROCKTOMB,SANDSTORM,SLUDGEWAVE,SOLARBEAM,SPIKES,STEALTHROCK,STONEEDGE,SUNSHINE,VENOSHOCK
+Tribes = SERENE
+StepsToHatch = 7680
+Height = 0.7
+Weight = 8.0
+Kind = Ore
+Pokedex = It absorbs nutrients from cave walls. The petals it wears are made of crystallized poison.
+Generation = 9
+Evolutions = GLIMMORA,Level,35
+#-------------------------------
+[GLIMMORA]
+Name = Glimmora
+Type1 = ROCK
+Type2 = POISON
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 65,45,70,70,105,65
+# Total = 420
+BaseEXP = 100
+Rareness = 25
+Happiness = 50
+Abilities = MERCILESS
+StepsToHatch = 7680
+Height = 1.5
+Weight = 45.0
+Kind = Ore
+Pokedex = When this Pokémon detects danger, it will open up its crystalline petals and fire beams from its conical body.
+Generation = 9
+#-------------------------------
+[GLIMMORBIT]
+Name = Glimmorbit
+Type1 = ROCK
+Type2 = POISON
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 85,55,90,86,130,80
+# Total = 526
+BaseEXP = 100
+Rareness = 25
+Happiness = 50
+Abilities = MERCILESS
+StepsToHatch = 7680
+Height = 2.8
+Weight = 77.0
+Kind = Ore
+Pokedex = Glimmora’s petals are made of crystallized poison energy. It has recently become evident that these petals resemble Tera Jewels.
+Generation = 9
+#-------------------------------
+[GREAVARD]
+Name = Greavard
+Type1 = GHOST
+Type2 = ROCK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 55,75,65,55,80,50
+# Total = 380
+BaseEXP = 100
+Rareness = 120
+Happiness = 50
+Abilities = FLUFFY,SANDRUSH
+Moves = 1,GROWL,1,TACKLE,3,LICK,6,BITE,6,SMIRK,9,ROAR,12,HEADBUTT,16,DIG,24,REST,28,CRUNCH,32,PLAYROUGH,37,HELPINGHAND,41,VIMRIPPER,46,CHARM,52,DOUBLEEDGE
+LineMoves = BODYPRESS,BULLDOZE,CHARM,CONFUSERAY,CRUNCH,DESTINYBOND,DIG,DISABLE,DOUBLEEDGE,ENDEAVOR,FACADE,FIREFANG,GIGAIMPACT,HELPINGHAND,HEX,HOWL,HYPERBEAM,ICEFANG,MEMENTO,MUDSHOT,PAINSPLIT,PLAYROUGH,PSYCHICFANGS,RAINSTORM,ROAR,SANDSTORM,SCARYFACE,SHADOWBALL,SHADOWSNEAK,SNARL,STOMPINGTANTRUM,SUNSHINE,SWITCHEROO,TAKEDOWN,THIEF,THUNDERFANG,UPROAR,WILLOWISP,YAWN
+Tribes = LOYAL
+StepsToHatch = 5120
+Height = 0.6
+Weight = 35.0
+Kind = Ghost Dog
+Pokedex = It is said that a dog Pokémon that died in the wild without ever interacting with a human was reborn as this Pokémon.
+Generation = 9
+Evolutions = HOUNDSTONE,Level,30
+#-------------------------------
+[HOUNDSTONE]
+Name = Houndstone
+Type1 = GHOST
+Type2 = ROCK
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 80,105,90,75,115,70
+# Total = 535
+BaseEXP = 100
+Rareness = 60
+Happiness = 50
+Abilities = FLUFFY,SANDRUSH
+StepsToHatch = 5120
+Height = 2.0
+Weight = 15.0
+Kind = Ghost Dog
+Pokedex = Houndstone spends most of its time sleeping in graveyards. Among all the dog Pokémon, this one is most loyal to its master.
+Generation = 9
+#-------------------------------
+[FLAMIGO]
+Name = Flamigo
+Type1 = FLYING
+Type2 = FIGHTING
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 80,115,75,100,75,75
+# Total = 520
+BaseEXP = 100
+Rareness = 100
+Happiness = 50
+Abilities = PUREENERGY
+Moves = 1,COACHING,1,PECK,5,DOUBLEKICK,9,PROTECT,12,AERIALACE,15,FOCUSENERGY,18,SCUFFLE,27,PAYBACK,31,ROOST,35,AIRSLASH,39,HIGHJUMPKICK,44,WIDEGUARD,48,THROATCHOP,54,BRAVEBIRD
+LineMoves = ACROBATICS,AGILITY,AIRSLASH,AQUASHOCK,BRAVEBIRD,BULKUP,CYCLONE,DUALWINGBEAT,ENDEAVOR,FACADE,FEATHERDANCE,FLING,FLY,GIGAIMPACT,HYPERBEAM,LIQUIDATION,LOWSWEEP,LUNGE,POUNCE,PSYCHUP,QUICKGUARD,SQUALLDART,SUPERPOWER,SWORDSDANCE,TAILWIND,TAKEDOWN,TAUNT,THIEF,THROATCHOP,UTURN,WHELM
+Tribes = SCRAPPER,SERENE
+StepsToHatch = 5120
+Height = 1.6
+Weight = 37.0
+Kind = Synchronize
+Pokedex = This Pokémon apparently ties the base of its neck into a knot so that energy stored in its belly does not escape from its beak.
+Generation = 9
+#-------------------------------
+[CETODDLE]
+Name = Cetoddle
+Type1 = ICE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 125,85,45,55,35,40
+# Total = 385
+BaseEXP = 100
+Rareness = 150
+Happiness = 50
+Abilities = THICKFAT,SLEETSHAKER
+Moves = 1,POWDERSNOW,1,TACKLE,6,GROWL,9,ECHOEDVOICE,12,ICESHARD,15,REST,19,TAKEDOWN,25,FLAIL,27,ICEBERGBASH,36,BODYSLAM,40,AMNESIA,44,GLACIALRAM,49,DOUBLEEDGE,53,BLIZZARD
+LineMoves = AMNESIA,AQUASHOCK,BELLYDRUM,BLIZZARD,BODYPRESS,BODYSLAM,BULLDOZE,CHARM,DOUBLEEDGE,EARTHQUAKE,ENTRAINMENT,FACADE,GIGAIMPACT,GLACIALRAM,HAIL,HEAVYSLAM,HELPINGHAND,HYPERBEAM,HYPERVOICE,ICEBEAM,ICEBERGBASH,ICEFANG,ICEPUNCH,ICICLESPEAR,ICYWIND,KNOCKOFF,LIQUIDATION,PLAYROUGH,RAINSTORM,STOMPINGTANTRUM,SUPERPOWER,TAKEDOWN,TRAMPLE,WHELM,YAWN
+Tribes = STAMPEDE
+StepsToHatch = 6400
+Height = 1.2
+Weight = 45.0
+Kind = Terra Whale
+Pokedex = This species left the ocean and began living on land a very long time ago. It seems to be closely related to Wailmer.
+Generation = 9
+Evolutions = CETITAN,Item,ICESTONE
+#-------------------------------
+[CETITAN]
+Name = Cetitan
+Type1 = ICE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 170,115,65,73,45,55
+# Total = 523
+BaseEXP = 100
+Rareness = 50
+Happiness = 50
+Abilities = THICKFAT,SLEETSHAKER
+StepsToHatch = 6400
+Height = 4.5
+Weight = 700.0
+Kind = Terra Whale
+Pokedex = This Pokémon wanders around snowy, icy areas. It protects its body with powerful muscles and a thick layer of fat under its skin.
+Generation = 9
+#-------------------------------
+[VELUZA]
+Name = Veluza
+Type1 = WATER
+Type2 = STEEL
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 95,115,70,115,70,95
+# Total = 560
+BaseEXP = 100
+Rareness = 100
+Happiness = 50
+Abilities = BITEY,SWORDPLAY
+Moves = 1,AQUAJET,1,TACKLE,7,PECK,11,WHELM,15,FOCUSENERGY,20,SLASH,25,DRAGBENEATH,30,FLIPTURN,35,NIGHTSLASH,40,PSYCHOCUT,45,LIQUIDATION,50,CRUNCH,55,FINALGAMBIT
+LineMoves = AGILITY,AQUASHOCK,BLIZZARD,BODYSLAM,CRUNCH,DOUBLEEDGE,DRILLRUN,ENDEAVOR,FLIPTURN,GIGAIMPACT,HAIL,HYDROPUMP,HYPERBEAM,ICEBEAM,ICEFANG,ICYWIND,LIQUIDATION,NEURALPULSE,PAINSPLIT,PLUCK,PSYCHICFANGS,RAINSTORM,RECOVER,RISINGPOWER,SURF,TAKEDOWN,THRASH,TOTALCONTROL,WATERFALL,WHELM,ZENHEADBUTT
+Tribes = NOBLE,WARRIOR
+StepsToHatch = 5120
+Height = 2.5
+Weight = 90.0
+Kind = Jettison
+Pokedex = When Veluza discards unnecessary flesh, its mind becomes honed and its psychic power increases. The spare flesh has a mild but delicious flavor.
+Generation = 9
+#-------------------------------
+[DONDOZO]
+Name = Dondozo
+Type1 = WATER
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 150,100,115,35,65,65
+# Total = 530
+BaseEXP = 100
+Rareness = 25
+Happiness = 50
+Abilities = UNAWARE,GLUTTONY
+Moves = 1,SUPERSONIC,1,TACKLE,1,WATERGUN,5,TICKLE,10,FLAIL,15,REST,20,DIVE,25,NOBLEROAR,35,BODYSLAM,40,DRAGBENEATH,45,RAINSTORM,55,HEAVYSLAM,60,DOUBLEEDGE,65,HARBORBREAKER
+LineMoves = AQUASHOCK,BODYPRESS,BODYSLAM,BULLDOZE,CRUNCH,DOUBLEEDGE,EARTHQUAKE,FACADE,GIGAIMPACT,HEAVYSLAM,HYDROPUMP,HYPERBEAM,ICEBERGBASH,ICEFANG,LIQUIDATION,OUTRAGE,RAINSTORM,ROCKALANCHE,SCARYFACE,STOMPINGTANTRUM,SURF,TAKEDOWN,THRASH,WATERFALL,WHELM,YAWN,ZENHEADBUTT
+Tribes = INDUSTRIOUS,TYRANNICAL
+StepsToHatch = 10240
+Height = 12.0
+Weight = 220.0
+Kind = Big Catfish
+Pokedex = This Pokémon is a glutton, but it's bad at getting food. It teams up with a Tatsugiri to catch prey.
+Generation = 9
+#-------------------------------
+[TATSUGIRI]
+Name = Tatsugiri
+Type1 = DRAGON
+Type2 = WATER
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 70,50,60,82,120,95
+# Total = 477
+BaseEXP = 100
+Rareness = 100
+Happiness = 50
+Abilities = ADAPTED
+Moves = 1,FLOUNDER,1,WATERGUN,6,HARDEN,12,HELPINGHAND,17,WHELM,28,TAUNT,34,MEMENTO,39,PRESSURESTREAM,43,DREAMDANCE,47,MIRRORCOAT,52,DRAGONPULSE
+LineMoves = AQUASHOCK,CLAMP,COUNTER,DRACOMETEOR,DRAGONDANCE,DRAGONPULSE,DREAMDANCE,FACADE,GIGAIMPACT,HELPINGHAND,HYDROPUMP,HYPERBEAM,ICYWIND,LUNGE,OUTRAGE,PRESSURESTREAM,RAINSTORM,RAPIDSPIN,RETREAT,SURF,TAKEDOWN,TAUNT,WHELM
+Tribes = LOYAL
+StepsToHatch = 8960
+Height = 0.3
+Weight = 8.0
+Kind = Mimicry
+Pokedex = This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.
+FormName = Curly Form
+Generation = 9
+Evolutions = NIJIGIRI,Level,41
+#-------------------------------
+[NIJIGIRI]
+Name = Nijigiri
+Type1 = DRAGON
+Type2 = WATER
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 70,65,90,92,135,125
+# Total = 577
+BaseEXP = 100
+Rareness = 100
+Happiness = 50
+Abilities = ADAPTED
+Tribes = LOYAL
+StepsToHatch = 8960
+Height = 0.6
+Weight = 24.0
+Kind = Mimicry
+Pokedex = Tatsugiri is an extremely cunning Pokémon. It feigns weakness to lure in prey, then orders its partner to attack.
+FormName = Curly Form
+Generation = 9
+#-------------------------------
+[FRIGIBAX]
+Name = Frigibax
+Type1 = DRAGON
+Type2 = ICE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 60,75,45,60,35,45
+# Total = 320
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = FIREFIGHTER,MOUNTINGCHILL
+Moves = 1,DRAGONTAIL,1,ICESHARD,1,LEER,1,TACKLE,6,ICYWIND,12,DRAGONBREATH,16,BREAKINGSWIPE,18,FOCUSENERGY,24,BITE,29,ICEFANG,32,DRAGONCLAW,36,TAKEDOWN,40,ICEBEAM,44,CRUNCH,48,GLACIALCRUNCH
+LineMoves = BLIZZARD,BODYPRESS,BODYSLAM,BREAKINGSWIPE,BRICKBREAK,BULLDOZE,CARNAGE,CRUNCH,DIG,DOUBLEEDGE,DRACOMETEOR,DRAGBENEATH,DRAGONCLAW,DRAGONDANCE,DRAGONPULSE,DRAGONTAIL,EARTHQUAKE,FACADE,GIGAIMPACT,HAIL,HELPINGHAND,HOLDBACK,HYPERBEAM,ICEBEAM,ICEFANG,ICICLESPEAR,ICYWIND,IRONHEAD,OUTRAGE,RAINSTORM,SCARYFACE,STOMPINGTANTRUM,SWORDSDANCE,TAKEDOWN,THUNDERFANG,TRAMPLE,ZENHEADBUTT
+Tribes = TYRANNICAL,STAMPEDE
+StepsToHatch = 10240
+Height = 0.5
+Weight = 17.0
+Kind = Ice Fin
+Pokedex = Frigibax absorbs heat through its dorsal fin and converts the heat into ice energy. The higher the temperature, the more energy Frigibax stores.
+Generation = 9
+Evolutions = ARCTIBAX,Level,26
+#-------------------------------
+[ARCTIBAX]
+Name = Arctibax
+Type1 = DRAGON
+Type2 = ICE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 85,100,65,80,50,65
+# Total = 445
+BaseEXP = 100
+Rareness = 25
+Happiness = 50
+Abilities = FIREFIGHTER,MOUNTINGCHILL
+StepsToHatch = 10240
+Height = 0.8
+Weight = 30.0
+Kind = Ice Fin
+Pokedex = Arctibax freezes the air around it, protecting its face with an ice mask and turning its dorsal fin into a blade of ice.
+Generation = 9
+Evolutions = BAXCALIBUR,Level,44
+#-------------------------------
+[BAXCALIBUR]
+Name = Baxcalibur
+Type1 = DRAGON
+Type2 = ICE
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 115,135,90,107,65,85
+# Total = 597
+BaseEXP = 100
+Rareness = 10
+Happiness = 50
+Abilities = FIREFIGHTER,MOUNTINGCHILL
+StepsToHatch = 10240
+Height = 2.1
+Weight = 210.0
+Kind = Ice Dragon
+Pokedex = This Pokémon blasts cryogenic air out from its mouth. This air can instantly freeze even liquid-hot lava.
+Generation = 9
+#-------------------------------
+[GIMMIGHOUL]
+Name = Gimmighoul
+Type1 = GHOST
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 50,35,55,49,80,55
+# Total = 324
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = WARDING,GILD
+Moves = 1,ASTONISH,1,TACKLE
+LineMoves = CONFUSERAY,DREAMDANCE,HEX,LIGHTSCREEN,POWERGEM,REFLECT,SHADOWBALL,TAKEDOWN,THIEF
+Tribes = ANIMATED,INDUSTRIOUS
+StepsToHatch = 12800
+Height = 0.3
+Weight = 5.0
+Kind = Coin Hunter
+Pokedex = This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.
+Generation = 9
+Evolutions = GILDEGHAST,Level,20
+#-------------------------------
+[GILDEGHAST]
+Name = Gildeghast
+Type1 = GHOST
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 70,50,75,69,110,75
+# Total = 449
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = WARDING,GILD
+StepsToHatch = 1
+Height = 0.1
+Weight = 0.1
+Kind = Coin Chest
+Pokedex = It wanders around, carrying an old coin on its back. It survives by draining the life-force from humans who try to pick up its coin.
+Generation = 9
+Evolutions = GHOLDENGO,Level,40
+#-------------------------------
+[GHOLDENGO]
+Name = Gholdengo
+Type1 = STEEL
+Type2 = GHOST
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 85,60,95,84,135,90
+# Total = 549
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 45
+Happiness = 50
+Abilities = WARDING,GILD
+Moves = 7,DIRGE,14,CONFUSERAY,21,SUBSTITUTE,28,METALSOUND,35,SHADOWBALL,42,RECOVER,49,POWERGEM,56,STEELBEAM,63,DREAMDANCE,70,MEMENTO
+LineMoves = CHARGEBEAM,DAZZLINGGLEAM,ELECTROBALL,FLASHCANNON,FLING,FOCUSBLAST,FOCUSPUNCH,GIGAIMPACT,HEAVYSLAM,HYPERBEAM,IRONHEAD,LOWSWEEP,METALSOUND,NEURALPULSE,NUMB,PSYPIERCE,SANDSTORM,SIXFEETUNDER,STEELBEAM,SWITCHEROO,THUNDER,THUNDERBOLT,THUNDERPUNCH
+StepsToHatch = 12800
+Height = 1.2
+Weight = 30.0
+Kind = Coin Entity
+Pokedex = Its body seems to be made up of 1,000 coins. This Pokémon gets along well with others and is quick to make friends with anybody.
+Generation = 9
+#-------------------------------
+[CYCLIZAR]
+Name = Cyclizar
+Type1 = DRAGON
+Type2 = NORMAL
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 60,95,60,111,95,60
+# Total = 481
+BaseEXP = 100
+Rareness = 190
+Happiness = 50
+Abilities = REGENERATOR,SHEDSKIN
+Moves = 1,GROWL,1,TACKLE,7,RAPIDSPIN,11,TAUNT,14,BREAKINGSWIPE,18,QUICKATTACK,23,BITE,27,UTURN,36,DRAGONCLAW,40,SHIFTGEAR,45,DRAGONPULSE,51,DOUBLEEDGE,57,CARNAGE
+LineMoves = ACROBATICS,AGILITY,BODYSLAM,BREAKINGSWIPE,CRUNCH,DOUBLEEDGE,DRACOMETEOR,DRAGBENEATH,DRAGONCLAW,DRAGONPULSE,DRAGONTAIL,ENDEAVOR,FACADE,FIREFANG,GIGAIMPACT,HYPERBEAM,HYPERVOICE,IRONHEAD,KNOCKOFF,MISTLETOE,MUDSHOT,OUTRAGE,OVERHEAT,POWERHAMMER,POWERWHIP,RAINSTORM,SANDTOSS,SUNSHINE,TAKEDOWN,TAUNT,THIEF,THUNDERBOLT,THUNDERFANG,UPROAR,UTURN,WILDCHARGE
+Tribes = STAMPEDE
+StepsToHatch = 7680
+Height = 1.6
+Weight = 63.0
+Kind = Mount
+Pokedex = Apparently Cyclizar has been allowing people to ride on its back since ancient times. Depictions of this have been found in 10,000-year-old murals.
+Generation = 9
+#-------------------------------
+[KORAIDON]
+Name = Koraidon
+Type1 = DRAGON
+Type2 = FIGHTING
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 100,135,80,110,95,100
+# Total = 620
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 3
+Happiness = 0
+Abilities = REGENERATOR,ADAPTED
+Moves = 1,BREAKINGSWIPE,1,SUNSHINE,7,SMASH,14,ANCIENTPOWER,21,DRAINPUNCH,28,BRICKBREAK,35,AGILITY,42,DRAGONCLAW,49,FLAMETHROWER,63,BARETEETH,70,COUNTER,70,FLAREBLITZ,70,GIGAIMPACT,70,OUTRAGE,70,SUPERPOWER
+LineMoves = ACROBATICS,AGILITY,BODYPRESS,BODYSLAM,BREAKINGSWIPE,BRICKBREAK,BULKUP,BULLDOZE,CRUNCH,DIG,DOUBLEEDGE,DRACOMETEOR,DRAGONCLAW,DRAGONPULSE,DRAGONTAIL,DRAINPUNCH,DUALWINGBEAT,FACADE,FIREBLAST,FIREFANG,FIRESPIN,FLAMECHARGE,FLAMETHROWER,FLAREBLITZ,FOCUSBLAST,FOCUSPUNCH,GIGAIMPACT,HEATCRASH,HEATWAVE,HEAVYSLAM,HELPINGHAND,HYPERBEAM,ICEFANG,IRONHEAD,LOWSWEEP,METEORBEAM,MUDSHOT,OUTRAGE,OVERHEAT,ROAR,SCARYFACE,SHADOWCLAW,SNARL,SOLARBEAM,STOMPINGTANTRUM,SUNSHINE,SUPERPOWER,SWORDSDANCE,TAKEDOWN,TAUNT,THUNDERFANG,UPROAR,UTURN,WILDCHARGE,ZENHEADBUTT
+Tribes = ESOTERIC,STAMPEDE
+StepsToHatch = 12800
+Height = 2.5
+Weight = 303.0
+Kind = Paradox
+Pokedex = This seems to be the Winged King mentioned in an old expedition journal. It was said to have split the land with its bare fists.
+Generation = 9
+Flags = Paradox,Legendary
+#-------------------------------
+[MIRAIDON]
+Name = Miraidon
+Type1 = DRAGON
+Type2 = ELECTRIC
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 100,65,100,120,135,80
+# Total = 600
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 3
+Happiness = 0
+Abilities = ADAPTED
+Moves = 1,DRAGONBREATH,1,THUNDERSHOCK,7,SHOCKWAVE,14,CHARGE,21,PARABOLICCHARGE,28,ARCLAMP,35,AGILITY,42,DRAGONPULSE,63,METALSOUND,70,HYPERBEAM,70,MIRRORCOAT,70,OUTRAGE,70,OVERHEAT,70,THUNDER
+LineMoves = ACROBATICS,AGILITY,BODYSLAM,CALMMIND,CHARGE,CHARGEBEAM,CONFUSERAY,CRUNCH,DAZZLINGGLEAM,DRACOMETEOR,DRAGONCLAW,DRAGONPULSE,DRAGONTAIL,EERIEIMPULSE,ELECTROBALL,FACADE,FLASHCANNON,GIGAIMPACT,HEAVYSLAM,HELPINGHAND,HYPERBEAM,LIGHTSCREEN,METALSOUND,NUMB,OUTRAGE,OVERHEAT,POWERGEM,REFLECT,SCARYFACE,SNARL,SOLARBEAM,SWORDSDANCE,TAKEDOWN,TAUNT,THUNDER,THUNDERBOLT,UTURN,VOLTSWITCH,WILDCHARGE,ZENHEADBUTT
+Tribes = ANIMATED,STAMPEDE
+StepsToHatch = 12800
+Height = 3.5
+Weight = 240.0
+Kind = Paradox
+Pokedex = Much remains unknown about this creature. It resembles Cyclizar, but it is far more ruthless and powerful.
+Generation = 9
+Flags = Paradox,Legendary
+#-------------------------------
+[POLTCHAGEIST]
+Name = Poltchageist
+Type1 = GRASS
+Type2 = GHOST
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 65,45,75,50,85,60
+# Total = 380
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 120
+Happiness = 50
+Abilities = CHEEKPOUCH,HARSH
+Moves = 1,ANESTHETIZE,1,ASTONISH,1,CURLUP,6,ABSORB,12,LIFEDEW,18,FOULPLAY,24,MEGADRAIN,30,HEX,36,FOLLOWME,42,GIGADRAIN,42,STRENGTHSAP,48,SHADOWBALL,54,MEMENTO,60,LEAFSTORM
+TutorMoves = CALMMIND,CURSEDOATH,DREAMDANCE,ENDURE,ENERGYBALL,FOULPLAY,GIGADRAIN,HEX,HYPERBEAM,IRONDEFENSE,LEAFSTORM,MAGICALLEAF,PAINSPLIT,PROTECT,PSYCHUP,REFLECT,REST,SCALD,SHADOWBALL,SIXFEETUNDER,SOLARBEAM,SUBSTITUTE,UPROAR,VIMRIPPER
+Tribes = ANIMATED,FORTUNE
+StepsToHatch = 5120
+Height = 0.1
+Weight = 1.1
+Kind = Matcha
+Pokedex = Supposedly, the regrets of a tea ceremony master who died before perfecting his craft lingered in some matcha and became a Pokémon.
+FormName = Counterfeit Form
+Generation = 9
+Evolutions = SINISTCHA,Item,LEAFSTONE
+#-------------------------------
+[SINISTCHA]
+Name = Sinistcha
+Type1 = GRASS
+Type2 = GHOST
+# HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
+BaseStats = 90,60,105,70,120,80
+# Total = 525
+GenderRate = Genderless
+BaseEXP = 100
+Rareness = 60
+Happiness = 50
+Abilities = CHEEKPOUCH,HARSH
+StepsToHatch = 5120
+Height = 0.2
+Weight = 2.2
+Kind = Matcha
+Pokedex = It pretends to be tea, trying to fool people into drinking it so it can drain their life-force. Its ruse is generally unsuccessful.
+FormName = Unremarkable Form
+Generation = 9

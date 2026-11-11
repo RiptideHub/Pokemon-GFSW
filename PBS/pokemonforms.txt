@@ -1045,3 +1045,43 @@ Abilities = BREAKTHROUGH,NOGUARD
 Height = 2.7
 Weight = 330.0
 Pokedex = This special Ursaluna can see in the dark with its left eye and protects itself with mud that is as hard as iron.
+#-------------------------------
+[PTAUROS,1]
+FormName = Blaze Breed
+Moves = 1,LEER,1,TACKLE,5,WORKUP,10,DOUBLEKICK,15,FLAMECHARGE,20,HEADBUTT,25,SCARYFACE,30,ZENHEADBUTT,40,REST,45,BACKHAND,50,THRASH,55,FLAREBLITZ,60,SUPERPOWER
+Pokedex = People call this kind of Tauros the Blaze Breed due to the hot air it snorts from its nostrils. Its three tails are intertwined.
+#-------------------------------
+[PTAUROS,2]
+FormName = Aqua Breed
+Moves = 1,LEER,1,TACKLE,5,WORKUP,10,DOUBLEKICK,15,AQUAJET,20,HEADBUTT,25,SCARYFACE,30,ZENHEADBUTT,40,REST,45,BACKHAND,50,THRASH,55,HARBORBREAKER,60,SUPERPOWER
+Pokedex = It swims by jetting water from its horns. The most notable characteristic of the Aqua Breed is its high body fat, which allows it to float easily.
+#-------------------------------
+[OINKOLOGNE,1]
+FormName = Female
+Pokedex = This is a meticulous Pokémon that likes to keep things tidy. It shrouds itself in a floral aroma that soothes the Pokémon around it.
+#-------------------------------
+[TATSUGIRI,1]
+FormName = Droopy Form
+Pokedex = This species’ differing colors and patterns are apparently the result of Tatsugiri changing itself to suit the preferences of the prey it lures in.
+#-------------------------------
+[TATSUGIRI,2]
+FormName = Stretchy Form
+Pokedex = Bird Pokémon are its main prey. This Pokémon knows it’s weak, so it hunts with a partner.
+#-------------------------------
+[NIJIGIRI,1]
+FormName = Droopy Form
+#-------------------------------
+[NIJIGIRI,2]
+FormName = Stretchy Form
+#-------------------------------
+[SQUAWKABILLY,1]
+FormName = Blue Plumage
+Pokedex = Blue-feathered Squawkabilly view their green- feathered counterparts as rivals, since the latter make up the largest, most powerful groups.
+#-------------------------------
+[SQUAWKABILLY,2]
+FormName = Yellow Plumage
+Pokedex = The yellow Squawkabilly are especially fierce. They've even been known to drive other bird Pokémon out of town.
+#-------------------------------
+[SQUAWKABILLY,3]
+FormName = White Plumage
+Pokedex = Though these Squawkabilly are the fewest in number, they have no trouble living in towns since they blend in with the white buildings.

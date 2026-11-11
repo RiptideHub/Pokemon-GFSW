@@ -20,13 +20,11 @@ ShowArea = false
 Bicycle = false
 #-------------------------------
 [002]
-# MAP002
 Outdoor = false
 ShowArea = false
 Bicycle = false
 #-------------------------------
 [003]
-# MAP003
 Outdoor = false
 ShowArea = false
 Bicycle = false
