@@ -2,8 +2,8 @@
 #-------------------------------
 [000]
 Home = 32,9,7,2
-WildBattleBGM = Battle wild.ogg
-TrainerBattleBGM = DPPTTrainer.ogg
+WildBattleBGM = Battlewild.ogg
+TrainerBattleBGM = VsTrainer.ogg
 AvatarBattleBGM = Battle avatar.ogg
 LegendaryAvatarBattleBGM = Battle avatar legendary.ogg
 WildVictoryME = VICTORYWILDPOKEMONHGSS.ogg
@@ -12,3 +12,171 @@ BicycleBGM = BICYCLE2.ogg
 PlayerA = POKEMONTRAINER_Masculine,boy_walk,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,boy_fish_offset
 PlayerB = POKEMONTRAINER_Feminine,girl_walk,girl_bike,girl_surf,girl_run,girl_surf,girl_fish_offset,girl_fish_offset
 PlayerC = POKEMONTRAINER_Androgynous,girl_walk,girl_bike,girl_surf,girl_run,girl_surf,girl_fish_offset,girl_fish_offset
+#-------------------------------
+[001]
+# Intro - Alpha
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[002]
+# MAP002
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[003]
+# MAP003
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[004]
+# NewBark
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[005]
+# Route29
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[007]
+# Cherrygrove
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[009]
+# Route30_1
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[012]
+# Route30_2
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[013]
+# Route30_3
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[014]
+# MCH_1
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[016]
+# Route30_4
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[023]
+# Testing Map
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[147]
+# PokEstate
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[148]
+# PokEstate 1 - Forest
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[149]
+# PokEstate Base
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[150]
+# PokEstate 2 - City
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[151]
+# PokEstate 3 - Desert
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[152]
+# PokEstate 4 - Scrubland
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[153]
+# PokEstate 5 - Crag
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[154]
+# PokEstate 6 - Volcano
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[160]
+# PokEstate 7 - Snowy
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[161]
+# PokEstate 8 - Cave
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[162]
+# PokEstate 9 - Beach
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[163]
+# PokEstate 10 - Seafloor
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[164]
+# PokEstate 11 - River
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[169]
+# PokEstate 14 - Simple
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[170]
+# PokEstate 13 - Machine
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[172]
+# PokEstate 12 - Sky
+Outdoor = false
+ShowArea = false
+Bicycle = false

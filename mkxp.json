@@ -362,7 +362,7 @@
   // "Game.rgssad", but specifying the executable name here
   // is a tiny bit less intrusive.
   //
-  "execName": "Pokemon Godhood Reverie",
+  "execName": "Pokemon Golden Feathers",
 
   // Whether to force the game into debug mode and whether to compile the game.
   // Useful on JoiPlay and other emulators that can't natively

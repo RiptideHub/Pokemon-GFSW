@@ -12,8 +12,8 @@ soundfont.sf2
 selpoint.bmp
 RGSS104E.dll
 README.md
-Pokemon Godhood Reverie.rxproj
-Pokemon Godhood Reverie.ini
+Pokemon Golden Feathers.rxproj
+Pokemon Golden Feathers.ini
 mkxp.json
 LICENSE
 knownpoints.bmp
