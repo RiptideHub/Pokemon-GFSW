@@ -10,8 +10,9 @@ module DialoguePortraits
     SLIDE_SECONDS   = 0.25   # How long a slide in or out takes
     DIM_COLOR       = Color.new(0, 0, 0, 110) # Overlay on the portrait that isn't talking
     DIM_SECONDS     = 0.1    # How long dimming / undimming takes
-    Z               = 99_999 # Just below the message box (99_999)
+    Z               = 99_990 # Just below the message box (99_999)
     NAME_TAG_GAP    = 4      # Gap between a portrait and the speaker name tag
+    Y_OFFSET        = 88      # Move portraits down (positive) or up (negative), in pixels
     HIDE_AT_EVENT_END = true # Slide portraits out when a map event finishes
 
     SIDES = [:left, :right].freeze
@@ -294,7 +295,7 @@ module DialoguePortraits
             linecount = (Graphics.height > 400) ? 3 : 2
             Graphics.height - (32 * linecount + border) + skin_top_padding(skin)
         end
-        return @baselines[skin]
+        return @baselines[skin] + Y_OFFSET
     end
 
     def skin_top_padding(skin)
