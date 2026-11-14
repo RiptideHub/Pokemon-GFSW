@@ -1,0 +1,5 @@
+Name      = Connected Maps Weather Fix
+Version   = 1.1.0
+Requires  = Chasm Graphics and UI
+Requires  = Chasm Game Processing
+Credits   = Beta
