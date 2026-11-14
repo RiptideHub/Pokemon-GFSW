@@ -1,52 +1,52 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 # Cherrygrove (7) - Route30_4 (16)
-7,West,0,16,East,149
+7,W,0,16,E,149
 # Route30_1 (9) - Route30_4 (16)
-9,West,0,16,East,99
+9,W,0,16,E,99
 # Route30_2 (12) - Route30_4 (16)
-12,West,0,16,East,49
+12,W,0,16,E,49
 # Route30_3 (13) - Route30_4 (16)
-13,West,1,16,East,0
+13,W,1,16,E,0
 # Route29 (5) - Cherrygrove (7)
-5,West,0,7,East,0
+5,W,0,7,E,0
 # Route30_1 (9) - Cherrygrove (7)
-9,South,0,7,North,0
+9,S,0,7,N,0
 # trees (10) - Cherrygrove (7)
-10,West,50,7,East,0
+10,W,50,7,E,0
 # trees (11) - Cherrygrove (7)
-11,East,50,7,West,0
+11,E,50,7,W,0
 # NewBark (4) - Route29 (5)
-4,West,0,5,East,0
+4,W,0,5,E,0
 # Route30_1 (9) - Route29 (5)
-9,East,50,5,West,0
+9,E,50,5,W,0
 # trees (10) - Route29 (5)
-10,South,0,5,North,0
+10,S,0,5,N,0
 # Route30_2 (12) - Route29 (5)
-12,East,100,5,West,0
+12,E,100,5,W,0
 # trees (11) - Route29 (5)
-11,South,70,5,North,0
+11,S,70,5,N,0
 # Route30_3 (13) - Route29 (5)
-13,East,150,5,West,0
+13,E,150,5,W,0
 # Route30_1 (9) - NewBark (4)
-9,South,100,4,North,0
+9,S,100,4,N,0
 # trees (10) - NewBark (4)
-10,South,50,4,North,0
+10,S,50,4,N,0
 # trees (11) - NewBark (4)
-11,South,120,4,North,0
+11,S,120,4,N,0
 # trees (10) - Route30_1 (9)
-10,West,0,9,East,0
+10,W,0,9,E,0
 # Route30_2 (12) - Route30_1 (9)
-12,South,0,9,North,0
+12,S,0,9,N,0
 # trees (11) - Route30_1 (9)
-11,East,0,9,West,0
+11,E,0,9,W,0
 # Route30_2 (12) - trees (10)
-12,East,50,10,West,0
+12,E,50,10,W,0
 # Route30_3 (13) - trees (10)
-13,East,100,10,West,0
+13,E,100,10,W,0
 # trees (11) - Route30_2 (12)
-11,North,20,12,South,0
+11,N,20,12,S,0
 # Route30_3 (13) - Route30_2 (12)
-13,South,0,12,North,0
+13,S,0,12,N,0
 # Route30_3 (13) - trees (11)
-13,West,100,11,East,0
+13,W,100,11,E,0
