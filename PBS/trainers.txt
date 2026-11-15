@@ -32,3 +32,11 @@ Pokemon = PIKACHU,10
     AbilityIndex = 1 # Break Through
 Pokemon = SEEDOT,10
     AbilityIndex = 0 # Air Lock
+#-------------------------------
+[YOUNGSTER,Elarim]
+Pokemon = CORSOLA,4
+    AbilityIndex = 1 # Rapid Refresh
+#-------------------------------
+[YOUNGSTER,Lilly]
+Pokemon = STUFFUL,4
+    AbilityIndex = 1 # Lunatic

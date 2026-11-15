@@ -7,7 +7,7 @@ TrainerBattleBGM = VsTrainer.ogg
 AvatarBattleBGM = Battle avatar.ogg
 LegendaryAvatarBattleBGM = Battle avatar legendary.ogg
 WildVictoryME = VICTORYWILDPOKEMONHGSS.ogg
-TrainerVictoryME = VICTORYTRAINERDPPT.ogg
+TrainerVictoryME = VICTORYTRAINER.ogg
 BicycleBGM = BICYCLE2.ogg
 PlayerA = POKEMONTRAINER_Masculine,boy_walk,boy_bike,boy_surf,boy_run,boy_surf,boy_fish_offset,boy_fish_offset
 PlayerB = POKEMONTRAINER_Feminine,girl_walk,girl_bike,girl_surf,girl_run,girl_surf,girl_fish_offset,girl_fish_offset
@@ -21,15 +21,15 @@ Bicycle = false
 #-------------------------------
 [002]
 # VioletCity
-Outdoor = false
-ShowArea = false
-Bicycle = false
+Outdoor = true
+ShowArea = true
+Bicycle = true
 #-------------------------------
 [003]
 # Violet City Lake
-Outdoor = false
-ShowArea = false
-Bicycle = false
+Outdoor = true
+ShowArea = true
+Bicycle = true
 #-------------------------------
 [004]
 # NewBark
@@ -117,9 +117,9 @@ Bicycle = false
 #-------------------------------
 [018]
 # Sprout Tower
-Outdoor = false
+Outdoor = true
 ShowArea = false
-Bicycle = false
+Bicycle = true
 #-------------------------------
 [019]
 # Sproute Tower Floor 1
