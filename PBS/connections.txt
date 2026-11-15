@@ -1,5 +1,13 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+# Violet City Lake (3) - VioletCity (2)
+3,South,0,2,North,0
+# Route30_4 (16) - VioletCity (2)
+16,West,5,2,East,0
+# Route30_4 (16) - Violet City Lake (3)
+16,West,0,3,East,45
+# Sprout Tower (18) - Violet City Lake (3)
+18,South,0,3,North,19
 # Cherrygrove (7) - Route30_4 (16)
 7,West,0,16,East,149
 # Route30_1 (9) - Route30_4 (16)
@@ -8,10 +16,6 @@
 12,West,0,16,East,49
 # Route30_3 (13) - Route30_4 (16)
 13,West,1,16,East,0
-# VioletCity (2) - Route30_4 (16)
-2,East,0,16,West,5
-# Violet City Lake (3) - Route30_4 (16)
-3,East,45,16,West,0
 # Route29 (5) - Cherrygrove (7)
 5,West,0,7,East,0
 # Route30_1 (9) - Cherrygrove (7)
@@ -54,5 +58,3 @@
 13,South,0,12,North,0
 # Route30_3 (13) - trees (11)
 13,West,100,11,East,0
-# Violet City Lake (3) - VioletCity (2)
-3,South,0,2,North,0

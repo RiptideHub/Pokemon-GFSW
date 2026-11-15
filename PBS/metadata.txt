@@ -20,11 +20,13 @@ ShowArea = false
 Bicycle = false
 #-------------------------------
 [002]
+# VioletCity
 Outdoor = false
 ShowArea = false
 Bicycle = false
 #-------------------------------
 [003]
+# Violet City Lake
 Outdoor = false
 ShowArea = false
 Bicycle = false
@@ -41,17 +43,41 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
+[006]
+# ElmLab
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
 [007]
 # Cherrygrove
 Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
+[008]
+# PokemonCenter
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
 [009]
 # Route30_1
 Outdoor = true
 ShowArea = true
 Bicycle = true
+#-------------------------------
+[010]
+# trees
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[011]
+# trees
+Outdoor = false
+ShowArea = false
+Bicycle = false
 #-------------------------------
 [012]
 # Route30_2
@@ -71,11 +97,47 @@ Outdoor = false
 ShowArea = false
 Bicycle = false
 #-------------------------------
+[015]
+# MCH_1
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
 [016]
 # Route30_4
 Outdoor = true
 ShowArea = true
 Bicycle = true
+#-------------------------------
+[017]
+# pokemartChry
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[018]
+# Sprout Tower
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[019]
+# Sproute Tower Floor 1
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[020]
+# Sprout Tower Floor 2
+Outdoor = false
+ShowArea = false
+Bicycle = false
+#-------------------------------
+[021]
+# Sprout Tower Floor 3
+Outdoor = false
+ShowArea = false
+Bicycle = false
 #-------------------------------
 [023]
 # Testing Map
