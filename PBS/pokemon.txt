@@ -11402,7 +11402,6 @@ WildItemUncommon = METRONOME
 [SHINX]
 Name = Shinx
 Type1 = ELECTRIC
-Type2 = DARK
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
 BaseStats = 55,75,45,55,50,45
 # Total = 325
@@ -11423,7 +11422,6 @@ Evolutions = LUXIO,Level,22
 [LUXIO]
 Name = Luxio
 Type1 = ELECTRIC
-Type2 = DARK
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
 BaseStats = 70,95,60,70,70,60
 # Total = 425
@@ -11443,7 +11441,6 @@ Evolutions = LUXRAY,Item,THUNDERSTONE
 [LUXRAY]
 Name = Luxray
 Type1 = ELECTRIC
-Type2 = DARK
 # HP, Attack, Defense, Speed, Sp. Atk, Sp. Def
 BaseStats = 85,120,75,85,70,95
 # Total = 530
