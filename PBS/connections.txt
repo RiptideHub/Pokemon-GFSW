@@ -1,76 +1,80 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Violet City Lake (3) - VioletCity (2)
-3,South,0,2,North,0
-# Route30_4 (16) - VioletCity (2)
-16,West,5,2,East,0
-# Route36 (26) - VioletCity (2)
-26,East,0,2,West,1
-# Route36_2 (27) - VioletCity (2)
-27,East,49,2,West,0
-# Ecruteak City (28) - VioletCity (2)
-28,East,99,2,West,0
-# Route30_4 (16) - Violet City Lake (3)
-16,West,0,3,East,45
-# Sprout Tower (18) - Violet City Lake (3)
-18,South,0,3,North,19
-# Route36 (26) - Violet City Lake (3)
-26,East,0,3,West,51
-# Route36_2 (27) - Violet City Lake (3)
-27,East,0,3,West,1
-# Ecruteak City (28) - Violet City Lake (3)
-28,East,49,3,West,0
-# Cherrygrove (7) - Route30_4 (16)
-7,West,0,16,East,149
-# Route30_1 (9) - Route30_4 (16)
-9,West,0,16,East,99
-# Route30_2 (12) - Route30_4 (16)
-12,West,0,16,East,49
-# Route30_3 (13) - Route30_4 (16)
-13,West,1,16,East,0
-# Route29 (5) - Cherrygrove (7)
-5,West,0,7,East,0
-# Route30_1 (9) - Cherrygrove (7)
-9,South,0,7,North,0
-# trees (10) - Cherrygrove (7)
-10,West,50,7,East,0
-# trees (11) - Cherrygrove (7)
-11,East,50,7,West,0
-# NewBark (4) - Route29 (5)
-4,West,0,5,East,0
-# Route30_1 (9) - Route29 (5)
-9,East,50,5,West,0
-# trees (10) - Route29 (5)
-10,South,0,5,North,0
-# Route30_2 (12) - Route29 (5)
-12,East,100,5,West,0
-# trees (11) - Route29 (5)
-11,South,70,5,North,0
-# Route30_3 (13) - Route29 (5)
-13,East,150,5,West,0
-# Route30_1 (9) - NewBark (4)
-9,South,100,4,North,0
-# trees (10) - NewBark (4)
-10,South,50,4,North,0
-# trees (11) - NewBark (4)
-11,South,120,4,North,0
-# trees (10) - Route30_1 (9)
-10,West,0,9,East,0
-# Route30_2 (12) - Route30_1 (9)
-12,South,0,9,North,0
-# trees (11) - Route30_1 (9)
-11,East,0,9,West,0
-# Route30_2 (12) - trees (10)
-12,East,50,10,West,0
-# Route30_3 (13) - trees (10)
-13,East,100,10,West,0
-# trees (11) - Route30_2 (12)
-11,North,20,12,South,0
-# Route30_3 (13) - Route30_2 (12)
-13,South,0,12,North,0
-# Route30_3 (13) - trees (11)
-13,West,100,11,East,0
-# Route36_2 (27) - Route36 (26)
-27,South,0,26,North,0
+# VioletCity (2) - Route36_2 (27)
+2,W,0,27,E,50
+# Route36 (26) - Route36_2 (27)
+26,N,0,27,S,0
+# Violet City Lake (3) - Route36_2 (27)
+3,W,0,27,E,0
+# Sprout Tower (18) - Route36_2 (27)
+18,S,0,27,N,69
 # Ecruteak City (28) - Route36_2 (27)
-28,South,0,27,North,0
+28,S,0,27,N,0
+# Route36 (26) - VioletCity (2)
+26,E,0,2,W,0
+# Violet City Lake (3) - VioletCity (2)
+3,S,0,2,N,0
+# Route30_4 (16) - VioletCity (2)
+16,W,5,2,E,0
+# Ecruteak City (28) - VioletCity (2)
+28,E,100,2,W,0
+# Violet City Lake (3) - Route36 (26)
+3,W,50,26,E,0
+# Route30_4 (16) - Violet City Lake (3)
+16,W,0,3,E,45
+# Sprout Tower (18) - Violet City Lake (3)
+18,S,0,3,N,19
+# Ecruteak City (28) - Violet City Lake (3)
+28,E,50,3,W,0
+# Cherrygrove (7) - Route30_4 (16)
+7,W,0,16,E,149
+# Route30_1 (9) - Route30_4 (16)
+9,W,0,16,E,99
+# Route30_2 (12) - Route30_4 (16)
+12,W,0,16,E,49
+# Route30_3 (13) - Route30_4 (16)
+13,W,1,16,E,0
+# Route29 (5) - Cherrygrove (7)
+5,W,0,7,E,0
+# Route30_1 (9) - Cherrygrove (7)
+9,S,0,7,N,0
+# trees (10) - Cherrygrove (7)
+10,W,50,7,E,0
+# trees (11) - Cherrygrove (7)
+11,E,50,7,W,0
+# NewBark (4) - Route29 (5)
+4,W,0,5,E,0
+# Route30_1 (9) - Route29 (5)
+9,E,50,5,W,0
+# trees (10) - Route29 (5)
+10,S,0,5,N,0
+# Route30_2 (12) - Route29 (5)
+12,E,100,5,W,0
+# trees (11) - Route29 (5)
+11,S,70,5,N,0
+# Route30_3 (13) - Route29 (5)
+13,E,150,5,W,0
+# Route30_1 (9) - NewBark (4)
+9,S,100,4,N,0
+# trees (10) - NewBark (4)
+10,S,50,4,N,0
+# trees (11) - NewBark (4)
+11,S,120,4,N,0
+# trees (10) - Route30_1 (9)
+10,W,0,9,E,0
+# Route30_2 (12) - Route30_1 (9)
+12,S,0,9,N,0
+# trees (11) - Route30_1 (9)
+11,E,0,9,W,0
+# Route30_2 (12) - trees (10)
+12,E,50,10,W,0
+# Route30_3 (13) - trees (10)
+13,E,100,10,W,0
+# trees (11) - Route30_2 (12)
+11,N,20,12,S,0
+# Route30_3 (13) - Route30_2 (12)
+13,S,0,12,N,0
+# Route30_3 (13) - trees (11)
+13,W,100,11,E,0
+# BellchimeTrail (29) - Ecruteak City (28)
+29,S,0,28,N,8

@@ -145,6 +145,12 @@ Outdoor = false
 ShowArea = false
 Bicycle = false
 #-------------------------------
+[028]
+# Ecruteak City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
 [147]
 # PokEstate
 Outdoor = false
