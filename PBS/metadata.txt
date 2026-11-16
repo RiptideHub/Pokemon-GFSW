@@ -145,7 +145,31 @@ Outdoor = false
 ShowArea = false
 Bicycle = false
 #-------------------------------
+[026]
+# Route 36
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[027]
+# Route36_2
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
 [028]
+# Ecruteak City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[029]
+# Bellchime Trail
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[030]
 # Ecruteak City
 Outdoor = true
 ShowArea = true
