@@ -1,6 +1,6 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-[005] # Route29
+[005] # Route 29
 Land,21,55,60
     1,LEDYBA,3,4
     1,MAREEP,3,4
@@ -8,7 +8,7 @@ Land,21,55,60
     1,SENTRET,2,3
     1,TAILLOW,2,3
 #-------------------------------
-[009] # Route30_1
+[009] # Route 30
 Land,21,55,60
     1,BUNEARY,2,5
     1,LEDYBA,3,4
@@ -22,7 +22,7 @@ FloweryGrass2,21,60
     1,COMBEE,3,4
     1,FLABEBE,2,3
 #-------------------------------
-[012] # Route30_2
+[012] # Route 30
 Land,21,55,60
     1,BUNEARY,2,5
     1,LEDYBA,3,4
@@ -37,7 +37,7 @@ FloweryGrass2,21,60
     1,COMBEE,3,4
     1,FLABEBE,2,5
 #-------------------------------
-[013] # Route30_3
+[013] # Route 30
 Land,21,55,60
     1,BOUNSWEET,3,4
     1,GRUBBIN,3,4

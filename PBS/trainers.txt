@@ -40,3 +40,9 @@ Pokemon = CORSOLA,4
 [YOUNGSTER,Lilly]
 Pokemon = STUFFUL,4
     AbilityIndex = 1 # Lunatic
+#-------------------------------
+[YOUNGSTER,Palcius]
+Pokemon = EEVEE,10
+    AbilityIndex = 1 # Adapted
+Pokemon = SHINX,11
+    AbilityIndex = 1 # Intimidate

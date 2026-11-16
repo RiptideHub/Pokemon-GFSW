@@ -20,25 +20,25 @@ ShowArea = false
 Bicycle = false
 #-------------------------------
 [002]
-# VioletCity
+# Violet City
 Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
 [003]
-# Violet City Lake
+# Violet City Lakefront
 Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
 [004]
-# NewBark
+# New Bark Town
 Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
 [005]
-# Route29
+# Route 29
 Outdoor = true
 ShowArea = true
 Bicycle = true
@@ -50,7 +50,7 @@ ShowArea = false
 Bicycle = false
 #-------------------------------
 [007]
-# Cherrygrove
+# Cherrygrove Town
 Outdoor = true
 ShowArea = true
 Bicycle = true
@@ -62,7 +62,7 @@ ShowArea = false
 Bicycle = false
 #-------------------------------
 [009]
-# Route30_1
+# Route 30
 Outdoor = true
 ShowArea = true
 Bicycle = true
@@ -80,13 +80,13 @@ ShowArea = false
 Bicycle = false
 #-------------------------------
 [012]
-# Route30_2
+# Route 30
 Outdoor = true
 ShowArea = true
 Bicycle = true
 #-------------------------------
 [013]
-# Route30_3
+# Route 30
 Outdoor = true
 ShowArea = true
 Bicycle = true
@@ -104,7 +104,7 @@ ShowArea = false
 Bicycle = false
 #-------------------------------
 [016]
-# Route30_4
+# Route 30
 Outdoor = true
 ShowArea = true
 Bicycle = true
@@ -122,19 +122,19 @@ ShowArea = false
 Bicycle = true
 #-------------------------------
 [019]
-# Sproute Tower Floor 1
+# Sprout Tower
 Outdoor = false
 ShowArea = false
 Bicycle = false
 #-------------------------------
 [020]
-# Sprout Tower Floor 2
+# Sprout Tower
 Outdoor = false
 ShowArea = false
 Bicycle = false
 #-------------------------------
 [021]
-# Sprout Tower Floor 3
+# Sprout Tower
 Outdoor = false
 ShowArea = false
 Bicycle = false
