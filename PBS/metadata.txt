@@ -162,6 +162,7 @@ Bicycle = true
 Outdoor = true
 ShowArea = true
 Bicycle = true
+Weather = Leaves,100
 #-------------------------------
 [029]
 # Bellchime Trail

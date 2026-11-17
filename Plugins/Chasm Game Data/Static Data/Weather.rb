@@ -334,3 +334,16 @@ GameData::Weather.register({
 		next Tone.new(-strength, -strength, -strength)
 	},
 })
+
+GameData::Weather.register({
+	:id               => :Leaves,
+	:id_number        => 18,
+	:particle_names   => %w[leaves_1 leaves_2 leaves_3 leaves_4],
+	:particle_delta_x => proc do
+		-5 * (pinningWindStrength - 50)
+	end,
+	:particle_delta_y => 240,
+	:clouds_proc => proc { |strength|
+		next strength * -4
+	},
+})
