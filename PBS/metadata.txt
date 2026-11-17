@@ -169,12 +169,14 @@ Weather = Leaves,100
 Outdoor = true
 ShowArea = true
 Bicycle = true
+Weather = Leaves,100
 #-------------------------------
 [030]
 # Ecruteak City
 Outdoor = true
 ShowArea = true
 Bicycle = true
+Weather = Leaves,100
 #-------------------------------
 [147]
 # PokEstate
