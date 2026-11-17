@@ -46,3 +46,14 @@ Pokemon = EEVEE,10
     AbilityIndex = 1 # Adapted
 Pokemon = SHINX,11
     AbilityIndex = 1 # Intimidate
+#-------------------------------
+[BONSLY,Bonsly]
+Pokemon = BONSLY,12
+    AbilityIndex = 0 # Desiccate
+    Gender = female
+Pokemon = BONSLY,12
+    AbilityIndex = 0 # Desiccate
+    Gender = female
+Pokemon = BONSLY,12
+    AbilityIndex = 0 # Desiccate
+    Gender = female

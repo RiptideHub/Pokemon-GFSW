@@ -235,6 +235,11 @@ BaseMoney = 32
 IntroBGM = BLACKBELT
 CableClub = true
 #-------------------------------
+[BONSLY]
+Name = Three Stacked Wild
+Gender = wild
+BaseMoney = 100
+#-------------------------------
 [BUGCATCHER]
 Name = Bug Catcher
 Gender = Male
