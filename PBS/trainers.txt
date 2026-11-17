@@ -39,7 +39,7 @@ Pokemon = CORSOLA,4
 #-------------------------------
 [YOUNGSTER,Lilly]
 Pokemon = STUFFUL,4
-    AbilityIndex = 1 # Lunatic
+    AbilityIndex = 0 # Intimidate
 #-------------------------------
 [YOUNGSTER,Palcius]
 Pokemon = EEVEE,10
@@ -49,11 +49,48 @@ Pokemon = SHINX,11
 #-------------------------------
 [BONSLY,Bonsly]
 Pokemon = BONSLY,12
-    AbilityIndex = 0 # Desiccate
     Gender = female
+    AbilityIndex = 0 # Desiccate
 Pokemon = BONSLY,12
-    AbilityIndex = 0 # Desiccate
     Gender = female
+    AbilityIndex = 0 # Desiccate
 Pokemon = BONSLY,12
-    AbilityIndex = 0 # Desiccate
     Gender = female
+    AbilityIndex = 0 # Desiccate
+#-------------------------------
+[BIRDKEEPER_F,Lark]
+Pokemon = SPEAROW,10
+    AbilityIndex = 0 # Tough
+#-------------------------------
+[BIRDKEEPER_M,Rod]
+Pokemon = DODUO,10
+    AbilityIndex = 0 # Fluster Flock
+#-------------------------------
+[LEADER_Falkner,Falkner]
+Pokemon = PIDGEY,10
+    AbilityIndex = 0 # No Guard
+Pokemon = TAILLOW,10
+    AbilityIndex = 0 # Daring
+Pokemon = HOOTHOOT,10
+    AbilityIndex = 0 # Night Owl
+#-------------------------------
+[LEADER_Falkner,Falkner,1]
+ExtendsVersion = 0
+Pokemon = PIDGEY,10
+    Moves = GUST
+    Item = SITRUSBERRY
+Pokemon = TAILLOW,10
+    Moves = PECK
+    Item = SITRUSBERRY
+Pokemon = HOOTHOOT,10
+    Moves = DRAFT
+Pokemon = PIDOVE,10
+    Moves = PECK
+    AbilityIndex = 0 # Deterrent
+    Item = SHELLBELL
+Pokemon = MURKROW,10
+    Moves = GUST
+    AbilityIndex = 0 # Let 'Em Have It
+Pokemon = STARLY,10
+    Moves = WINGCRASH
+    AbilityIndex = 0 # Intimidate

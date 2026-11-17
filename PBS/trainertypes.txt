@@ -839,6 +839,13 @@ BaseMoney = 16
 IntroBGM = LASS
 CableClub = true
 #-------------------------------
+[LEADER_Falkner]
+Name = Gym Leader
+Gender = Male
+BaseMoney = 100
+BattleBGM = Battle Gym Leader 1
+CursedBGM = Battle Gym Leader 2
+#-------------------------------
 [LINEBACKER]
 Name = Linebacker
 Gender = Male
