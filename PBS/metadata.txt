@@ -152,7 +152,7 @@ ShowArea = true
 Bicycle = true
 #-------------------------------
 [027]
-# Route36_2
+# Route37
 Outdoor = true
 ShowArea = true
 Bicycle = true

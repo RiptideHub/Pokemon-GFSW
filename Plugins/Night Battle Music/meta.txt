@@ -1,0 +1,5 @@
+Name         = Night Battle Music
+Version      = 1.0.0
+Requires     = Chasm Other
+Scripts      = NightBattleMusic.rb
+Credits	     = Beta
