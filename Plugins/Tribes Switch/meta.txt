@@ -1,0 +1,8 @@
+Name         = Tribes Switch
+Version      = 1.0.0
+Requires     = Chasm Battle
+Requires     = Chasm Graphics and UI
+Requires     = Chasm MasterDex
+Requires     = Chasm PokEstate
+Scripts      = Settings.rb,TribesSwitch.rb
+Credits      = Beta
