@@ -1,0 +1,6 @@
+Name         = Starter Teams
+Version      = 1.0.0
+Requires     = Chasm Battle
+Requires     = Chasm Other
+Scripts      = Settings.rb,StarterTeams.rb
+Credits      = Beta

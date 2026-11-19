@@ -1,5 +1,17 @@
 CHASM_CREDITs = <<_END_
 
+GFSW Developers
+Silkspunlove<s>Riptidecord
+Seabass<s>Sarrow_3000
+Beta<s>Seabass
+
+Contributors
+Cinnamochies<s>Hypertox
+Chicasepticeye<s>Azuri
+PDM20<s>Zinkatron
+
+Chasm Engine Credits
+
 Major Contributors
 Brickbat<s>Zinnia
 Divock<s>Agentbla
