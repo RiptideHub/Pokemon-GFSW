@@ -94,3 +94,15 @@ Pokemon = MURKROW,10
 Pokemon = STARLY,10
     Moves = WINGCRASH
     AbilityIndex = 0 # Intimidate
+#-------------------------------
+[UNKNOWN,???,11]
+Pokemon = CYNDAQUIL,5
+    AbilityIndex = 0 # Brisk
+#-------------------------------
+[UNKNOWN,???,12]
+Pokemon = CHIKORITA,5
+    AbilityIndex = 0 # Scale Veil
+#-------------------------------
+[UNKNOWN,???,13]
+Pokemon = TOTODILE,5
+    AbilityIndex = 0 # Ferocious
