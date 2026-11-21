@@ -94,3 +94,20 @@ Pokemon = MURKROW,10
 Pokemon = STARLY,10
     Moves = WINGCRASH
     AbilityIndex = 0 # Intimidate
+#-------------------------------
+[CHAMPION_B,Blue]
+Pokemon = EXEGGUTOR,55
+    AbilityIndex = 1 # Chlorophyll
+    Item = SITRUSBERRY
+Pokemon = MACHAMP,56
+    AbilityIndex = 0 # Feel the Burn
+    Item = SITRUSBERRY
+Pokemon = ARCANINE,58
+    AbilityIndex = 1 # Serene Grace
+Pokemon = RHYDON,58
+    AbilityIndex = 0 # Fortified
+    Item = SHELLBELL
+Pokemon = GYARADOS,52
+    AbilityIndex = 1 # City Razer
+Pokemon = PIDGEOT,60
+    AbilityIndex = 0 # No Guard

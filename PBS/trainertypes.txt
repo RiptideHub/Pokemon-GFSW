@@ -310,6 +310,12 @@ BaseMoney = 16
 IntroBGM = YOUNGSTER
 CableClub = true
 #-------------------------------
+[CHAMPION_B]
+Name = Champion
+Gender = Male
+BaseMoney = 16000
+IntroBGM = YOUNGSTER
+#-------------------------------
 [CHAMPION_F]
 Name = Champion
 Gender = Female
