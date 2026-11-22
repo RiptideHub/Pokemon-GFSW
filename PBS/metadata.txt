@@ -178,6 +178,19 @@ ShowArea = true
 Bicycle = true
 Weather = Leaves,100
 #-------------------------------
+[033]
+# Route 36
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[034]
+# National Park
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Leaves,100
+#-------------------------------
 [147]
 # PokEstate
 Outdoor = false
