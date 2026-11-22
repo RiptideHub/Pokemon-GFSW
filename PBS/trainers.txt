@@ -111,3 +111,11 @@ Pokemon = GYARADOS,52
     AbilityIndex = 1 # City Razer
 Pokemon = PIDGEOT,60
     AbilityIndex = 0 # No Guard
+#-------------------------------
+[CERBIE,Cerbera]
+Pokemon = ZORUA,10
+    AbilityIndex = 0 # Illusion
+Pokemon = CARVANHA,10
+    AbilityIndex = 0 # Schadenfreude
+Pokemon = INKAY,12
+    AbilityIndex = 0 # Oscillation

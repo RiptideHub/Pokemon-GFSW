@@ -310,6 +310,13 @@ BaseMoney = 16
 IntroBGM = YOUNGSTER
 CableClub = true
 #-------------------------------
+[CERBIE]
+Name = Aether Foundation
+Gender = Female
+BaseMoney = 1
+IntroBGM = YOUNGSTER
+CableClub = true
+#-------------------------------
 [CHAMPION_B]
 Name = Champion
 Gender = Male
