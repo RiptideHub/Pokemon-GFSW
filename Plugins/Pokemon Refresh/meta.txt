@@ -1,0 +1,7 @@
+Name         = Pokemon Refresh
+Version      = 1.0.3
+Requires     = Chasm Game Processing
+Requires     = Chasm Graphics and UI
+Requires     = Chasm Other
+Scripts      = Settings.rb,Refresh.rb,RefreshScene.rb
+Credits      = Beta. Art by the Golden Feathers art team.

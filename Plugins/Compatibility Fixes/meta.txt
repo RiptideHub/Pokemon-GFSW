@@ -1,0 +1,5 @@
+Name         = Compatibility Fixes
+Version      = 1.0.0
+Requires     = Chasm Graphics and UI
+Scripts      = DebugTerminalKey.rb
+Credits      = Beta

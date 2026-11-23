@@ -2010,24 +2010,6 @@ Price = 4500
 FieldUse = OnPokemon
 Description = It fully restores the PP of all the moves learned by the targeted Pokémon.
 #-------------------------------
-[NETBALL]
-Name = Net Ball
-NamePlural = Net Balls
-Pocket = 14
-Price = 400
-BattleUse = OnFoe
-Flags = PokeBall,SnagBall
-Description = A somewhat different Poké Ball that works at 3.5x strength on Water- and Bug-type Pokémon.
-#-------------------------------
-[DIVEBALL]
-Name = Dive Ball
-NamePlural = Dive Balls
-Pocket = 14
-Price = 400
-BattleUse = OnFoe
-Flags = PokeBall,SnagBall
-Description = A somewhat different Poké Ball that works at a 3.5x strength on Pokémon that live underwater.
-#-------------------------------
 [DUSKBALL]
 Name = Dusk Ball
 NamePlural = Dusk Balls
@@ -2037,15 +2019,6 @@ BattleUse = OnFoe
 Flags = PokeBall,SnagBall
 Description = A somewhat different Poké Ball which has 3x strength at night or in dark places like caves.
 #-------------------------------
-[LEVELBALL]
-Name = Level Ball
-NamePlural = Level Balls
-Pocket = 14
-Price = 300
-BattleUse = OnFoe
-Flags = PokeBall,SnagBall
-Description = A Poké Ball with much higher strength the higher your Pokémon's level is above the target.
-#-------------------------------
 [LUREBALL]
 Name = Lure Ball
 NamePlural = Lure Balls
@@ -2054,24 +2027,6 @@ Price = 300
 BattleUse = OnFoe
 Flags = PokeBall,SnagBall
 Description = A Poké Ball with 5x strength against Pokémon encountered through fishing.
-#-------------------------------
-[LOVEBALL]
-Name = Love Ball
-NamePlural = Love Balls
-Pocket = 14
-Price = 300
-BattleUse = OnFoe
-Flags = PokeBall,SnagBall
-Description = A Poké Ball with 8x strength against Pokémon that are the opposite gender, but same species, as yours.
-#-------------------------------
-[MOONBALL]
-Name = Moon Ball
-NamePlural = Moon Balls
-Pocket = 14
-Price = 300
-BattleUse = OnFoe
-Flags = PokeBall,SnagBall
-Description = A Poké Ball with 4x strength against Pokémon evolve with or from using a Moon Stone.
 #-------------------------------
 [FIGYBERRY]
 Name = Figy Berry
