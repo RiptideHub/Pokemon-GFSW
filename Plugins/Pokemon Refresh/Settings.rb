@@ -68,7 +68,8 @@ module PokemonRefresh
         :soft    => "B",
         :neutral => "C",
         :hated   => "A",
-        :eat     => "B",
+        :eat     => "Eat",
+        :after_eat => "B",
         :clean   => "B",
         :full    => "C",
     }
@@ -106,6 +107,7 @@ module PokemonRefresh
     RUBS_FOR_HEARTS = 6
     RUBS_FOR_HATED  = 4
     FACE_HOLD_FRAMES = 40
+    EAT_FRAMES       = 40
 
     #---------------------------------------------------------------------------
     # Controls and look

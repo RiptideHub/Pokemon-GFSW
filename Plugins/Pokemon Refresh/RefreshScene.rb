@@ -34,7 +34,10 @@ module PokemonRefresh
             @viewport.z = 99_999
             @bitmaps = []
             @faces = {}
-            %w[N A B C].each { |f| @faces[f] = load_bitmap("Refresh#{@data[:graphic]}#{f}") }
+            (["N"] + FACES.values).uniq.each do |f|
+                name = "Refresh#{@data[:graphic]}#{f}"
+                @faces[f] = load_bitmap(name) if f == "N" || pbResolveBitmap(FOLDER + name)
+            end
             @bg = new_sprite(load_bitmap(BACKGROUND), 0)
             @char = new_sprite(@faces["N"], 1)
             @dirt_bitmap = load_bitmap("RefreshDirt")
@@ -368,8 +371,9 @@ module PokemonRefresh
             PokemonRefresh.ate_berry(@character)
             PokemonRefresh.add_friendship(@character, FEED_FRIENDSHIP)
             @held_item = nil
-            @eating = 16
-            show_face(FACES[:eat])
+            @eating = EAT_FRAMES
+            set_face(@faces[FACES[:eat]] ? FACES[:eat] : FACES[:after_eat])
+            @face_timer = 0
             hearts(@px, @py - 10, 2)
             if PokemonRefresh.full?(@character)
                 show_message(_INTL("{1} is full now!", @data[:name]))
@@ -385,9 +389,12 @@ module PokemonRefresh
         def update_effects
             if @eating
                 @eating -= 1
-                @held.zoom_x = @held.zoom_y = [@eating / 16.0, 0].max
+                shrink = [(@eating - (EAT_FRAMES - 16)) / 16.0, 0].max
+                @held.zoom_x = @held.zoom_y = shrink
+                @held.visible = false if shrink <= 0
                 if @eating <= 0
                     @eating = nil
+                    show_face(FACES[:after_eat])
                     @held.visible = false
                 end
             end
