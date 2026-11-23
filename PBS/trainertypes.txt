@@ -1498,6 +1498,11 @@ BaseMoney = 16
 IntroBGM = CYCLING
 CableClub = true
 #-------------------------------
+[SILVER]
+Name = PKMN Trainer
+Gender = Male
+BaseMoney = 16
+#-------------------------------
 [SISANDBRO]
 Name = Sis and Bro
 Gender = Unknown

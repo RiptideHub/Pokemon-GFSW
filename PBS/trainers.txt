@@ -119,3 +119,7 @@ Pokemon = CARVANHA,10
     AbilityIndex = 0 # Schadenfreude
 Pokemon = INKAY,12
     AbilityIndex = 0 # Oscillation
+#-------------------------------
+[SILVER,Silver]
+Pokemon = SNEASEL,6
+    AbilityIndex = 1 # Umbral Wake
