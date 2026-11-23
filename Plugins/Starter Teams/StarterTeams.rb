@@ -54,6 +54,17 @@ module StarterTeams
         return nil
     end
 
+    def report_missing(tr_type, tr_name, fight, version)
+        return unless $DEBUG
+        type_data = GameData::TrainerType.try_get(tr_type)
+        return unless type_data
+        return if GameData::Trainer.exists?(type_data.id, tr_name, version)
+        starter = slot == 0 ? "none recorded yet (variable #{VARIABLE} is 0)" : "#{species} (position #{slot})"
+        echoln("Starter Teams: no team [#{type_data.id},#{tr_name},#{version}] in the compiled data. " \
+               "Fight #{fight}, starter: #{starter}. Checked versions #{fight * 10 + slot} and #{fight * 10}. " \
+               "If you just added it to trainers.txt, launch with \"Debug Game With PBS Compile.bat\".")
+    end
+
     def auto_record(pkmn)
         return unless AUTO_RECORD && slot == 0 && $game_variables
         species = given_species(pkmn)
@@ -95,6 +106,7 @@ end
 def starterBattle(tr_type, tr_name, fight = 1, endSpeech: nil, doubleBattle: false,
                   canLose: false, outcomeVar: 1)
     version = StarterTeams.version_for(tr_type, tr_name, fight)
+    StarterTeams.report_missing(tr_type, tr_name, fight, version)
     return pbTrainerBattle(tr_type, tr_name, endSpeech, doubleBattle, version, canLose, outcomeVar)
 end
 
@@ -115,5 +127,20 @@ unless defined?(starter_teams_pbAddPokemon)
         added = starter_teams_pbAddPokemonSilent(pkmn, level)
         StarterTeams.auto_record(pkmn) if added
         return added
+    end
+end
+
+#===============================================================================
+# fucking chasm randomizer going crazy
+#===============================================================================
+unless defined?(starter_teams_pbLoadTrainer)
+    alias starter_teams_pbLoadTrainer pbLoadTrainer
+
+    def pbLoadTrainer(tr_type, tr_name, tr_version = 0)
+        type_data = GameData::TrainerType.try_get(tr_type)
+        if type_data && !GameData::Trainer.exists?(type_data.id, tr_name, tr_version)
+            return nil
+        end
+        return starter_teams_pbLoadTrainer(tr_type, tr_name, tr_version)
     end
 end

@@ -1,6 +1,7 @@
 Name         = Starter Teams
-Version      = 1.0.0
+Version      = 1.0.1
 Requires     = Chasm Battle
 Requires     = Chasm Other
+Requires     = Chasm Randomizer
 Scripts      = Settings.rb,StarterTeams.rb
 Credits      = Beta
