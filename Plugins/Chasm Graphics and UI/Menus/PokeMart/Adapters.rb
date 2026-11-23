@@ -60,9 +60,6 @@ class PokemonMartAdapter
   
     def getPrice(item, selling = false)
         price = getUnmodifiedPrice(item, selling)
-        if vipCardActive? && !selling
-            price = (price * 0.9).ceil
-        end
         return price
     end
 

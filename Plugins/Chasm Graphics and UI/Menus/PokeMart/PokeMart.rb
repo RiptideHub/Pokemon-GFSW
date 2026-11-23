@@ -11,13 +11,7 @@ def pbPokemonMart(stock,speech=nil,cantsell=false,polite=true)
     screen = PokemonMartScreen.new(scene,stock,polite)
     screen.pbBuyScreen
   else
-    unless speech
-        if vipCardActive?
-            speech = _INTL("Welcome, VIP! I hope you are satisfied with our services.")
-        else
-            speech = _INTL("Welcome! How may I serve you?")
-        end
-    end
+    speech = _INTL("Welcome! How may I serve you?")
     commands = []
     cmdBuy  = -1
     cmdSell = -1

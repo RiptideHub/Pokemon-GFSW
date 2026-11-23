@@ -20,3 +20,29 @@ def payEvolutionStone(showMessage = true)
 		return false
 	end
 end
+
+######################################################
+# Mart vendors
+######################################################
+BASIC_MART_STOCK = %i[POKEBALL ABILITYCAPSULE REPEL EXPCANDYXS]
+
+THREE_GYM_BADGES = %i[SLICEBALL POTIONBALL DISABLEBALL LEECHBALL EXPCANDYS]
+
+FIVE_GYM_BADGES = %i[GREATBALL QUICKBALL REPEATBALL TIMERBALL FRIENDBALL EXPCANDYM]
+
+SEVEN_GYM_BADGES = %i[ULTRABALL DREAMBALL EXPCANDYL]
+
+EIGHT_GYM_BADGES = %i[EXPCANDYXL]
+
+def martStock
+    stock = BASIC_MART_STOCK.clone
+    stock += THREE_GYM_BADGES.clone if getBadgeCount >= 3
+    stock += FIVE_GYM_BADGES.clone  if getBadgeCount >= 5
+    stock += SEVEN_GYM_BADGES.clone if getBadgeCount >= 7
+    stock += EIGHT_GYM_BADGES.clone if getBadgeCount >= 8
+    return stock
+end
+
+def basicPokeMart
+    pbPokemonMart(martStock)
+end

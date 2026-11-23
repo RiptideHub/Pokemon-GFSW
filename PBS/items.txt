@@ -1609,6 +1609,24 @@ BattleUse = OnFoe
 Flags = PokeBall,SnagBall,SkipPocketMessage
 Description = A special Poké Ball that is used only in the Safari Zone. It is decorated in a camouflage pattern.
 #-------------------------------
+[NETBALL]
+Name = Net Ball
+NamePlural = Net Balls
+Pocket = 3
+Price = 400
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works at 3.5x strength on Water- and Bug-type Pokémon.
+#-------------------------------
+[DIVEBALL]
+Name = Dive Ball
+NamePlural = Dive Balls
+Pocket = 3
+Price = 400
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A somewhat different Poké Ball that works at a 3.5x strength on Pokémon that live underwater.
+#-------------------------------
 [SPORTBALL]
 Name = Sport Ball
 NamePlural = Sport Balls
@@ -1770,6 +1788,33 @@ Price = 300
 BattleUse = OnFoe
 Flags = PokeBall,SnagBall
 Description = A Poké Ball with 4x strength against Pokémon species with 100 or more base Speed.
+#-------------------------------
+[LEVELBALL]
+Name = Level Ball
+NamePlural = Level Balls
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A Poké Ball which is purely cosmetic.
+#-------------------------------
+[LOVEBALL]
+Name = Love Ball
+NamePlural = Love Balls
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A Poké Ball with 8x strength against Pokémon that are the opposite gender, but same species, as yours.
+#-------------------------------
+[MOONBALL]
+Name = Moon Ball
+NamePlural = Moon Balls
+Pocket = 3
+Price = 300
+BattleUse = OnFoe
+Flags = PokeBall
+Description = A Poké Ball with 4x strength against Pokémon evolve with or from using a Moon Stone.
 #-------------------------------
 [DREAMBALL]
 Name = Dream Ball
