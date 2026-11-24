@@ -150,6 +150,22 @@ FieldUse = OnPokemon
 Flags = EvolutionItem,Clothing
 Description = A cool scarf. It makes a certain Pokémon evolve.
 #-------------------------------
+[KINGSROCK]
+Name = King's Rock
+NamePlural = King's Rocks
+Pocket = 4
+Price = 3000
+Flags = EvolutionItem,Clothing
+Description = A cracked and old crown. It makes a certain Pokémon evolve.
+#-------------------------------
+[RAZORFANG]
+Name = Razor Fang
+NamePlural = Razor Fangs
+Pocket = 4
+Price = 3000
+Flags = EvolutionItem
+Description = A sharp fang. It makes a certain Pokémon evolve.
+#-------------------------------
 [AUSPICIOUSARMOR]
 Name = Auspicious Armor
 NamePlural = Auspicious Armors
