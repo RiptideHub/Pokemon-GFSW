@@ -204,7 +204,7 @@ module PokemonRefresh
                 if @held_item
                     drop_berry
                 elsif @panel_open
-                    @panel_open = false
+                    set_panel(false)
                     redraw_ui
                 elsif @mode == :cloth
                     @mode = :hand
@@ -224,19 +224,21 @@ module PokemonRefresh
         def click
             button = button_at(@px, @py)
             if button
-                pbPlayDecisionSE
+                pbPlayDecisionSE unless button == :berries
                 case button
                 when :exit then return :exit
                 when :berries
                     if PokemonRefresh.berries_in_bag.empty?
+                        pbPlayDecisionSE
                         show_message(_INTL("You don't have any Berries."))
                     else
-                        @panel_open = !@panel_open
+                        @mode = :hand
+                        set_panel(!@panel_open)
                         @page = 0
                     end
                 when :clean
                     @mode = @mode == :cloth ? :hand : :cloth
-                    @panel_open = false
+                    set_panel(false)
                 end
                 redraw_ui
                 return nil
@@ -248,7 +250,7 @@ module PokemonRefresh
                 elsif item
                     pick_berry(item) unless @eating
                 elsif !in_panel?(@px, @py)
-                    @panel_open = false
+                    set_panel(false)
                     redraw_ui
                 end
                 return nil
@@ -295,6 +297,7 @@ module PokemonRefresh
             case spot
             when :soft
                 return unless @rub_counts[:soft] % RUBS_FOR_HEARTS == 0
+                play_sound(:good_pet)
                 hearts(@px, @py, 3)
                 amount = PET_FRIENDSHIP
                 amount = [amount, PET_LIMIT_PER_VISIT - @pet_gain].min if PET_LIMIT_PER_VISIT
@@ -304,7 +307,10 @@ module PokemonRefresh
                 end
             when :hated
                 return unless @rub_counts[:hated] % RUBS_FOR_HATED == 0
+                play_sound(:bad_pet)
                 PokemonRefresh.add_friendship(@character, HATED_FRIENDSHIP)
+            else
+                play_sound(:pet) if @rub_counts[spot] % RUBS_FOR_PET_SOUND == 0
             end
             redraw_debug if @debug.visible
         end
@@ -340,6 +346,7 @@ module PokemonRefresh
         # Feeding
         #-----------------------------------------------------------------------
         def pick_berry(item)
+            @mode = :hand
             @held_item = item
             @held.bitmap = icon(item)
             @held.ox = @held.bitmap.width / 2
@@ -378,7 +385,7 @@ module PokemonRefresh
             if PokemonRefresh.full?(@character)
                 show_message(_INTL("{1} is full now!", @data[:name]))
             end
-            @panel_open = false if PokemonRefresh.berries_in_bag.empty?
+            set_panel(false) if PokemonRefresh.berries_in_bag.empty?
             redraw_ui
             redraw_debug if @debug.visible
         end
@@ -421,6 +428,19 @@ module PokemonRefresh
                     redraw_ui
                 end
             end
+        end
+
+        def set_panel(open)
+            return if @panel_open == open
+            @panel_open = open
+            play_sound(open ? :berries_open : :berries_close)
+        end
+
+        def play_sound(key)
+            sound = SOUNDS[key]
+            return unless sound
+            name, volume = sound
+            pbSEPlay(name, volume || 80) if pbResolveAudioSE(name)
         end
 
         def show_face(letter)

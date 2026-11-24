@@ -110,6 +110,18 @@ module PokemonRefresh
     EAT_FRAMES       = 40
 
     #---------------------------------------------------------------------------
+    # Sounds
+    #---------------------------------------------------------------------------
+    SOUNDS = {
+        :pet           => ["Refresh/Pet", 100],
+        :good_pet      => ["Refresh/GoodPet", 100],
+        :bad_pet       => ["Refresh/BadPet", 100],
+        :berries_open  => ["Refresh/BerryUIOpen", 100],
+        :berries_close => ["Refresh/BerryUIClose", 100]
+    }
+    RUBS_FOR_PET_SOUND = 6
+
+    #---------------------------------------------------------------------------
     # Controls and look
     #---------------------------------------------------------------------------
     KEYBOARD_CURSOR = true
