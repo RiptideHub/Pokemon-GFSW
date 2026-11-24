@@ -1812,7 +1812,7 @@ Kind = Tadpole
 Pokedex = This Pokémon's sweat is a slimy mucus. When captured, Poliwhirl can slither from its enemies' grasp and escape.
 Generation = 1
 WildItemUncommon = MYSTICWATER
-Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,Level,34
+Evolutions = POLIWRATH,Item,WATERSTONE,POLITOED,Item,KINGSROCK
 #-------------------------------
 [POLIWRATH]
 Name = Poliwrath
@@ -2300,7 +2300,7 @@ Kind = Dopey
 Pokedex = Slowpoke uses its tail to catch prey by dipping it in rivers. However, it often forgets what it's doing and spends entire days just loafing at water's edge.
 Generation = 1
 WildItemUncommon = LAGGINGTAIL
-Evolutions = SLOWBRO,Item,WATERSTONE,SLOWKING,Level,37
+Evolutions = SLOWBRO,Item,WATERSTONE,SLOWKING,Item,KINGSROCK
 #-------------------------------
 [SLOWBRO]
 Name = Slowbro
@@ -6414,7 +6414,7 @@ Weight = 64.8
 Kind = FlyScorpion
 Pokedex = It flies straight at its target's face, then clamps down on the startled victim to inject poison.
 Generation = 2
-Evolutions = GLISCOR,Level,36
+Evolutions = GLISCOR,Item,RAZORFANG
 #-------------------------------
 [GLISCOR]
 Name = Gliscor
