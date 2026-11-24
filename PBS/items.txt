@@ -2240,6 +2240,196 @@ Price = 0
 Flags = Berry
 Description = If held by a Pokémon and a special attack hits it, raises the holder's Sp. Def by three steps.
 #-------------------------------
+[FIGYBERRY]
+Name = Figy Berry
+NamePlural = Figy Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A spicy berry loved by some Pokémon.
+#-------------------------------
+[WIKIBERRY]
+Name = Wiki Berry
+NamePlural = Wiki Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A dry berry loved by some Pokémon.
+#-------------------------------
+[MAGOBERRY]
+Name = Mago Berry
+NamePlural = Mago Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A sweet berry loved by some Pokémon.
+#-------------------------------
+[AGUAVBERRY]
+Name = Aguav Berry
+NamePlural = Aguav Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A bitter berry loved by some Pokémon.
+#-------------------------------
+[IAPAPABERRY]
+Name = Iapapa Berry
+NamePlural = Iapapa Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A sour berry loved by some Pokémon.
+#-------------------------------
+[RAZZBERRY]
+Name = Razz Berry
+NamePlural = Razz Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[BLUKBERRY]
+Name = Bluk Berry
+NamePlural = Bluk Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[NANABBERRY]
+Name = Nanab Berry
+NamePlural = Nanab Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[WEPEARBERRY]
+Name = Wepear Berry
+NamePlural = Wepear Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[PINAPBERRY]
+Name = Pinap Berry
+NamePlural = Pinap Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[POMEGBERRY]
+Name = Pomeg Berry
+NamePlural = Pomeg Berries
+Pocket = 9
+Price = 100
+FieldUse = OnPokemon
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[KELPSYBERRY]
+Name = Kelpsy Berry
+NamePlural = Kelpsy Berries
+Pocket = 9
+Price = 100
+FieldUse = OnPokemon
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[QUALOTBERRY]
+Name = Qualot Berry
+NamePlural = Qualot Berries
+Pocket = 9
+Price = 100
+FieldUse = OnPokemon
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[HONDEWBERRY]
+Name = Hondew Berry
+NamePlural = Hondew Berries
+Pocket = 9
+Price = 100
+FieldUse = OnPokemon
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[GREPABERRY]
+Name = Grepa Berry
+NamePlural = Grepa Berries
+Pocket = 9
+Price = 100
+FieldUse = OnPokemon
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[TAMATOBERRY]
+Name = Tamato Berry
+NamePlural = Tamato Berries
+Pocket = 9
+Price = 100
+FieldUse = OnPokemon
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[CORNNBERRY]
+Name = Cornn Berry
+NamePlural = Cornn Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[MAGOSTBERRY]
+Name = Magost Berry
+NamePlural = Magost Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[RABUTABERRY]
+Name = Rabuta Berry
+NamePlural = Rabuta Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[NOMELBERRY]
+Name = Nomel Berry
+NamePlural = Nomel Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[PAMTREBERRY]
+Name = Pamtre Berry
+NamePlural = Pamtre Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[WATMELBERRY]
+Name = Watmel Berry
+NamePlural = Watmel Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
+[DURINBERRY]
+Name = Durin Berry
+NamePlural = Durin Berries
+Pocket = 9
+Price = 100
+Flags = Berry
+Description = A berry loved by some Pokémon.
+#-------------------------------
 [BICYCLE]
 Name = Bicycle
 NamePlural = Bicycles
