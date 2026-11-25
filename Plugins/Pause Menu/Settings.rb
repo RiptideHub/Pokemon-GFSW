@@ -1,10 +1,15 @@
 #===============================================================================
 # Pause Menu - settings
 #
+# The pause menu from the design lead's video: a blue banner with the player's
+# name and money, the player's art on the left, and five buttons on the right
+# (Party, Bag, Options, Info, Save). Info opens a list with everything else
+# (trainer card, level cap, What Next?, quest log, MasterDex, MoveDex,
+# Battle Guide, Tribes, DexNav and, in debug mode, Debug).
 #
 # All positions are in game pixels (the screen is 512 x 384).
 #
-# Using art instead of the drawn shapes:
+# Using your own art instead of the drawn shapes:
 #   Put any of these files in Graphics/Pictures/PauseMenu/ and they're used
 #   automatically instead of the shapes drawn in code:
 #     banner.png            The whole top banner, drawn at 0,0
@@ -13,11 +18,14 @@
 #     button_disabled.png   A button that can't be used right now
 #===============================================================================
 module PauseMenu
+    # Set to false to use Chasm's original tile menu again.
     ENABLED = true
 
     #---------------------------------------------------------------------------
     # Player art
     #---------------------------------------------------------------------------
+    # Which picture each player trainer type shows, from Graphics/Pictures/PauseMenu/,
+    # and where its top-left corner goes.
     ART = {
         :POKEMONTRAINER_Masculine   => ["Player_Masculine", 20, 63],
         :POKEMONTRAINER_Feminine    => ["Player_Feminine",  20, 79],
@@ -38,6 +46,8 @@ module PauseMenu
     #---------------------------------------------------------------------------
     # Banner
     #---------------------------------------------------------------------------
+    # The blue area's bottom edge: from the left edge, along a slight slope to
+    # the start of the diagonal, up the diagonal, then flat to the right edge.
     BANNER_LEFT_BOTTOM      = 64    # Bottom of the blue at x = 0
     BANNER_STEP_TOP         = [134, 59]  # Where the diagonal starts (x, y)
     BANNER_STEP_BOTTOM      = [171, 25]  # Where the diagonal ends (x, y)

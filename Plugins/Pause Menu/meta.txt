@@ -1,6 +1,6 @@
 Name         = Pause Menu
-Version      = 1.0.0
+Version      = 1.0.1
 Requires     = Chasm Graphics and UI
 Requires     = Chasm Game Processing
 Scripts      = Settings.rb,PauseMenu.rb
-Credits      = Beta
+Credits      = Beta. Design by the Golden Feathers design lead.

@@ -148,13 +148,12 @@ Object.prepend(DialoguePortraits::ChoiceBoxHook)
 Window_AdvancedTextPokemon.prepend(DialoguePortraits::MessageWindowHook)
 
 # Graphics.update is now hooked with alias, not prepend. otherwise it will loop and crash becouse Chasm Speedup uses alias instead of prepend 
+# Also fucking f12 fix
 class << Graphics
-    unless method_defined?(:dialogue_portraits_update)
-        alias dialogue_portraits_update update
+    alias dialogue_portraits_update update unless method_defined?(:dialogue_portraits_update)
 
-        def update
-            DialoguePortraits.safe_frame_update
-            dialogue_portraits_update
-        end
+    def update
+        DialoguePortraits.safe_frame_update
+        dialogue_portraits_update
     end
 end

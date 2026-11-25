@@ -1,6 +1,9 @@
 #===============================================================================
 # Pause Menu - logic. Settings and usage are in Settings.rb.
 #
+# The scene inherits from Chasm's TilingCardsPauseMenu_Scene so every button
+# reuses Chasm's own actions (party, bag, options, save/quit, DexNav, debug,
+# tribes). Only the look, the animation and the input loop are new.
 #===============================================================================
 module PauseMenu
     FOLDER = "Graphics/Pictures/PauseMenu/"
@@ -66,7 +69,7 @@ class PauseMenu_Scene < TilingCardsPauseMenu_Scene
     BUTTON_IDS = [:POKEMON, :BAG, :OPTIONS, :INFO, :SAVE]
 
     def initializeMenuButtons
-        super # Chasm's full button list, with all of its actions
+        super
         @chasmButtons = @cardButtons
         labels = {
             :POKEMON => _INTL("Party"),
@@ -331,7 +334,7 @@ class PauseMenu_Scene < TilingCardsPauseMenu_Scene
             elsif Input.trigger?(Input::USE)
                 @infoIndex = window.index
                 action = entries[window.index][1]
-                if action.nil? 
+                if action.nil? # Cancel
                     pbPlayCloseMenuSE
                     break
                 end
@@ -341,7 +344,7 @@ class PauseMenu_Scene < TilingCardsPauseMenu_Scene
                     closeMenu = true
                     break
                 end
-                entries = infoEntries 
+                entries = infoEntries
                 window.commands = entries.map { |e| e[0] }
                 window.index = window.index.clamp(0, entries.length - 1)
                 window.visible = true
@@ -398,7 +401,7 @@ class PauseMenu_Scene < TilingCardsPauseMenu_Scene
         list.push([_INTL("Cancel"), nil])
         return list
     end
-
+	
     def showLevelCapInfo
         cap = getLevelCap
         msgwindow = pbCreateMessageWindow
@@ -424,22 +427,23 @@ class PauseMenu_Scene < TilingCardsPauseMenu_Scene
 end
 
 #===============================================================================
-# Open the new menu from the map. Wrapped with alias so it chains safely with
-# any other plugin that wraps call_menu.
+#fucking f12 fix
 #===============================================================================
 class Scene_Map
-    unless method_defined?(:pause_menu_original_call_menu)
+    pause_menu_current = (instance_method(:call_menu) rescue nil)
+    unless method_defined?(:pause_menu_original_call_menu) && pause_menu_current &&
+           pause_menu_current.source_location.to_a[0] == __FILE__
         alias pause_menu_original_call_menu call_menu
+    end
 
-        def call_menu
-            return pause_menu_original_call_menu unless PauseMenu::ENABLED
-            $game_temp.menu_calling = false
-            $game_temp.in_menu = true
-            $game_player.straighten
-            $game_map.update
-            screen = TilingCardsPauseMenu.new(PauseMenu_Scene.new)
-            screen.pbStartPokemonMenu
-            $game_temp.in_menu = false
-        end
+    def call_menu
+        return pause_menu_original_call_menu unless PauseMenu::ENABLED
+        $game_temp.menu_calling = false
+        $game_temp.in_menu = true
+        $game_player.straighten
+        $game_map.update
+        screen = TilingCardsPauseMenu.new(PauseMenu_Scene.new)
+        screen.pbStartPokemonMenu
+        $game_temp.in_menu = false
     end
 end
