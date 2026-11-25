@@ -1,0 +1,3 @@
+﻿Name      = Map Imager
+Requires  = Chasm Modding Base
+Credits   = Vendily
