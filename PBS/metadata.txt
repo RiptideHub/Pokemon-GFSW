@@ -92,13 +92,13 @@ ShowArea = true
 Bicycle = true
 #-------------------------------
 [014]
-# MCH_1
+# Player House Floor 1
 Outdoor = false
 ShowArea = false
 Bicycle = false
 #-------------------------------
 [015]
-# MCH_1
+# Player House Floor 2
 Outdoor = false
 ShowArea = false
 Bicycle = false

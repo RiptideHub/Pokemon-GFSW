@@ -1,5 +1,12 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+[AMA]
+Name = PKMN Wielder
+Gender = Female
+BaseMoney = 16
+IntroBGM = YOUNGSTER
+CableClub = true
+#-------------------------------
 [ANCIENTPRIEST]
 Name = Ancient Priest
 Gender = Unknown
@@ -499,6 +506,13 @@ Name = Cyclist
 Gender = Male
 BaseMoney = 32
 IntroBGM = CYCLING
+CableClub = true
+#-------------------------------
+[CYNTHAMA]
+Name = PKMN Trainers
+Gender = Female
+BaseMoney = 16
+IntroBGM = YOUNGSTER
 CableClub = true
 #-------------------------------
 [DANCER]
