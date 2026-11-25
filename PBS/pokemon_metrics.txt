@@ -750,6 +750,12 @@ FrontSprite = 0,21
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
+[BONSLY,1]
+BackSprite = 0,23
+FrontSprite = 0,5
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
 [BOUFFALANT]
 BackSprite = 0,23
 FrontSprite = -11,24

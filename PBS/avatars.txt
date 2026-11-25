@@ -30,3 +30,10 @@ Ability = STRESSFUL
 Moves1 = HELPINGHAND
 Turns = 1
 HPMult = 3.0
+#-------------------------------
+[BONSLY]
+Ability = PRANKSTER
+Moves1 = HELPINGHAND
+Turns = 1
+HPMult = 3.0
+Form = 1

@@ -1085,3 +1085,6 @@ Pokedex = The yellow Squawkabilly are especially fierce. They've even been known
 [SQUAWKABILLY,3]
 FormName = White Plumage
 Pokedex = Though these Squawkabilly are the fewest in number, they have no trouble living in towns since they blend in with the white buildings.
+#-------------------------------
+[BONSLY,1]
+FormName = Three Stacked
