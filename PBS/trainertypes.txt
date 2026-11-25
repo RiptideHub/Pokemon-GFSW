@@ -1744,12 +1744,6 @@ Gender = Unknown
 BaseMoney = 32
 IntroBGM = TWINS2
 #-------------------------------
-[UNKNOWN]
-Name = ???
-Gender = Male
-BaseMoney = 160
-IntroBGM = VsSilver
-#-------------------------------
 [VETERANM]
 Name = Veteran
 Gender = Male
