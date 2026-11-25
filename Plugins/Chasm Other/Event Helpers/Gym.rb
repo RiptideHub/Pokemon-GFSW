@@ -1,12 +1,12 @@
 def badgeName
-  [ _INTL("Loyalty"),
-		_INTL("Perseverance"),
-		_INTL("Patience"),
-		_INTL("Reverence"),
-		_INTL("Solidarity"),
-		_INTL("Clarity"),
-		_INTL("Generosity"),
-		_INTL("Mercy") ]
+  [ _INTL("Zephyr"),
+		_INTL("Hive"),
+		_INTL("Plain"),
+		_INTL("Fog"),
+		_INTL("Storm"),
+		_INTL("Mineral"),
+		_INTL("Glacier"),
+		_INTL("Rising") ]
 end
 
 TOTAL_BADGES = 8
