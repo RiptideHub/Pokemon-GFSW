@@ -36,6 +36,7 @@ Bicycle = true
 Outdoor = true
 ShowArea = true
 Bicycle = true
+MapPosition = 0,22,14
 #-------------------------------
 [005]
 # Route 29
