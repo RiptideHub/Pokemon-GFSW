@@ -192,6 +192,18 @@ ShowArea = true
 Bicycle = true
 Weather = Leaves,100
 #-------------------------------
+[038]
+# Ruins of Alph
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
+[039]
+# New Violet City
+Outdoor = true
+ShowArea = true
+Bicycle = true
+#-------------------------------
 [147]
 # PokEstate
 Outdoor = false
