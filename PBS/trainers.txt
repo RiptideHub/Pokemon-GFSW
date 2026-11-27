@@ -71,6 +71,7 @@ Pokemon = DODUO,10
 #-------------------------------
 [LEADER_Falkner,Falkner]
 Pokemon = PIDGEY,10
+    Moves = GUST,SMIRK
     AbilityIndex = 0 # No Guard
 Pokemon = TAILLOW,10
     AbilityIndex = 0 # Daring
@@ -80,7 +81,7 @@ Pokemon = HOOTHOOT,10
 [LEADER_Falkner,Falkner,1]
 ExtendsVersion = 0
 Pokemon = PIDGEY,10
-    Moves = GUST
+    Moves = GUST,SANDTOSS,SMIRK
     Item = SITRUSBERRY
 Pokemon = TAILLOW,10
     Moves = PECK
