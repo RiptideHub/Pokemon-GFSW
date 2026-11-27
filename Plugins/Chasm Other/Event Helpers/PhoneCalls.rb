@@ -1,9 +1,7 @@
 def phoneCallSE()
 	msgwindow = pbCreateMessageWindow()
-	3.times do
-		pbMessageDisplay(msgwindow,_INTL("\\se[Voltorb Flip level up]Ring ring..."))
-		pbWait(20)
-	end
+	pbMessageDisplay(msgwindow,_INTL("\\se[PhoneRinging]Ring ring..."))
+	pbWait(20)
 	pbDisposeMessageWindow(msgwindow)
 	Input.update
 end
@@ -21,9 +19,11 @@ end
 def phoneCallConditional(caller=_INTL("Unknown"))
 	phoneCallSE()
 	if !pbConfirmMessage(_INTL("\\i[SMARTPHONE]...It's {1}. Pick up the phone?", caller))
+		pbSEFade(1.0)
 		phoneCallEnd()
 		return false
 	end
+	pbSEFade(1.0)
 	return true
 end
 
