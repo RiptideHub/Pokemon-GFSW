@@ -20,7 +20,7 @@ ShowArea = false
 Bicycle = false
 #-------------------------------
 [002]
-# Violet City
+# Violet Town
 Outdoor = true
 ShowArea = true
 Bicycle = true

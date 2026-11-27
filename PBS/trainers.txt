@@ -68,6 +68,16 @@ Pokemon = LEDYBA,8
 Pokemon = CHINCHOU,8
     AbilityIndex = 0 # Volt Absorb
 #-------------------------------
+[VETERANM_3,Spencer]
+Pokemon = BELDUM,10
+    AbilityIndex = 0 # Pin Down
+Pokemon = SNORUNT,10
+    AbilityIndex = 0 # Sealing Body
+Pokemon = DUSKULL,10
+    AbilityIndex = 0 # Aggravate
+Pokemon = TRAPINCH,10
+    AbilityIndex = 0 # Sand Shroud
+#-------------------------------
 [YOUNGSTER,Palcius]
 Pokemon = EEVEE,10
     AbilityIndex = 1 # Adapted
