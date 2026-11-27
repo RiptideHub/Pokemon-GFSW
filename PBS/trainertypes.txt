@@ -1764,6 +1764,16 @@ Gender = Male
 BaseMoney = 160
 IntroBGM = VsSilver
 #-------------------------------
+[UNKNOWN_1]
+Name = ???
+Gender = Male
+BaseMoney = 160
+#-------------------------------
+[UNKNOWN_2]
+Name = ???
+Gender = Female
+BaseMoney = 160
+#-------------------------------
 [VETERANM]
 Name = Veteran
 Gender = Male
