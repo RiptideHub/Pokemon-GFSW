@@ -55,6 +55,19 @@ Pokemon = CORSOLA,8
 Pokemon = STUFFUL,8
     AbilityIndex = 0 # Intimidate
 #-------------------------------
+[ARTIST2,Harold]
+Pokemon = SMEARGLE,8
+    Moves = POUND,SPECTRALTONGUE,GROWL
+    AbilityIndex = 0 # Versatile Artist
+Pokemon = POLTCHAGEIST,8
+    AbilityIndex = 0 # Cheek Pouch
+#-------------------------------
+[LASS3,Carly]
+Pokemon = LEDYBA,8
+    AbilityIndex = 0 # Knuckleduster
+Pokemon = CHINCHOU,8
+    AbilityIndex = 0 # Volt Absorb
+#-------------------------------
 [YOUNGSTER,Palcius]
 Pokemon = EEVEE,10
     AbilityIndex = 1 # Adapted
