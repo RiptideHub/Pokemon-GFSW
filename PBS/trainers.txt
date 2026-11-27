@@ -68,7 +68,7 @@ Pokemon = LEDYBA,8
 Pokemon = CHINCHOU,8
     AbilityIndex = 0 # Volt Absorb
 #-------------------------------
-[VETERANM_3,Spencer]
+[VETERANM_2,Spencer]
 Pokemon = BELDUM,10
     AbilityIndex = 0 # Pin Down
 Pokemon = SNORUNT,10
