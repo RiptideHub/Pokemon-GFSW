@@ -1,19 +1,31 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
-# Ruins of Alph (38) - Violet City (2)
+# Violet Town (2) - New Violet City (39)
+2,South,0,39,North,0
+# Ruins of Alph (38) - New Violet City (39)
+38,East,0,39,West,0
+# Ecruteak City (28) - New Violet City (39)
+28,East,150,39,West,0
+# Route37 (27) - New Violet City (39)
+27,East,100,39,West,0
+# Route 36 (26) - New Violet City (39)
+26,East,50,39,West,0
+# Route 36 (33) - New Violet City (39)
+33,South,100,39,North,0
+# Route 32 (44) - New Violet City (39)
+44,North,0,39,South,0
+# Ruins of Alph (38) - Violet Town (2)
 38,North,50,2,South,0
-# Violet City Lakefront (3) - Violet City (2)
+# Violet City Lakefront (3) - Violet Town (2)
 3,South,0,2,North,0
-# Route 30 (16) - Violet City (2)
+# Route 31 (16) - Violet Town (2)
 16,West,5,2,East,0
-# Ecruteak City (28) - Violet City (2)
+# Ecruteak City (28) - Violet Town (2)
 28,East,100,2,West,0
-# Route37 (27) - Violet City (2)
+# Route37 (27) - Violet Town (2)
 27,East,50,2,West,0
-# Route 36 (26) - Violet City (2)
+# Route 36 (26) - Violet Town (2)
 26,East,0,2,West,0
-# New Violet City (39) - Violet City (2)
-39,North,0,2,South,0
 # Violet City Lakefront (3) - Ruins of Alph (38)
 3,West,100,38,East,0
 # Ecruteak City (30) - Ruins of Alph (38)
@@ -22,9 +34,9 @@
 26,South,0,38,North,0
 # Route 36 (33) - Ruins of Alph (38)
 33,East,50,38,West,0
-# New Violet City (39) - Ruins of Alph (38)
-39,West,0,38,East,0
-# Route 30 (16) - Violet City Lakefront (3)
+# Route 32 (44) - Ruins of Alph (38)
+44,West,0,38,East,65
+# Route 31 (16) - Violet City Lakefront (3)
 16,West,0,3,East,45
 # Ecruteak City (28) - Violet City Lakefront (3)
 28,East,50,3,West,0
@@ -38,48 +50,16 @@
 26,North,50,3,South,0
 # Route 36 (33) - Violet City Lakefront (3)
 33,North,100,3,South,0
-# Cherrygrove Town (7) - Route 30 (16)
+# Cherrygrove Town (7) - Route 31 (16)
 7,West,0,16,East,149
-# Route 30 (9) - Route 30 (16)
+# Route 30 (9) - Route 31 (16)
 9,West,0,16,East,99
-# Route 30 (12) - Route 30 (16)
+# Route 30 (12) - Route 31 (16)
 12,West,0,16,East,49
-# Route 30 (13) - Route 30 (16)
+# Route 31 (13) - Route 31 (16)
 13,West,1,16,East,0
-# Route37 (27) - Ecruteak City (28)
-27,North,0,28,South,0
-# Ecruteak City (30) - Ecruteak City (28)
-30,West,0,28,East,0
-# Route 36 (33) - Ecruteak City (28)
-33,East,0,28,West,100
-# New Violet City (39) - Ecruteak City (28)
-39,West,0,28,East,150
-# Bellchime Trail (29) - Ecruteak City (28)
-29,South,0,28,North,8
-# Sprout Tower (18) - Route37 (27)
-18,South,0,27,North,76
-# Ecruteak City (30) - Route37 (27)
-30,West,50,27,East,0
-# Route 36 (26) - Route37 (27)
-26,North,0,27,South,0
-# Route 36 (33) - Route37 (27)
-33,North,50,27,South,0
-# New Violet City (39) - Route37 (27)
-39,West,0,27,East,100
-# Ecruteak City (30) - Sprout Tower (18)
-30,East,25,18,West,0
-# Route 36 (26) - Ecruteak City (30)
-26,East,0,30,West,100
-# Bellchime Trail (29) - Ecruteak City (30)
-29,South,42,30,North,0
-# Route 36 (33) - Route 36 (26)
-33,East,0,26,West,0
-# New Violet City (39) - Route 36 (26)
-39,West,0,26,East,50
-# National Park (34) - Route 36 (33)
-34,East,30,33,West,0
-# New Violet City (39) - Route 36 (33)
-39,North,0,33,South,100
+# Route 32 (44) - Route 31 (16)
+44,East,0,16,West,120
 # Route 29 (5) - Cherrygrove Town (7)
 5,West,0,7,East,0
 # Route 30 (9) - Cherrygrove Town (7)
@@ -98,7 +78,7 @@
 12,East,100,5,West,0
 # trees (11) - Route 29 (5)
 11,South,70,5,North,0
-# Route 30 (13) - Route 29 (5)
+# Route 31 (13) - Route 29 (5)
 13,East,150,5,West,0
 # Route 30 (9) - New Bark Town (4)
 9,South,100,4,North,0
@@ -114,11 +94,43 @@
 11,East,0,9,West,0
 # Route 30 (12) - trees (10)
 12,East,50,10,West,0
-# Route 30 (13) - trees (10)
+# Route 31 (13) - trees (10)
 13,East,100,10,West,0
 # trees (11) - Route 30 (12)
 11,North,20,12,South,0
-# Route 30 (13) - Route 30 (12)
+# Route 31 (13) - Route 30 (12)
 13,South,0,12,North,0
-# Route 30 (13) - trees (11)
+# Route 31 (13) - trees (11)
 13,West,100,11,East,0
+# Route37 (27) - Ecruteak City (28)
+27,North,0,28,South,0
+# Ecruteak City (30) - Ecruteak City (28)
+30,West,0,28,East,0
+# Route 36 (33) - Ecruteak City (28)
+33,East,0,28,West,100
+# Bellchime Trail (29) - Ecruteak City (28)
+29,South,0,28,North,8
+# Route 32 (44) - Ecruteak City (28)
+44,West,0,28,East,215
+# Sprout Tower (18) - Route37 (27)
+18,South,0,27,North,76
+# Ecruteak City (30) - Route37 (27)
+30,West,50,27,East,0
+# Route 36 (26) - Route37 (27)
+26,North,0,27,South,0
+# Route 36 (33) - Route37 (27)
+33,North,50,27,South,0
+# Route 32 (44) - Route37 (27)
+44,West,0,27,East,165
+# Ecruteak City (30) - Sprout Tower (18)
+30,East,25,18,West,0
+# Route 36 (26) - Ecruteak City (30)
+26,East,0,30,West,100
+# Bellchime Trail (29) - Ecruteak City (30)
+29,South,42,30,North,0
+# Route 36 (33) - Route 36 (26)
+33,East,0,26,West,0
+# Route 32 (44) - Route 36 (26)
+44,West,0,26,East,115
+# National Park (34) - Route 36 (33)
+34,East,30,33,West,0
