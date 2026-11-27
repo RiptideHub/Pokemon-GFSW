@@ -87,7 +87,7 @@ ShowArea = true
 Bicycle = true
 #-------------------------------
 [013]
-# Route 30
+# Route 31
 Outdoor = true
 ShowArea = true
 Bicycle = true
@@ -105,7 +105,7 @@ ShowArea = false
 Bicycle = false
 #-------------------------------
 [016]
-# Route 30
+# Route 31
 Outdoor = true
 ShowArea = true
 Bicycle = true

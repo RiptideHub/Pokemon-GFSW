@@ -3,9 +3,9 @@
 #
 # The pause menu from the design lead's video: a blue banner with the player's
 # name and money, the player's art on the left, and five buttons on the right
-# (Party, Bag, Options, Info, Save). Info opens a list with everything else
-# (trainer card, level cap, What Next?, quest log, MasterDex, MoveDex,
-# Battle Guide, Tribes, DexNav and, in debug mode, Debug).
+# (Party, Bag, Documents, Info, Options, Save). Documents opens a list with
+# MasterDex, MoveDex, Battle Guide, Tribes and DexNav. Info opens a list with
+# the trainer card, level cap, What Next?, quest log and, in debug mode, Debug.
 #
 # All positions are in game pixels (the screen is 512 x 384).
 #
@@ -65,7 +65,7 @@ module PauseMenu
     BUTTON_X         = 345
     BUTTON_WIDTH     = 143
     BUTTON_HEIGHT    = 50
-    BUTTON_TOPS      = [46, 107, 167, 237, 313]   # Party, Bag, Options, Info, Save
+    BUTTON_TOPS      = [42, 98, 154, 210, 266, 322]   # Party, Bag, Documents, Info, Options, Save
     BUTTON_BORDER    = 7
     BUTTON_TEXT_X    = 14                       # Text indent inside a button
     BUTTON_TEXT_Y    = 8                        # Moves button text down (the game draws this font high in its box)

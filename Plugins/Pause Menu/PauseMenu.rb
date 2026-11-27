@@ -66,7 +66,7 @@ end
 # The menu
 #===============================================================================
 class PauseMenu_Scene < TilingCardsPauseMenu_Scene
-    BUTTON_IDS = [:POKEMON, :BAG, :OPTIONS, :INFO, :SAVE]
+    BUTTON_IDS = [:POKEMON, :BAG, :DOCUMENTS, :INFO, :OPTIONS, :SAVE]
 
     def initializeMenuButtons
         super
@@ -74,13 +74,16 @@ class PauseMenu_Scene < TilingCardsPauseMenu_Scene
         labels = {
             :POKEMON => _INTL("Party"),
             :BAG     => _INTL("Bag"),
-            :OPTIONS => _INTL("Options"),
+            :DOCUMENTS => _INTL("Documents"),
             :INFO    => _INTL("Info"),
+            :OPTIONS => _INTL("Options"),
             :SAVE    => _INTL("Save"),
         }
         @cardButtons = {}
         BUTTON_IDS.each do |id|
-            if id == :INFO
+            if id == :DOCUMENTS
+                @cardButtons[id] = { :press_proc => proc { |scene| scene.pbDocuments } }
+            elsif id == :INFO
                 @cardButtons[id] = { :press_proc => proc { |scene| scene.pbInfoMenu } }
             else
                 @cardButtons[id] = @chasmButtons[id].dup
@@ -312,6 +315,70 @@ class PauseMenu_Scene < TilingCardsPauseMenu_Scene
     end
 
     #---------------------------------------------------------------------------
+    # Documents list
+    #---------------------------------------------------------------------------
+    def pbDocuments
+        pbPlayDecisionSE
+        entries = documentEntries
+        window = Window_CommandPokemon.new(entries.map { |e| e[0] })
+        window.viewport = @viewport
+        window.z = 10
+        window.index = (@infoIndex || 0).clamp(0, entries.length - 1)
+        window.x = [PauseMenu::BUTTON_X - window.width - 4, 0].max
+        window.y = PauseMenu::BUTTON_TOPS[0]
+        closeMenu = false
+        loop do
+            window.update
+            Graphics.update
+            Input.update
+            if Input.trigger?(Input::BACK)
+                pbPlayCloseMenuSE
+                break
+            elsif Input.trigger?(Input::USE)
+                @infoIndex = window.index
+                action = entries[window.index][1]
+                if action.nil? # Cancel
+                    pbPlayCloseMenuSE
+                    break
+                end
+                window.visible = false
+                result = action.call
+                if @ended || result == true
+                    closeMenu = true
+                    break
+                end
+                entries = documentEntries
+                window.commands = entries.map { |e| e[0] }
+                window.index = window.index.clamp(0, entries.length - 1)
+                window.visible = true
+            end
+        end
+        window.dispose
+        return closeMenu
+    end
+
+    def documentEntries
+        list2 = []
+        list2.push([_INTL("MasterDex"), proc {
+            pbFadeOutIn {
+                screen = PokemonPokedexScreen.new(PokemonPokedex_Scene.new)
+                screen.pbStartScreen
+                drawButtons
+            }
+        }])
+        list2.push([_INTL("MoveDex"), proc { openMoveDex }])
+        list2.push([_INTL("Battle Guide"), proc { showBattleGuide }])
+        if PauseMenu.tribes_enabled? && @chasmButtons[:TRIBAL_BONUS]
+            list2.push([_INTL("Tribes"), proc { @chasmButtons[:TRIBAL_BONUS][:press_proc].call(self) }])
+        end
+        if @chasmButtons[:DEXNAV] && dexNavActive?
+            list2.push([_INTL("DexNav"), proc { @chasmButtons[:DEXNAV][:press_proc].call(self) }])
+        end
+        list2.push([_INTL("Cancel"), nil])
+        return list2
+    end
+
+    #---------------------------------------------------------------------------
     # Info list
     #---------------------------------------------------------------------------
     def pbInfoMenu
@@ -380,21 +447,6 @@ class PauseMenu_Scene < TilingCardsPauseMenu_Scene
                 drawButtons
             }
         }])
-        list.push([_INTL("MasterDex"), proc {
-            pbFadeOutIn {
-                screen = PokemonPokedexScreen.new(PokemonPokedex_Scene.new)
-                screen.pbStartScreen
-                drawButtons
-            }
-        }])
-        list.push([_INTL("MoveDex"), proc { openMoveDex }])
-        list.push([_INTL("Battle Guide"), proc { showBattleGuide }])
-        if PauseMenu.tribes_enabled? && @chasmButtons[:TRIBAL_BONUS]
-            list.push([_INTL("Tribes"), proc { @chasmButtons[:TRIBAL_BONUS][:press_proc].call(self) }])
-        end
-        if @chasmButtons[:DEXNAV] && dexNavActive?
-            list.push([_INTL("DexNav"), proc { @chasmButtons[:DEXNAV][:press_proc].call(self) }])
-        end
         if $DEBUG && @chasmButtons[:DEBUG]
             list.push([_INTL("Debug"), proc { @chasmButtons[:DEBUG][:press_proc].call(self) }])
         end

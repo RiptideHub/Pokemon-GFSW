@@ -7,40 +7,79 @@ Land,21,55,60
     1,NATU,2,4
     1,SENTRET,2,3
     1,TAILLOW,2,3
+Puddle,20,15,15
+    1,AZURILL,2,4
+    1,GOLDEEN,3,4
+    1,POLIWAG,2,3
+    1,PSYDUCK,3,4
+#-------------------------------
+[007] # Cherrygrove Town
+Puddle,20,15,15
+    1,CLAMPERL,2,4
+    1,KRABBY,3,4
+    1,POLIWAG,2,3
+    1,REMORAID,3,4
 #-------------------------------
 [009] # Route 30
 Land,21,55,60
     1,BUNEARY,2,5
-    1,LEDYBA,3,4
+    1,MAGBY,3,4
     1,PATRAT,3,4
-    1,SENTRET,2,3
     1,SHINX,3,4
+    1,WEEDLE,3,4
 FloweryGrass,21,60
-    1,FLABEBE,2,3
-    1,PETILIL,2,3
+    5,FLABEBE,2,3
+    5,FLABEBE_1,2,3
+    5,FLABEBE_2,2,3
+    5,FLABEBE_3,2,3
+    5,FLABEBE_4,2,3
 FloweryGrass2,21,60
+    1,APPLIN,3,4
+    1,CATERPIE,2,3
     1,COMBEE,3,4
-    1,FLABEBE,2,3
+    1,PETILIL,2,3
+    1,SCATTERBUG,3,4
 #-------------------------------
 [012] # Route 30
 Land,21,55,60
     1,BUNEARY,2,5
-    1,LEDYBA,3,4
+    1,MAGBY,3,4
     1,PATRAT,3,4
-    1,SENTRET,2,3
-    1,SHINX,2,4
+    1,SHINX,3,4
+    1,WEEDLE,3,4
 FloweryGrass,21,60
-    1,FLABEBE,2,5
-    1,PETILIL,2,3
+    5,FLABEBE,2,3
+    5,FLABEBE_1,2,3
+    5,FLABEBE_2,2,3
+    5,FLABEBE_3,2,3
+    5,FLABEBE_4,2,3
 FloweryGrass2,21,60
     1,APPLIN,3,4
+    1,CATERPIE,2,3
     1,COMBEE,3,4
-    1,FLABEBE,2,5
+    1,PETILIL,2,3
+    1,SCATTERBUG,3,4
 #-------------------------------
-[013] # Route 30
+[013] # Route 31
 Land,21,55,60
     1,BOUNSWEET,3,4
     1,GRUBBIN,3,4
     1,PHANTUMP,2,5
-    1,SCATTERBUG,2,3
     1,SEWADDLE,3,4
+    1,SPINARAK,2,3
+#-------------------------------
+[016] # Route 31
+Land,21,55,60
+    1,BOUNSWEET,3,4
+    1,GRUBBIN,3,4
+    1,PHANTUMP,2,5
+    1,SEWADDLE,3,4
+    1,SPINARAK,2,3
+#-------------------------------
+[026] # Route 36
+Land,21,55,60
+    1,BOUNSWEET,3,4
+    1,GRUBBIN,3,4
+    1,PHANTUMP,2,5
+    1,SEWADDLE,3,4
+    1,SPINARAK,2,3
